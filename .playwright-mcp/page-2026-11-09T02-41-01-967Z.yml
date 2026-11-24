@@ -1,0 +1,696 @@
+- generic [ref=f7e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f7e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f7e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f7e7]:
+      - listitem [ref=f7e8]:
+        - link "Hostinger" [ref=f7e9] [cursor=pointer]:
+          - /url: admin.php?page=hostinger
+        - list [ref=f7e12]:
+          - listitem [ref=f7e13]:
+            - link "Onboarding" [ref=f7e14] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-get-onboarding
+          - listitem [ref=f7e15]:
+            - link "Tools" [ref=f7e16] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-tools
+          - listitem [ref=f7e17]:
+            - link "AI Content Creator" [ref=f7e18] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-ai-assistant
+      - listitem [ref=f7e19]:
+        - link "Dashboard" [ref=f7e20] [cursor=pointer]:
+          - /url: index.php
+          - generic [aria-hidden] [ref=f7e21]: 
+        - list [ref=f7e23]:
+          - listitem [ref=f7e24]:
+            - link "Home" [ref=f7e25] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f7e26]:
+            - link "Updates 21" [ref=f7e27] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f7e28]: "21"
+      - listitem [ref=f7e29]:
+        - link "Astra" [ref=f7e30] [cursor=pointer]:
+          - /url: admin.php?page=astra
+        - list [ref=f7e33]:
+          - listitem [ref=f7e34]:
+            - link "Dashboard" [ref=f7e35] [cursor=pointer]:
+              - /url: admin.php?page=astra
+          - listitem [ref=f7e36]:
+            - link "Customize" [ref=f7e37] [cursor=pointer]:
+              - /url: customize.php
+          - listitem [ref=f7e38]:
+            - link "Site Builder" [ref=f7e39] [cursor=pointer]:
+              - /url: admin.php?page=theme-builder-free
+          - listitem [ref=f7e40]:
+            - link "Starter Templates" [ref=f7e41] [cursor=pointer]:
+              - /url: themes.php?page=starter-templates
+          - listitem [ref=f7e42]:
+            - link "Learn 5" [ref=f7e43] [cursor=pointer]:
+              - /url: admin.php?page=astra&path=learn
+              - text: Learn
+              - generic [ref=f7e44]: "5"
+      - listitem [ref=f7e45]:
+        - link "Elementor" [ref=f7e46] [cursor=pointer]:
+          - /url: admin.php?page=elementor-home
+        - list [ref=f7e49]:
+          - listitem [ref=f7e50]:
+            - link "Home" [ref=f7e51] [cursor=pointer]:
+              - /url: admin.php?page=elementor-home
+          - listitem [ref=f7e52]:
+            - link "Editor" [ref=f7e53] [cursor=pointer]:
+              - /url: admin.php?page=elementor
+          - listitem [ref=f7e54]:
+            - link "Theme Builder" [ref=f7e55] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1&return_to=/wp-admin/options-reading.php#/site-editor
+          - listitem [ref=f7e56]:
+            - link "Submissions" [ref=f7e57] [cursor=pointer]:
+              - /url: admin.php?page=e-form-submissions
+          - listitem [ref=f7e58]:
+            - link "Add New Template" [ref=f7e59] [cursor=pointer]:
+              - /url: post-new.php?post_type=elementor_library
+          - listitem [ref=f7e60]:
+            - link "Categories" [ref=f7e61] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=elementor_library_category&post_type=elementor_library
+          - listitem [ref=f7e62]:
+            - link "Popups" [ref=f7e63] [cursor=pointer]:
+              - /url: edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup
+          - listitem [ref=f7e64]:
+            - link "Theme Builder" [ref=f7e65] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1#/site-editor
+          - listitem [ref=f7e66]:
+            - link "Addons" [ref=f7e67] [cursor=pointer]:
+              - /url: elementor-third-party-pages
+      - listitem [aria-hidden] [ref=f7e68]
+      - listitem [ref=f7e70]:
+        - link "Posts" [ref=f7e71] [cursor=pointer]:
+          - /url: edit.php
+          - generic [aria-hidden] [ref=f7e72]: 
+        - list [ref=f7e74]:
+          - listitem [ref=f7e75]:
+            - link "All Posts" [ref=f7e76] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f7e77]:
+            - link "Add New Post" [ref=f7e78] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f7e79]:
+            - link "Categories" [ref=f7e80] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f7e81]:
+            - link "Tags" [ref=f7e82] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f7e83]:
+        - link "Media" [ref=f7e84] [cursor=pointer]:
+          - /url: upload.php
+          - generic [aria-hidden] [ref=f7e85]: 
+        - list [ref=f7e87]:
+          - listitem [ref=f7e88]:
+            - link "Library" [ref=f7e89] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f7e90]:
+            - link "Add New Media File" [ref=f7e91] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f7e92]:
+        - link "Pages" [ref=f7e93] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [aria-hidden] [ref=f7e94]: 
+        - list [ref=f7e96]:
+          - listitem [ref=f7e97]:
+            - link "All Pages" [ref=f7e98] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f7e99]:
+            - link "Add New Page" [ref=f7e100] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f7e101]:
+        - link "Comments" [ref=f7e102] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [aria-hidden] [ref=f7e103]: 
+      - text:  
+      - listitem [aria-hidden] [ref=f7e105]
+      - listitem [ref=f7e107]:
+        - link "Appearance" [ref=f7e108] [cursor=pointer]:
+          - /url: themes.php
+          - generic [aria-hidden] [ref=f7e109]: 
+        - list [ref=f7e111]:
+          - listitem [ref=f7e112]:
+            - link "Themes 4" [ref=f7e113] [cursor=pointer]:
+              - /url: themes.php
+              - text: Themes
+              - generic [ref=f7e114]: "4"
+          - listitem [ref=f7e115]:
+            - link "Patterns" [ref=f7e116] [cursor=pointer]:
+              - /url: site-editor.php?path=/patterns
+          - listitem [ref=f7e117]:
+            - link "Customize" [ref=f7e118] [cursor=pointer]:
+              - /url: customize.php?return=%2Fwp-admin%2Foptions-reading.php
+          - listitem [ref=f7e119]:
+            - link "Widgets" [ref=f7e120] [cursor=pointer]:
+              - /url: widgets.php
+          - listitem [ref=f7e121]:
+            - link "Menus" [ref=f7e122] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem
+          - listitem [ref=f7e123]:
+            - link "Starter Templates" [ref=f7e124] [cursor=pointer]:
+              - /url: themes.php?page=starter-templates
+          - listitem [ref=f7e125]:
+            - link "Theme File Editor" [ref=f7e126] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f7e127]:
+        - link "WhatsApp" [ref=f7e128] [cursor=pointer]:
+          - /url: edit.php?post_type=whatsapp-accounts
+        - list [ref=f7e131]:
+          - listitem [ref=f7e132]:
+            - link "All Accounts" [ref=f7e133] [cursor=pointer]:
+              - /url: edit.php?post_type=whatsapp-accounts
+          - listitem [ref=f7e134]:
+            - link "Add New account" [ref=f7e135] [cursor=pointer]:
+              - /url: post-new.php?post_type=whatsapp-accounts
+          - listitem [ref=f7e136]:
+            - link "Floating Widget" [ref=f7e137] [cursor=pointer]:
+              - /url: admin.php?page=nta_whatsapp_floating_widget
+          - listitem [ref=f7e138]:
+            - link "Settings" [ref=f7e139] [cursor=pointer]:
+              - /url: admin.php?page=nta_whatsapp_setting
+          - listitem [ref=f7e140]:
+            - link "Recommended Plugins" [ref=f7e141] [cursor=pointer]:
+              - /url: admin.php?page=nta_whatsapp_recommended_plugins
+      - listitem [ref=f7e142]:
+        - link "Plugins 16" [ref=f7e143] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [aria-hidden] [ref=f7e144]: 
+          - generic [ref=f7e145]:
+            - text: Plugins
+            - generic [ref=f7e146]: "16"
+        - list [ref=f7e147]:
+          - listitem [ref=f7e148]:
+            - link "Installed Plugins" [ref=f7e149] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f7e150]:
+            - link "Add New Plugin" [ref=f7e151] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f7e152]:
+            - link "Plugin File Editor" [ref=f7e153] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f7e154]:
+        - link "Profile" [ref=f7e155] [cursor=pointer]:
+          - /url: profile.php
+          - generic [aria-hidden] [ref=f7e156]: 
+      - listitem [ref=f7e158]:
+        - link "Tools" [ref=f7e159] [cursor=pointer]:
+          - /url: tools.php
+          - generic [aria-hidden] [ref=f7e160]: 
+        - list [ref=f7e162]:
+          - listitem [ref=f7e163]:
+            - link "Available Tools" [ref=f7e164] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f7e165]:
+            - link "Import" [ref=f7e166] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f7e167]:
+            - link "Export" [ref=f7e168] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f7e169]:
+            - link "Site Health" [ref=f7e170] [cursor=pointer]:
+              - /url: site-health.php
+          - listitem [ref=f7e171]:
+            - link "Export Personal Data" [ref=f7e172] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f7e173]:
+            - link "Erase Personal Data" [ref=f7e174] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f7e175]:
+            - link "Scheduled Actions" [ref=f7e176] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f7e177]:
+            - link "Redirection" [ref=f7e178] [cursor=pointer]:
+              - /url: tools.php?page=redirection.php
+      - listitem [ref=f7e179]:
+        - link "All-in-One WP Migration" [ref=f7e180] [cursor=pointer]:
+          - /url: admin.php?page=ai1wm_export
+        - list [ref=f7e183]:
+          - listitem [ref=f7e184]:
+            - link "Export" [ref=f7e185] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_export
+          - listitem [ref=f7e186]:
+            - link "Import" [ref=f7e187] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_import
+          - listitem [ref=f7e188]:
+            - link "Backups 1" [ref=f7e189] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_backups
+              - text: Backups
+              - generic "You have 1 backup" [ref=f7e190]: "1"
+          - listitem [ref=f7e191]:
+            - link "Reset Hub Premium" [ref=f7e192] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_reset
+              - text: Reset Hub
+              - generic [ref=f7e193]: Premium
+          - listitem [ref=f7e194]:
+            - link "Schedules Premium" [ref=f7e195] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_schedules
+              - text: Schedules
+              - generic [ref=f7e196]: Premium
+      - listitem [ref=f7e197]:
+        - link "Settings" [ref=f7e198] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [aria-hidden] [ref=f7e199]: 
+        - list [ref=f7e201]:
+          - listitem [ref=f7e202]:
+            - link "General" [ref=f7e203] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f7e204]:
+            - link "Writing" [ref=f7e205] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f7e206]:
+            - link "Reading" [ref=f7e207] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f7e208]:
+            - link "Discussion" [ref=f7e209] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f7e210]:
+            - link "Media" [ref=f7e211] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f7e212]:
+            - link "Permalinks" [ref=f7e213] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f7e214]:
+            - link "Privacy" [ref=f7e215] [cursor=pointer]:
+              - /url: options-privacy.php
+          - listitem [ref=f7e216]:
+            - link "Menu Editor" [ref=f7e217] [cursor=pointer]:
+              - /url: options-general.php?page=menu_editor
+      - listitem [ref=f7e218]:
+        - link "Buttonizer" [ref=f7e219] [cursor=pointer]:
+          - /url: admin.php?page=Buttonizer
+        - list [ref=f7e222]:
+          - listitem [ref=f7e223]:
+            - link "Buttonizer" [ref=f7e224] [cursor=pointer]:
+              - /url: admin.php?page=Buttonizer
+          - listitem [ref=f7e225]:
+            - link "Edit buttons" [ref=f7e226] [cursor=pointer]:
+              - /url: admin.php?page=Buttonizer#/editor
+          - listitem [ref=f7e227]:
+            - link "I need support" [ref=f7e228] [cursor=pointer]:
+              - /url: admin.php?page=Buttonizer#/support
+          - listitem [ref=f7e229]:
+            - link "Community" [ref=f7e230] [cursor=pointer]:
+              - /url: https://r.buttonizer.io/support/community?referral=buttonizer-plugin-menu
+          - listitem [ref=f7e231]:
+            - link "Knowledge base" [ref=f7e232] [cursor=pointer]:
+              - /url: https://r.buttonizer.io/support/knowledgebase?referral=buttonizer-plugin-menu
+      - listitem [aria-hidden] [ref=f7e233]
+      - listitem [ref=f7e235]:
+        - link "Yoast SEO" [ref=f7e236] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+        - list [ref=f7e239]:
+          - listitem [ref=f7e240]:
+            - link "General" [ref=f7e241] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f7e242]:
+            - link "Settings" [ref=f7e243] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f7e244]:
+            - link "Integrations" [ref=f7e245] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f7e246]:
+            - link "Tools" [ref=f7e247] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f7e248]:
+            - link "Academy" [ref=f7e249] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f7e250]:
+            - link "Upgrades" [ref=f7e251] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f7e252]:
+            - link "Workouts Premium" [ref=f7e253] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f7e254]: Premium
+          - listitem [ref=f7e255]:
+            - link "Redirects Premium" [ref=f7e256] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f7e257]: Premium
+          - listitem [ref=f7e258]:
+            - link "Support" [ref=f7e259] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+      - listitem [ref=f7e260]:
+        - link "Members" [ref=f7e261] [cursor=pointer]:
+          - /url: admin.php?page=members-settings
+        - list [ref=f7e264]:
+          - listitem [ref=f7e265]:
+            - link "Settings" [ref=f7e266] [cursor=pointer]:
+              - /url: admin.php?page=members-settings
+          - listitem [ref=f7e267]:
+            - link "Add-Ons" [ref=f7e268] [cursor=pointer]:
+              - /url: admin.php?page=members-settings&view=add-ons
+          - listitem [ref=f7e269]:
+            - link "Payments" [ref=f7e270] [cursor=pointer]:
+              - /url: admin.php?page=members-payments
+          - listitem [ref=f7e271]:
+            - link "About Us" [ref=f7e272] [cursor=pointer]:
+              - /url: admin.php?page=members-about
+          - listitem [ref=f7e273]:
+            - link "Growth Tools" [ref=f7e274] [cursor=pointer]:
+              - /url: admin.php?page=members-growth-tools
+      - listitem [ref=f7e275]:
+        - link "AIOS" [ref=f7e276] [cursor=pointer]:
+          - /url: admin.php?page=aiowpsec
+        - list [ref=f7e279]:
+          - listitem [ref=f7e280]:
+            - link "Dashboard" [ref=f7e281] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec
+          - listitem [ref=f7e282]:
+            - link "Settings" [ref=f7e283] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_settings
+          - listitem [ref=f7e284]:
+            - link "User Security" [ref=f7e285] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_usersec
+          - listitem [ref=f7e286]:
+            - link "File Security" [ref=f7e287] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filesystem
+          - listitem [ref=f7e288]:
+            - link "Firewall" [ref=f7e289] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_firewall
+          - listitem [ref=f7e290]:
+            - link "Brute Force" [ref=f7e291] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_brute_force
+          - listitem [ref=f7e292]:
+            - link "Spam Prevention" [ref=f7e293] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_spam
+          - listitem [ref=f7e294]:
+            - link "Tools" [ref=f7e295] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_tools
+          - listitem [ref=f7e296]:
+            - link "Two Factor Auth" [ref=f7e297] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_two_factor_auth_user
+          - listitem [ref=f7e298]:
+            - link "Premium Upgrade" [ref=f7e299] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+      - listitem [ref=f7e300]:
+        - link "Statistics" [ref=f7e301] [cursor=pointer]:
+          - /url: admin.php?page=wps_overview_page
+          - generic [aria-hidden] [ref=f7e302]: 
+        - list [ref=f7e304]:
+          - listitem [ref=f7e305]:
+            - link "Overview" [ref=f7e306] [cursor=pointer]:
+              - /url: admin.php?page=wps_overview_page
+          - listitem [ref=f7e307]:
+            - link "Visitor Insights" [ref=f7e308] [cursor=pointer]:
+              - /url: admin.php?page=wps_visitors_page
+          - listitem [ref=f7e309]:
+            - link "Page Insights" [ref=f7e310] [cursor=pointer]:
+              - /url: admin.php?page=wps_pages_page
+          - listitem [ref=f7e311]:
+            - link "Referrals" [ref=f7e312] [cursor=pointer]:
+              - /url: admin.php?page=wps_referrals_page
+          - listitem [ref=f7e313]:
+            - link "Content Analytics" [ref=f7e314] [cursor=pointer]:
+              - /url: admin.php?page=wps_content-analytics_page
+          - listitem [ref=f7e315]:
+            - link "Author Analytics" [ref=f7e316] [cursor=pointer]:
+              - /url: admin.php?page=wps_author-analytics_page
+          - listitem [ref=f7e317]:
+            - link "Category Analytics" [ref=f7e318] [cursor=pointer]:
+              - /url: admin.php?page=wps_category-analytics_page
+          - listitem [ref=f7e319]:
+            - link "Geographic" [ref=f7e320] [cursor=pointer]:
+              - /url: admin.php?page=wps_geographic_page
+          - listitem [ref=f7e321]:
+            - link "Devices" [ref=f7e322] [cursor=pointer]:
+              - /url: admin.php?page=wps_devices_page
+          - listitem [ref=f7e323]:
+            - link "Add-ons" [ref=f7e324] [cursor=pointer]:
+              - /url: admin.php?page=wps_plugins_page
+          - listitem [ref=f7e325]:
+            - link "Privacy Audit" [ref=f7e326] [cursor=pointer]:
+              - /url: admin.php?page=wps_privacy-audit_page
+          - listitem [ref=f7e327]:
+            - link "Settings" [ref=f7e328] [cursor=pointer]:
+              - /url: admin.php?page=wps_settings_page
+          - listitem [ref=f7e329]:
+            - link "Optimization" [ref=f7e330] [cursor=pointer]:
+              - /url: admin.php?page=wps_optimization_page
+          - listitem [ref=f7e331]:
+            - link "Help Center 4" [ref=f7e332] [cursor=pointer]:
+              - /url: admin.php?page=wps_help-center_page
+              - text: Help Center
+              - generic "4 plugin notifications" [ref=f7e333]: "4"
+      - listitem [ref=f7e334]:
+        - link "LiteSpeed Cache" [ref=f7e335] [cursor=pointer]:
+          - /url: admin.php?page=litespeed
+          - generic [aria-hidden] [ref=f7e336]: 
+        - list [ref=f7e338]:
+          - listitem [ref=f7e339]:
+            - link "Dashboard" [ref=f7e340] [cursor=pointer]:
+              - /url: admin.php?page=litespeed
+          - listitem [ref=f7e341]:
+            - link "Presets" [ref=f7e342] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-presets
+          - listitem [ref=f7e343]:
+            - link "General" [ref=f7e344] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-general
+          - listitem [ref=f7e345]:
+            - link "Cache" [ref=f7e346] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cache
+          - listitem [ref=f7e347]:
+            - link "CDN" [ref=f7e348] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cdn
+          - listitem [ref=f7e349]:
+            - link "Image Optimization" [ref=f7e350] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-img_optm
+          - listitem [ref=f7e351]:
+            - link "Page Optimization" [ref=f7e352] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-page_optm
+          - listitem [ref=f7e353]:
+            - link "Database" [ref=f7e354] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-db_optm
+          - listitem [ref=f7e355]:
+            - link "Crawler" [ref=f7e356] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-crawler
+          - listitem [ref=f7e357]:
+            - link "Toolbox" [ref=f7e358] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-toolbox
+      - listitem [ref=f7e359]:
+        - link "Site Kit" [ref=f7e360] [cursor=pointer]:
+          - /url: admin.php?page=googlesitekit-splash
+        - list [ref=f7e363]:
+          - listitem [ref=f7e364]:
+            - link "Dashboard" [ref=f7e365] [cursor=pointer]:
+              - /url: admin.php?page=googlesitekit-splash
+      - text: 
+      - listitem [ref=f7e366]:
+        - link "Chaty" [ref=f7e367] [cursor=pointer]:
+          - /url: admin.php?page=chaty-app
+        - list [ref=f7e370]:
+          - listitem [ref=f7e371]:
+            - link "Dashboard" [ref=f7e372] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app
+          - listitem [ref=f7e373]:
+            - link "Chaty Upgrade" [ref=f7e374] [cursor=pointer]:
+              - /url: admin.php?page=chaty-upgrade
+          - listitem [ref=f7e375]:
+            - link "Chatway Live Chat" [ref=f7e376] [cursor=pointer]:
+              - /url: admin.php?page=chaty-live-chat
+          - listitem [ref=f7e377]:
+            - link "Widget Analytics" [ref=f7e378] [cursor=pointer]:
+              - /url: admin.php?page=widget-analytics
+          - listitem [ref=f7e379]:
+            - link "Contact form leads" [ref=f7e380] [cursor=pointer]:
+              - /url: admin.php?page=chaty-contact-form-feed
+          - listitem [ref=f7e381]:
+            - link "Recommended Plugins" [ref=f7e382] [cursor=pointer]:
+              - /url: admin.php?page=recommended-chaty-plugins
+          - listitem [ref=f7e383]:
+            - link "Upgrade to Pro" [ref=f7e384] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app-upgrade
+      - listitem [aria-hidden] [ref=f7e385]
+      - listitem [ref=f7e387]:
+        - button "Collapse Main menu" [expanded] [ref=f7e388] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e389]: 
+          - generic [ref=f7e390]: Collapse menu
+  - generic [ref=f7e391]:
+    - generic [ref=f7e392]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f7e393]:
+            - menuitem "About WordPress" [ref=f7e394] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f7e395]: 
+          - group [ref=f7e397]:
+            - menuitem " Yomet App" [ref=f7e398] [cursor=pointer]
+          - group [ref=f7e399]:
+            - menuitem "21 updates available" [ref=f7e400] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f7e401]: 
+              - generic [aria-hidden] [ref=f7e402]: "21"
+          - group [ref=f7e404]:
+            - menuitem "0 Comments in moderation" [ref=f7e405] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f7e406]: 
+              - generic [aria-hidden] [ref=f7e407]: "0"
+          - group [ref=f7e409]:
+            - 'menuitem " Online: 0" [ref=f7e410] [cursor=pointer]':
+              - generic [ref=f7e411]: 
+              - text: "Online: 0"
+            - text: 
+          - group [ref=f7e412]:
+            - menuitem "New" [ref=f7e413] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f7e414]: 
+          - group [ref=f7e416]:
+            - menuitem "" [ref=f7e417] [cursor=pointer]:
+              - generic "LiteSpeed Cache Purge All - LSCache" [ref=f7e418]: 
+          - group [ref=f7e419]:
+            - menuitem "SEO" [ref=f7e420] [cursor=pointer]
+            - text:  Premium Premium
+          - group [ref=f7e423]:
+            - menuitem [ref=f7e424] [cursor=pointer]
+          - group [ref=f7e426]:
+            - menuitem "Hostinger" [ref=f7e427]
+          - group [ref=f7e430]:
+            - menuitem "Edit Home Page" [ref=f7e431] [cursor=pointer]
+        - menu [ref=f7e432]:
+          - group [ref=f7e433]:
+            - menuitem [ref=f7e434] [cursor=pointer]
+          - group [ref=f7e439]:
+            - menuitem "Howdy, irza" [ref=f7e440] [cursor=pointer]
+    - main [ref=f7e441]:
+      - generic [ref=f7e442]:
+        - button "Help " [ref=f7e445] [cursor=pointer]
+        - generic [ref=f7e446]:
+          - link "WordPress 7.1.4" [ref=f7e447] [cursor=pointer]:
+            - /url: https://wordpress.org/documentation/wordpress-version/version-7-1-4/
+          - text: is available!
+          - link "Please update WordPress now" [ref=f7e448] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-admin/update-core.php
+            - text: Please update now
+          - text: .
+        - generic [ref=f7e449]:
+          - heading "Reading Settings" [level=1] [ref=f7e450]
+          - generic [ref=f7e451]:
+            - generic [ref=f7e452]:
+              - paragraph [ref=f7e453]: Are you enjoying using Members?
+              - paragraph [ref=f7e454]:
+                - link "Yes, I love it" [ref=f7e455] [cursor=pointer]:
+                  - /url: "#"
+                - text: 🙂 |
+                - link "Not really..." [ref=f7e456] [cursor=pointer]:
+                  - /url: "#"
+            - button " Dismiss this notice." [ref=f7e457] [cursor=pointer]:
+              - text: 
+              - generic [ref=f7e458]: Dismiss this notice.
+          - region "Elementor notice" [ref=f7e459]:
+            - button "Dismiss this notice." [ref=f7e460] [cursor=pointer]: 
+            - generic [aria-hidden] [ref=f7e463]: 
+            - generic [ref=f7e464]:
+              - heading "Form Submissions now activated by default on all websites" [level=3] [ref=f7e465]
+              - paragraph [ref=f7e466]:
+                - text: The Form Submissions feature, previously located under the Features tab in Elementor, is now enabled by default on all websites. If you prefer to disable this feature, you can do so by navigating to
+                - link [ref=f7e467] [cursor=pointer]:
+                  - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-settings#tab-advanced
+                  - strong [ref=f7e468]: Settings → Advanced
+                - text: .
+              - link "Got it! Keep it enabled" [ref=f7e470] [cursor=pointer]:
+                - /url: https://yometapp.com/wp-admin/admin-post.php?action=elementor_set_admin_notice_viewed&notice_id=elementor-pro-forms-submissions
+          - region "Elementor notice" [ref=f7e471]:
+            - button "Dismiss this notice." [ref=f7e472] [cursor=pointer]: 
+            - generic [aria-hidden] [ref=f7e475]: 
+            - generic [ref=f7e476]:
+              - heading "Improve your site’s performance score." [level=3] [ref=f7e477]
+              - paragraph [ref=f7e478]: With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed.
+              - generic [ref=f7e479]:
+                - link "Try it out" [ref=f7e480] [cursor=pointer]:
+                  - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-settings#tab-experiments
+                - link "Learn more" [ref=f7e481] [cursor=pointer]:
+                  - /url: https://go.elementor.com/wp-dash-experiment-promotion/
+          - generic [ref=f7e482]:
+            - generic [ref=f7e484]:
+              - generic [ref=f7e485]:
+                - strong [ref=f7e486]: Help shape the future of Starter Templates.
+                - text: Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions.
+                - link "Learn more." [ref=f7e488] [cursor=pointer]:
+                  - /url: https://store.brainstormforce.com/usage-tracking/?utm_source=astra_sites&utm_medium=notice&utm_campaign=usage_tracking
+              - generic [ref=f7e489]:
+                - link "Happy to help!" [ref=f7e490] [cursor=pointer]:
+                  - /url: /wp-admin/options-reading.php?astra_sites_analytics_optin=yes&astra_sites_analytics_nonce=802b09db34&bsf_analytics_source=astra_sites
+                - link "Skip" [ref=f7e491] [cursor=pointer]:
+                  - /url: /wp-admin/options-reading.php?astra_sites_analytics_optin=no&astra_sites_analytics_nonce=802b09db34&bsf_analytics_source=astra_sites
+            - button " Dismiss this notice." [ref=f7e492] [cursor=pointer]:
+              - text: 
+              - generic [ref=f7e493]: Dismiss this notice.
+          - generic [ref=f7e494]:
+            - text: Your homepage displays
+            - group "Your homepage displays" [ref=f7e495]:
+              - paragraph [ref=f7e498]:
+                - generic [ref=f7e499]:
+                  - radio "Your latest posts" [ref=f7e500] [cursor=pointer]
+                  - text: Your latest posts
+              - paragraph [ref=f7e501]:
+                - generic [ref=f7e502]:
+                  - radio "A static page (select below)" [checked] [ref=f7e503] [cursor=pointer]
+                  - text: A
+                  - link "static page" [ref=f7e504] [cursor=pointer]:
+                    - /url: edit.php?post_type=page
+                  - text: (select below)
+              - list [ref=f7e505]:
+                - listitem [ref=f7e506]:
+                  - generic [ref=f7e507]:
+                    - text: "Homepage:"
+                    - combobox "Homepage:" [ref=f7e508] [cursor=pointer]:
+                      - option "— Select —"
+                      - option "Agency"
+                      - option "Bio"
+                      - option "Blog"
+                      - option "Contact Us"
+                      - option "Home" [selected]
+                      - option "Host Cooperation"
+                      - option "Login Customizer"
+                - listitem [ref=f7e509]:
+                  - generic [ref=f7e510]:
+                    - text: "Posts page:"
+                    - combobox "Posts page:" [ref=f7e511] [cursor=pointer]:
+                      - option "— Select —" [selected]
+                      - option "Agency"
+                      - option "Bio"
+                      - option "Blog"
+                      - option "Contact Us"
+                      - option "Home"
+                      - option "Host Cooperation"
+                      - option "Login Customizer"
+            - text: Blog pages show at most
+            - spinbutton "Blog pages show at most" [ref=f7e512]: "10"
+            - text: posts Syndication feeds show the most recent
+            - spinbutton "Syndication feeds show the most recent" [ref=f7e513]: "10"
+            - text: items For each post in a feed, include
+            - group "For each post in a feed, include" [ref=f7e514]:
+              - paragraph [ref=f7e517]:
+                - generic [ref=f7e518]:
+                  - radio "Full text" [checked] [ref=f7e519] [cursor=pointer]
+                  - text: Full text
+                - generic [ref=f7e520]:
+                  - radio "Excerpt" [ref=f7e521] [cursor=pointer]
+                  - text: Excerpt
+              - paragraph [ref=f7e522]:
+                - text: Your theme determines how content is displayed in browsers.
+                - link "Learn more about feeds" [ref=f7e523] [cursor=pointer]:
+                  - /url: https://developer.wordpress.org/advanced-administration/wordpress/feeds/
+                - text: .
+            - text: Search engine visibility
+            - group "Search engine visibility" [ref=f7e524]:
+              - generic [ref=f7e527]:
+                - checkbox "Discourage search engines from indexing this site" [ref=f7e528] [cursor=pointer]
+                - text: Discourage search engines from indexing this site
+              - paragraph [ref=f7e529]: It is up to search engines to honor this request.
+            - paragraph [ref=f7e530]:
+              - button "Save Changes" [ref=f7e531] [cursor=pointer]
+  - contentinfo [ref=f7e532]:
+    - paragraph [ref=f7e533]:
+      - generic [ref=f7e534]:
+        - text: Thank you for creating with
+        - link "WordPress" [ref=f7e535] [cursor=pointer]:
+          - /url: https://wordpress.org/
+        - text: .
+    - paragraph [ref=f7e536]:
+      - strong [ref=f7e537]:
+        - link "Get Version 7.1.4" [ref=f7e538] [cursor=pointer]:
+          - /url: https://yometapp.com/wp-admin/update-core.php
+  - text: 

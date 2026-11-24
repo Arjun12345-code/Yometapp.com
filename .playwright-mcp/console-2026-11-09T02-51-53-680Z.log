@@ -1,0 +1,6 @@
+[     378ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://yometapp.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    3093ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.buttonizer.io/serve/50119f56-9c7b-418c-aaab-d92fff7cf099:0
+[    3095ms] [ERROR] Buttonizer: We could not load Buttonizer on your website. Information: @ https://cdn.buttonizer.io/static/build-v4.15.4/assets/js/widget/buttonizer_DvrWDH.js:93
+[    3096ms] [ERROR] q @ https://cdn.buttonizer.io/static/build-v4.15.4/assets/js/widget/buttonizer_DvrWDH.js:93
+[    3096ms] [ERROR] Buttonizer: Visit our community if you have any questions https://community.buttonizer.pro/ @ https://cdn.buttonizer.io/static/build-v4.15.4/assets/js/widget/buttonizer_DvrWDH.js:93
+[    3538ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://yometapp.com/wp-json/hostinger-ai-assistant/v1/hostinger-agent/auth/ticket:0

@@ -1,0 +1,343 @@
+- generic [active] [ref=f39e1]:
+  - generic [ref=f39e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f39e3]:
+          - menuitem "About WordPress" [ref=f39e4] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e5]: 
+        - group [ref=f39e7]:
+          - menuitem " Yomet App" [ref=f39e8] [cursor=pointer]
+        - group [ref=f39e9]:
+          - menuitem " Customize" [ref=f39e10] [cursor=pointer]
+        - group [ref=f39e11]:
+          - menuitem "19 updates available" [ref=f39e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e13]: 
+            - generic [aria-hidden] [ref=f39e14]: "19"
+        - group [ref=f39e16]:
+          - menuitem "0 Comments in moderation" [ref=f39e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e18]: 
+            - generic [aria-hidden] [ref=f39e19]: "0"
+        - group [ref=f39e21]:
+          - 'menuitem " Page Views: 199 - Online: 1" [ref=f39e22] [cursor=pointer]':
+            - generic [ref=f39e23]: 
+            - text: "Page Views: 199 - Online: 1"
+          - text: 
+        - group [ref=f39e24]:
+          - menuitem "New" [ref=f39e25] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f39e26]: 
+        - group [ref=f39e28]:
+          - menuitem " Edit Page" [ref=f39e29] [cursor=pointer]
+        - listitem [ref=f39e30]:
+          - link " Edit with Elementor" [ref=f39e31] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-admin/post.php?post=2568&action=elementor
+        - group [ref=f39e32]:
+          - menuitem "" [ref=f39e33] [cursor=pointer]
+          - text: 
+        - group [ref=f39e35]:
+          - menuitem "SEO" [ref=f39e36] [cursor=pointer]:
+            - generic [ref=f39e40]: OK
+          - text:    
+        - group [ref=f39e41]:
+          - menuitem [ref=f39e42] [cursor=pointer]
+        - group [ref=f39e44]:
+          - menuitem " Notes" [ref=f39e45] [cursor=pointer]
+        - group [ref=f39e46]:
+          - menuitem "Hostinger" [ref=f39e47]
+        - group [ref=f39e50]:
+          - menuitem "Edit Home Page" [ref=f39e51] [cursor=pointer]
+      - menu [ref=f39e52]:
+        - group [ref=f39e53]:
+          - menuitem "Howdy, irza" [ref=f39e54] [cursor=pointer]
+        - group [ref=f39e55]:
+          - menuitem " Search" [ref=f39e56]:
+            - generic [ref=f39e57]:
+              - text: 
+              - textbox "Search" [ref=f39e58] [cursor=pointer]
+              - generic [ref=f39e59]: Search
+  - link "Skip to content" [ref=f39e60] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f39e61]:
+    - generic [ref=f39e62]:
+      - link "Yomet Partner Official" [ref=f39e63] [cursor=pointer]:
+        - /url: /
+        - img "Yomet Official Logo"
+        - generic [ref=f39e64]: Yomet
+      - navigation [ref=f39e66]:
+        - link "Home" [ref=f39e67] [cursor=pointer]:
+          - /url: /
+        - link "Become a Host" [ref=f39e68] [cursor=pointer]:
+          - /url: /host
+        - link "Become an Agency" [ref=f39e69] [cursor=pointer]:
+          - /url: /agency
+        - link "Contact Support" [ref=f39e70] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f39e71]:
+        - link "Join as Agent" [ref=f39e72] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+        - link "Join as Host" [ref=f39e73] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+    - main [ref=f39e83]:
+      - generic [ref=f39e86]:
+        - generic [ref=f39e87]:
+          - generic [ref=f39e88]: Official Yomet Partner
+          - heading "Start Your Livestreaming Host Career on Yomet" [level=1] [ref=f39e90]:
+            - text: Start Your
+            - generic [ref=f39e91]: Livestreaming Host Career
+            - text: on Yomet
+          - paragraph [ref=f39e92]: Become a Yomet host and start building your livestreaming career with daily opportunities, full mentoring, and support. No prior experience is required, and registration is always free.
+          - link "Become a Host" [ref=f39e94] [cursor=pointer]:
+            - /url: https://res.yometlive.com/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+        - generic [ref=f39e96]:
+          - generic [ref=f39e97]:
+            - generic [ref=f39e98]:
+              - img "Yomet Official Logo"
+              - generic [ref=f39e99]: Yomet Host
+            - generic [ref=f39e100]: LIVE NOW
+          - generic [ref=f39e102]:
+            - generic [ref=f39e103]: Daily Task Beans Reward
+            - generic [ref=f39e104]: Up to 100,000 Beans
+            - generic [ref=f39e105]: Level 1 – Level 7 Performance Rewards
+          - generic [ref=f39e106]:
+            - generic [ref=f39e107]:
+              - generic [ref=f39e108]: ✓
+              - generic [ref=f39e109]:
+                - strong [ref=f39e110]: 100% Free
+                - text: Registration & Fast Approval
+            - generic [ref=f39e111]:
+              - generic [ref=f39e112]: ✓
+              - generic [ref=f39e113]:
+                - strong [ref=f39e114]: Daily Cash
+                - text: Withdrawal Support
+            - generic [ref=f39e115]:
+              - generic [ref=f39e116]: ✓
+              - generic [ref=f39e117]:
+                - strong [ref=f39e118]: 24/7 Agency Mentoring
+                - text: "& Host Growth"
+      - generic [ref=f39e120]:
+        - heading "Yomet Live Host Registration" [level=2] [ref=f39e122]
+        - generic [ref=f39e123]:
+          - generic [ref=f39e124]:
+            - generic [ref=f39e125]: "1"
+            - heading "Open the host registration link below." [level=3] [ref=f39e126]
+            - paragraph [ref=f39e127]:
+              - text: Use the official Yomet host registration link
+              - link "right here" [ref=f39e128] [cursor=pointer]:
+                - /url: https://res.yometlive.com/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+              - text: .
+          - generic [ref=f39e129]:
+            - generic [ref=f39e130]: "2"
+            - heading "Enter your active phone number" [level=3] [ref=f39e131]
+            - paragraph [ref=f39e132]: Click “Send” to receive a verification code, then click “Bind” once you entered the code
+          - generic [ref=f39e133]:
+            - generic [ref=f39e134]: "3"
+            - heading "Download the Yomet/Olamet app." [level=3] [ref=f39e135]
+            - paragraph [ref=f39e136]: Search for “Olamet” on the Google Play Store and install the app.
+          - generic [ref=f39e137]:
+            - generic [ref=f39e138]: "4"
+            - heading "Register your account using the same phone number as before." [level=3] [ref=f39e139]
+          - generic [ref=f39e140]:
+            - generic [ref=f39e141]: "5"
+            - heading "Complete your profile." [level=3] [ref=f39e142]
+            - paragraph [ref=f39e143]: Fill in the required details, such as your password, gender and date of birth.
+        - link [ref=f39e145] [cursor=pointer]:
+          - /url: https://yometapp.com/wp-content/uploads/2026/10/OlametYomet-HostAgent-Registration.png
+          - img "OlametYomet HostAgent Registration" [ref=f39e146]
+      - generic [ref=f39e148]:
+        - generic [ref=f39e149]:
+          - heading "Daily Task Rewards for Yomet Hosts" [level=2] [ref=f39e150]
+          - paragraph [ref=f39e151]: Every day, Yomet offers Beans rewards to top-performing hosts who meet the required gift income, live hours, and call targets for their assigned level.
+        - table [ref=f39e154]:
+          - rowgroup [ref=f39e155]:
+            - row [ref=f39e156]:
+              - columnheader "Level" [ref=f39e157]
+              - columnheader "Gift Income Requirement" [ref=f39e158]
+              - columnheader "Total Live Hours" [ref=f39e159]
+              - columnheader "Total Calls" [ref=f39e160]
+              - columnheader "Beans Reward" [ref=f39e161]
+          - rowgroup [ref=f39e162]:
+            - row [ref=f39e163]:
+              - cell "1" [ref=f39e164]
+              - cell "84,000" [ref=f39e165]
+              - cell "2" [ref=f39e166]
+              - cell "0" [ref=f39e167]
+              - cell "5,000" [ref=f39e168]
+            - row [ref=f39e170]:
+              - cell "2" [ref=f39e171]
+              - cell "175,000" [ref=f39e172]
+              - cell "3" [ref=f39e173]
+              - cell "5" [ref=f39e174]
+              - cell "10,000" [ref=f39e175]
+            - row [ref=f39e177]:
+              - cell "3" [ref=f39e178]
+              - cell "525,000" [ref=f39e179]
+              - cell "5" [ref=f39e180]
+              - cell "10" [ref=f39e181]
+              - cell "30,000" [ref=f39e182]
+            - row [ref=f39e184]:
+              - cell "4" [ref=f39e185]
+              - cell "700,000" [ref=f39e186]
+              - cell "5" [ref=f39e187]
+              - cell "20" [ref=f39e188]
+              - cell "40,000" [ref=f39e189]
+            - row [ref=f39e191]:
+              - cell "5" [ref=f39e192]
+              - cell "1,050,000" [ref=f39e193]
+              - cell "5" [ref=f39e194]
+              - cell "30" [ref=f39e195]
+              - cell "60,000" [ref=f39e196]
+            - row [ref=f39e198]:
+              - cell "6" [ref=f39e199]
+              - cell "1,400,000" [ref=f39e200]
+              - cell "5" [ref=f39e201]
+              - cell "40" [ref=f39e202]
+              - cell "80,000" [ref=f39e203]
+            - row [ref=f39e205]:
+              - cell "7" [ref=f39e206]
+              - cell "2,100,000" [ref=f39e207]
+              - cell "5" [ref=f39e208]
+              - cell "40" [ref=f39e209]
+              - cell "100,000" [ref=f39e210]
+        - link [ref=f39e213] [cursor=pointer]:
+          - /url: https://yometapp.com/wp-content/uploads/2026/10/Yomet-Host-Role.png
+          - img "Yomet host role" [ref=f39e214]
+        - generic [ref=f39e215]:
+          - heading "Important Notes:" [level=3] [ref=f39e216]
+          - list [ref=f39e217]:
+            - listitem [ref=f39e218]: Your reward level is determined by your income from the previous week.
+            - listitem [ref=f39e219]: You must complete every task required for your assigned level to receive the Beans reward.
+            - listitem [ref=f39e220]: You must apply and receive approval before you can participate in the Daily Task Rewards program.
+        - generic [ref=f39e221]:
+          - heading "How to Apply:" [level=3] [ref=f39e222]
+          - link [ref=f39e224] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-content/uploads/2026/11/how-to-apply.jpeg
+            - img "Gambar Yomet How to Apply" [ref=f39e225]
+        - generic [ref=f39e226]:
+          - heading "How to Withdraw:" [level=3] [ref=f39e227]
+          - paragraph [ref=f39e228]:
+            - text: To withdraw your earnings, visit our
+            - link "Yomet withdrawal tutorial" [ref=f39e229] [cursor=pointer]:
+              - /url: /agency#withdrawal
+            - text: .
+      - generic [ref=f39e231]:
+        - generic [ref=f39e232]:
+          - heading "Yomet Host Rules" [level=2] [ref=f39e233]
+          - paragraph [ref=f39e234]: These rules and requirements apply to all Yomet hosts, whether you are new to livestreaming or already have experience as a live host.
+        - generic [ref=f39e235]:
+          - generic [ref=f39e236]:
+            - generic [ref=f39e237]: "1"
+            - paragraph [ref=f39e238]: Hosts are strictly prohibited from registering or operating multiple accounts.
+          - generic [ref=f39e239]:
+            - generic [ref=f39e240]: "2"
+            - paragraph [ref=f39e241]: Hosts must not showcase pornographic or explicit content during public live broadcasts. According to the original policy, this restriction does not apply to private video calls.
+          - generic [ref=f39e242]:
+            - generic [ref=f39e243]: "3"
+            - paragraph [ref=f39e244]: Hosts must not transfer their account to another agent. Agents must also not persuade a host to create an independent Yomet agency.
+          - generic [ref=f39e245]:
+            - generic [ref=f39e246]: "4"
+            - paragraph [ref=f39e247]: All Yomet hosts must be 18 years old or older to work on the platform.
+      - generic [ref=f39e249]:
+        - heading "Frequently Asked Questions" [level=2] [ref=f39e251]
+        - generic [ref=f39e252]:
+          - generic [ref=f39e253]:
+            - button "1. How can I register as a Yomet Live Host?" [ref=f39e254] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Download the Yomet app from the Google Play Store, then create an account using your Google account or phone number. Complete the verification and profile setup steps to finish your registration.
+          - generic [ref=f39e257]:
+            - button "2. Do I need to verify my phone number when registering?" [ref=f39e258] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Yes. If you register using your phone number, Yomet will send an OTP verification code to your device. Enter the code to verify your account.
+          - generic [ref=f39e261]:
+            - button "3. How do Yomet Host Daily Task Rewards work?" [ref=f39e262] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Yomet provides daily rewards for top-performing hosts who complete specific performance targets. Your reward level is based on your previous week's income, with requirements for gift income, live hours, and total calls. You must complete all required tasks and receive approval before earning the reward.
+          - generic [ref=f39e265]:
+            - button "4. How much can I earn from Daily Task Rewards?" [ref=f39e266] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Hosts can receive from 5,000 Beans at Level 1 up to 100,000 Beans at Level 7. The reward depends on your assigned level and whether you complete all required gift income, live hour, and call targets.
+          - generic [ref=f39e269]:
+            - button "5. What are the rules for Yomet Live Hosts?" [ref=f39e270] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Yomet hosts must use only one account, follow the public livestream content policy, comply with agency rules, and be at least 18 years old to work on the platform.
+      - generic [ref=f39e275]:
+        - heading "Become an Official Yomet Host Today" [level=2] [ref=f39e276]
+        - link "Become a Host" [ref=f39e278] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+    - generic [ref=f39e287]:
+      - generic [ref=f39e288]:
+        - generic [ref=f39e289]:
+          - link "Yomet Official Logo Yomet" [ref=f39e290] [cursor=pointer]:
+            - /url: /
+            - img "Yomet Official Logo"
+            - generic [ref=f39e291]: Yomet
+          - paragraph [ref=f39e293]: Official Yomet agency partner facilitating live streamers and agency owners with professional guidance, ongoing support, and earning opportunities.
+          - generic [ref=f39e294]:
+            - link "Telegram Support" [ref=f39e295] [cursor=pointer]:
+              - /url: https://telegram.me/yometappservice
+            - link "WhatsApp Support" [ref=f39e299] [cursor=pointer]:
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - link "Instagram Profile" [ref=f39e302] [cursor=pointer]:
+              - /url: https://www.instagram.com/olametagency
+            - link "Facebook Page" [ref=f39e307] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61587048279977
+        - generic [ref=f39e310]:
+          - heading "Navigation" [level=3] [ref=f39e311]
+          - list [ref=f39e312]:
+            - listitem [ref=f39e313]:
+              - link "Home" [ref=f39e314] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f39e315]:
+              - link "Become a Host" [ref=f39e316] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f39e317]:
+              - link "Become an Agency" [ref=f39e318] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f39e319]:
+              - link "Contact Support" [ref=f39e320] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f39e321]:
+          - heading "Quick Resources" [level=3] [ref=f39e322]
+          - list [ref=f39e323]:
+            - listitem [ref=f39e324]:
+              - link "Daily Task Rewards" [ref=f39e325] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f39e326]:
+              - link "Yomet Host Rules" [ref=f39e327] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f39e328]:
+              - link "Agency Commission Rate" [ref=f39e329] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f39e330]:
+              - link "Withdrawal Information" [ref=f39e331] [cursor=pointer]:
+                - /url: /agency
+        - generic [ref=f39e332]:
+          - heading "Official Channels" [level=3] [ref=f39e333]
+          - list [ref=f39e334]:
+            - listitem [ref=f39e335]:
+              - 'link "Telegram: @yometappservice" [ref=f39e336] [cursor=pointer]':
+                - /url: https://telegram.me/yometappservice
+            - listitem [ref=f39e337]:
+              - 'link "WhatsApp: +60 18-247-0950" [ref=f39e338] [cursor=pointer]':
+                - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - listitem [ref=f39e339]:
+              - 'link "Instagram: @olametagency" [ref=f39e340] [cursor=pointer]':
+                - /url: https://www.instagram.com/olametagency
+            - listitem [ref=f39e341]:
+              - link "Facebook Support" [ref=f39e342] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61587048279977
+      - generic [ref=f39e343]:
+        - generic [ref=f39e344]: © 2026 Yomet Partner (yometapp.com). All rights reserved.
+        - generic [ref=f39e345]: Official Yomet Agency Partner Portal
+  - generic [ref=f39e346]: desktop
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Whatsapp":
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - generic:
+            - link "Telegram":
+              - /url: https://telegram.me/yometappservice
+        - generic [ref=f39e348] [cursor=pointer]:
+          - paragraph [ref=f39e350]: Contact us
+          - button "Open chaty" [ref=f39e352]

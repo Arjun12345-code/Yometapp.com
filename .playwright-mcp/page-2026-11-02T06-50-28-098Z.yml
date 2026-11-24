@@ -1,0 +1,244 @@
+- generic [active] [ref=f25e1]:
+  - generic [ref=f25e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f25e3]:
+          - menuitem "About WordPress" [ref=f25e4] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f25e5]: 
+        - group [ref=f25e7]:
+          - menuitem " Yomet App" [ref=f25e8] [cursor=pointer]
+        - group [ref=f25e9]:
+          - menuitem " Customize" [ref=f25e10] [cursor=pointer]
+        - group [ref=f25e11]:
+          - menuitem "19 updates available" [ref=f25e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f25e13]: 
+            - generic [aria-hidden] [ref=f25e14]: "19"
+        - group [ref=f25e16]:
+          - menuitem "0 Comments in moderation" [ref=f25e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f25e18]: 
+            - generic [aria-hidden] [ref=f25e19]: "0"
+        - group [ref=f25e21]:
+          - 'menuitem " Page Views: 772 - Online: 0" [ref=f25e22] [cursor=pointer]':
+            - generic [ref=f25e23]: 
+            - text: "Page Views: 772 - Online: 0"
+          - text: 
+        - group [ref=f25e24]:
+          - menuitem "New" [ref=f25e25] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f25e26]: 
+        - group [ref=f25e28]:
+          - menuitem " Edit Page" [ref=f25e29] [cursor=pointer]
+        - listitem [ref=f25e30]:
+          - link " Edit with Elementor" [ref=f25e31] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-admin/post.php?post=15&action=elementor
+        - group [ref=f25e32]:
+          - menuitem "" [ref=f25e33] [cursor=pointer]
+          - text: 
+        - group [ref=f25e35]:
+          - menuitem "SEO" [ref=f25e36] [cursor=pointer]:
+            - generic [ref=f25e40]: Needs improvement
+          - text:    
+        - group [ref=f25e41]:
+          - menuitem [ref=f25e42] [cursor=pointer]
+        - group [ref=f25e44]:
+          - menuitem " Notes" [ref=f25e45] [cursor=pointer]
+        - group [ref=f25e46]:
+          - menuitem "Hostinger" [ref=f25e47]
+        - group [ref=f25e50]:
+          - menuitem "Edit Home Page" [ref=f25e51] [cursor=pointer]
+      - menu [ref=f25e52]:
+        - group [ref=f25e53]:
+          - menuitem "Howdy, irza" [ref=f25e54] [cursor=pointer]
+        - group [ref=f25e55]:
+          - menuitem " Search" [ref=f25e56]:
+            - generic [ref=f25e57]:
+              - text: 
+              - textbox "Search" [ref=f25e58] [cursor=pointer]
+              - generic [ref=f25e59]: Search
+  - link "Skip to content" [ref=f25e60] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f25e61]:
+    - generic [ref=f25e62]:
+      - link "Yomet Partner Official" [ref=f25e63] [cursor=pointer]:
+        - /url: /
+        - img "Yomet Official Logo"
+        - generic [ref=f25e64]: Yomet
+      - navigation [ref=f25e66]:
+        - link "Home" [ref=f25e67] [cursor=pointer]:
+          - /url: /
+        - link "Become a Host" [ref=f25e68] [cursor=pointer]:
+          - /url: /host
+        - link "Become an Agency" [ref=f25e69] [cursor=pointer]:
+          - /url: /agency
+        - link "Contact Support" [ref=f25e70] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f25e71]:
+        - link "Join as Agent" [ref=f25e72] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+        - link "Join as Host" [ref=f25e73] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+    - generic [ref=f25e82]:
+      - generic [ref=f25e85]:
+        - generic [ref=f25e86]:
+          - generic [ref=f25e87]: Official Yomet Partner
+          - heading "Create Your Own Agency & Start Earning as with an Official Yomet Partner" [level=1] [ref=f25e89]:
+            - text: Create Your Own Agency & Start Earning as with an
+            - generic [ref=f25e90]: Official Yomet Partner
+          - paragraph [ref=f25e91]: Start building your online income from anywhere as a livestream host or agency partner with Yomet. Get professional guidance, ongoing support, and the opportunity to grow with an official Yomet partner.
+          - generic [ref=f25e92]:
+            - link "More About Agent" [ref=f25e93] [cursor=pointer]:
+              - /url: /agency
+            - link "More About Host" [ref=f25e94] [cursor=pointer]:
+              - /url: /host
+        - generic [ref=f25e96]:
+          - img "Create Your Own Agency & Start Earning as an Official Yomet Partner"
+      - generic [ref=f25e98]:
+        - generic [ref=f25e99]:
+          - heading "Many Trust Yomet to Build Their Livestream Income" [level=2] [ref=f25e100]
+          - paragraph [ref=f25e101]: Yomet helps thousands of hosts and agents worldwide create earning opportunities through a reliable livestreaming platform and official partner program.
+        - generic [ref=f25e102]:
+          - generic [ref=f25e103]:
+            - generic [ref=f25e104]: 4M+ Registered Users
+            - paragraph [ref=f25e105]: More than four million users have joined Yomet worldwide.
+          - generic [ref=f25e106]:
+            - generic [ref=f25e107]: 5M+ Play Store Downloads
+            - paragraph [ref=f25e108]: Yomet/Olamet has reached over five million downloads
+          - generic [ref=f25e109]:
+            - generic [ref=f25e110]: 14K+ Play Store Reviews
+            - paragraph [ref=f25e111]: Thousands of users have expressed their reviews on Yomet.
+          - generic [ref=f25e112]:
+            - generic [ref=f25e113]: 4.1 Star Rating
+            - paragraph [ref=f25e114]: Yomet maintains a strong rating from users on the Play Store.
+      - generic [ref=f25e116]:
+        - generic [ref=f25e117]:
+          - heading "Why Choose Yomet for Livestreaming & Agency Opportunities" [level=2] [ref=f25e118]
+          - paragraph [ref=f25e119]: Discover how hosts and agents grow their income through Yomet’s livestream platform and official partnership program.
+        - generic [ref=f25e120]:
+          - generic [ref=f25e121]:
+            - heading "Global Audience for Global Opportunities" [level=3] [ref=f25e122]
+            - paragraph [ref=f25e123]: Yomet connects hosts with audiences from different countries around the world. Expand your reach and receive gifts from viewers across Asia, America, Africa, and beyond.
+          - generic [ref=f25e124]:
+            - heading "Multiple Income Opportunities for Hosts and Agents" [level=3] [ref=f25e125]
+            - paragraph [ref=f25e126]: Yomet provides different earning options through video calls, virtual gifts, and exclusive events. More earning channels help create better income opportunities for hosts and agency partners.
+          - generic [ref=f25e127]:
+            - heading "High-Quality Livestream Experience" [level=3] [ref=f25e128]
+            - paragraph [ref=f25e129]: Enjoy smooth and reliable livestreaming with high-quality broadcasts. Better streaming performance helps hosts stay connected with viewers and maximize their earning potential.
+          - generic [ref=f25e130]:
+            - heading "Real-Time Translation Support" [level=3] [ref=f25e131]
+            - paragraph [ref=f25e132]: Communicate easily with audiences worldwide using Yomet’s translation features. Break language barriers and build connections with viewers from different regions.
+        - link [ref=f25e134] [cursor=pointer]:
+          - /url: https://yometapp.com/wp-content/uploads/2026/10/Yomet-Ecosystem.png
+          - img "Yomet Ecosystem" [ref=f25e135]
+      - generic [ref=f25e137]:
+        - heading "Frequently Asked Questions" [level=2] [ref=f25e139]
+        - generic [ref=f25e140]:
+          - generic [ref=f25e141]:
+            - button "Is this an official Yomet agency?" [ref=f25e142] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Yes. We are an official Yomet/Olamet agency partner that helps hosts and agents start their livestreaming journey, build their teams, and create earning opportunities through Yomet.
+          - generic [ref=f25e145]:
+            - button "How does a Yomet host or agent work?" [ref=f25e146] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: A Yomet/Olamet host earns by livestreaming and interacting with viewers. An agent manages hosts, supports their growth, and receives commission based on team performance.
+          - generic [ref=f25e149]:
+            - button "How can I withdraw my earnings from Yomet?" [ref=f25e150] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Yomet/Olamet provides several withdrawal options, including bank transfer, e-wallet, and other available payment methods. Withdrawal processing may require several business days depending on the method used.
+          - generic [ref=f25e153]:
+            - button "Does Yomet provide a fixed salary?" [ref=f25e154] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: No. Your earnings depend on your performance and team activity. Hosts and agents can increase their income by building consistent livestream activity and growing their audience or team.
+          - generic [ref=f25e157]:
+            - button "Is my personal information safe on Yomet?" [ref=f25e158] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: Yes. Yomet/Olamet protects user privacy and follows security practices to help safeguard personal information provided during registration.
+          - generic [ref=f25e161]:
+            - button "What should I do if I experience problems with the Yomet app?" [ref=f25e162] [cursor=pointer]:
+              - generic [aria-hidden]: ▼
+            - generic: As an official Yomet/Olamet partner, we provide support to help resolve account, withdrawal, or platform-related issues with the Yomet team.
+      - generic [ref=f25e167]:
+        - heading "One App. Two Ways to Earn as a Host or Agent." [level=2] [ref=f25e168]
+        - paragraph [ref=f25e169]: Start your livestream career today with Yomet and receive guidance from our team throughout your journey.
+        - generic [ref=f25e170]:
+          - link "Join as Host" [ref=f25e171] [cursor=pointer]:
+            - /url: /host
+          - link "Join as Agent" [ref=f25e172] [cursor=pointer]:
+            - /url: /agency
+    - generic [ref=f25e181]:
+      - generic [ref=f25e182]:
+        - generic [ref=f25e183]:
+          - link "Yomet Official Logo Yomet" [ref=f25e184] [cursor=pointer]:
+            - /url: /
+            - img "Yomet Official Logo"
+            - generic [ref=f25e185]: Yomet
+          - paragraph [ref=f25e187]: Official Yomet agency partner facilitating live streamers and agency owners with professional guidance, ongoing support, and earning opportunities.
+          - generic [ref=f25e188]:
+            - link "Telegram Support" [ref=f25e189] [cursor=pointer]:
+              - /url: https://telegram.me/yometappservice
+            - link "WhatsApp Support" [ref=f25e193] [cursor=pointer]:
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - link "Instagram Profile" [ref=f25e196] [cursor=pointer]:
+              - /url: https://www.instagram.com/olametagency
+            - link "Facebook Page" [ref=f25e201] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61587048279977
+        - generic [ref=f25e204]:
+          - heading "Navigation" [level=3] [ref=f25e205]
+          - list [ref=f25e206]:
+            - listitem [ref=f25e207]:
+              - link "Home" [ref=f25e208] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f25e209]:
+              - link "Become a Host" [ref=f25e210] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f25e211]:
+              - link "Become an Agency" [ref=f25e212] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f25e213]:
+              - link "Contact Support" [ref=f25e214] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f25e215]:
+          - heading "Quick Resources" [level=3] [ref=f25e216]
+          - list [ref=f25e217]:
+            - listitem [ref=f25e218]:
+              - link "Daily Task Rewards" [ref=f25e219] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f25e220]:
+              - link "Yomet Host Rules" [ref=f25e221] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f25e222]:
+              - link "Agency Commission Rate" [ref=f25e223] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f25e224]:
+              - link "Withdrawal Information" [ref=f25e225] [cursor=pointer]:
+                - /url: /agency
+        - generic [ref=f25e226]:
+          - heading "Official Channels" [level=3] [ref=f25e227]
+          - list [ref=f25e228]:
+            - listitem [ref=f25e229]:
+              - 'link "Telegram: @yometappservice" [ref=f25e230] [cursor=pointer]':
+                - /url: https://telegram.me/yometappservice
+            - listitem [ref=f25e231]:
+              - 'link "WhatsApp: +60 18-247-0950" [ref=f25e232] [cursor=pointer]':
+                - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - listitem [ref=f25e233]:
+              - 'link "Instagram: @olametagency" [ref=f25e234] [cursor=pointer]':
+                - /url: https://www.instagram.com/olametagency
+            - listitem [ref=f25e235]:
+              - link "Facebook Support" [ref=f25e236] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61587048279977
+      - generic [ref=f25e237]:
+        - generic [ref=f25e238]: © 2026 Yomet Partner (yometapp.com). All rights reserved.
+        - generic [ref=f25e239]: Official Yomet Agency Partner Portal
+  - generic [ref=f25e240]: desktop
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Whatsapp":
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - generic:
+            - link "Telegram":
+              - /url: https://telegram.me/yometappservice
+        - generic [ref=f25e242] [cursor=pointer]:
+          - paragraph [ref=f25e244]: Contact us
+          - button "Open chaty" [ref=f25e246]

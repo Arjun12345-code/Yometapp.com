@@ -1,0 +1,4 @@
+[     370ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://yometlive.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[   16461ms] [LOG] Simba TFA: form submit request @ https://yometlive.id/wp-content/plugins/all-in-one-wp-security-and-firewall/includes/simba-tfa/includes/tfa.js?ver=1789665556:323
+[   16783ms] [LOG] Simba TFA: User does not have OTP enabled: submitting form @ https://yometlive.id/wp-content/plugins/all-in-one-wp-security-and-firewall/includes/simba-tfa/includes/tfa.js?ver=1789665556:37
+[   30002ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://yometlive.id/wp-admin/load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,wp-hooks&ver=6.7.11:4

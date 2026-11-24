@@ -1,0 +1,1157 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - navigation "Main menu":
+      - link "Skip to main content" [ref=f16e3] [cursor=pointer]:
+        - /url: "#wpbody-content"
+      - link "Skip to toolbar" [ref=f16e4] [cursor=pointer]:
+        - /url: "#wp-toolbar"
+      - list [ref=f16e7]:
+        - listitem [ref=f16e8]:
+          - link "Hostinger" [ref=f16e9] [cursor=pointer]:
+            - /url: admin.php?page=hostinger
+          - list [ref=f16e12]:
+            - listitem [ref=f16e13]:
+              - link "Onboarding" [ref=f16e14] [cursor=pointer]:
+                - /url: admin.php?page=hostinger-get-onboarding
+            - listitem [ref=f16e15]:
+              - link "Tools" [ref=f16e16] [cursor=pointer]:
+                - /url: admin.php?page=hostinger-tools
+            - listitem [ref=f16e17]:
+              - link "AI Content Creator" [ref=f16e18] [cursor=pointer]:
+                - /url: admin.php?page=hostinger-ai-assistant
+        - listitem [ref=f16e19]:
+          - link "Dashboard" [ref=f16e20] [cursor=pointer]:
+            - /url: index.php
+            - generic [aria-hidden] [ref=f16e21]: 
+          - list [ref=f16e23]:
+            - listitem [ref=f16e24]:
+              - link "Home" [ref=f16e25] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f16e26]:
+              - link "Updates 20" [ref=f16e27] [cursor=pointer]:
+                - /url: update-core.php
+                - text: Updates
+                - generic [ref=f16e28]: "20"
+        - listitem [ref=f16e29]:
+          - link "Astra" [ref=f16e30] [cursor=pointer]:
+            - /url: admin.php?page=astra
+          - list [ref=f16e33]:
+            - listitem [ref=f16e34]:
+              - link "Dashboard" [ref=f16e35] [cursor=pointer]:
+                - /url: admin.php?page=astra
+            - listitem [ref=f16e36]:
+              - link "Customize" [ref=f16e37] [cursor=pointer]:
+                - /url: customize.php
+            - listitem [ref=f16e38]:
+              - link "Site Builder" [ref=f16e39] [cursor=pointer]:
+                - /url: admin.php?page=theme-builder-free
+            - listitem [ref=f16e40]:
+              - link "Starter Templates" [ref=f16e41] [cursor=pointer]:
+                - /url: themes.php?page=starter-templates
+            - listitem [ref=f16e42]:
+              - link "Learn 5" [ref=f16e43] [cursor=pointer]:
+                - /url: admin.php?page=astra&path=learn
+                - text: Learn
+                - generic [ref=f16e44]: "5"
+        - listitem [ref=f16e45]:
+          - link "Elementor" [ref=f16e46] [cursor=pointer]:
+            - /url: admin.php?page=elementor-home
+          - list [ref=f16e49]:
+            - listitem [ref=f16e50]:
+              - link "Home" [ref=f16e51] [cursor=pointer]:
+                - /url: admin.php?page=elementor-home
+            - listitem [ref=f16e52]:
+              - link "Editor" [ref=f16e53] [cursor=pointer]:
+                - /url: admin.php?page=elementor
+            - listitem [ref=f16e54]:
+              - link "Theme Builder" [ref=f16e55] [cursor=pointer]:
+                - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1&return_to=/wp-admin/post.php?post=105&action=edit#/site-editor
+            - listitem [ref=f16e56]:
+              - link "Submissions" [ref=f16e57] [cursor=pointer]:
+                - /url: admin.php?page=e-form-submissions
+            - listitem [ref=f16e58]:
+              - link "Add New Template" [ref=f16e59] [cursor=pointer]:
+                - /url: post-new.php?post_type=elementor_library
+            - listitem [ref=f16e60]:
+              - link "Categories" [ref=f16e61] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=elementor_library_category&post_type=elementor_library
+            - listitem [ref=f16e62]:
+              - link "Popups" [ref=f16e63] [cursor=pointer]:
+                - /url: edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup
+            - listitem [ref=f16e64]:
+              - link "Theme Builder" [ref=f16e65] [cursor=pointer]:
+                - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1#/site-editor
+            - listitem [ref=f16e66]:
+              - link "Addons" [ref=f16e67] [cursor=pointer]:
+                - /url: elementor-third-party-pages
+        - listitem [aria-hidden] [ref=f16e68]
+        - listitem [ref=f16e70]:
+          - link "Posts" [ref=f16e71] [cursor=pointer]:
+            - /url: edit.php
+            - generic [aria-hidden] [ref=f16e72]: 
+          - list [ref=f16e74]:
+            - listitem [ref=f16e75]:
+              - link "All Posts" [ref=f16e76] [cursor=pointer]:
+                - /url: edit.php
+            - listitem [ref=f16e77]:
+              - link "Add New Post" [ref=f16e78] [cursor=pointer]:
+                - /url: post-new.php
+            - listitem [ref=f16e79]:
+              - link "Categories" [ref=f16e80] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=category
+            - listitem [ref=f16e81]:
+              - link "Tags" [ref=f16e82] [cursor=pointer]:
+                - /url: edit-tags.php?taxonomy=post_tag
+        - listitem [ref=f16e83]:
+          - link "Media" [ref=f16e84] [cursor=pointer]:
+            - /url: upload.php
+            - generic [aria-hidden] [ref=f16e85]: 
+          - list [ref=f16e87]:
+            - listitem [ref=f16e88]:
+              - link "Library" [ref=f16e89] [cursor=pointer]:
+                - /url: upload.php
+            - listitem [ref=f16e90]:
+              - link "Add New Media File" [ref=f16e91] [cursor=pointer]:
+                - /url: media-new.php
+        - listitem [ref=f16e92]:
+          - link "Pages" [ref=f16e93] [cursor=pointer]:
+            - /url: edit.php?post_type=page
+            - generic [aria-hidden] [ref=f16e94]: 
+          - list [ref=f16e96]:
+            - listitem [ref=f16e97]:
+              - link "All Pages" [ref=f16e98] [cursor=pointer]:
+                - /url: edit.php?post_type=page
+            - listitem [ref=f16e99]:
+              - link "Add New Page" [ref=f16e100] [cursor=pointer]:
+                - /url: post-new.php?post_type=page
+        - listitem [ref=f16e101]:
+          - link "Comments" [ref=f16e102] [cursor=pointer]:
+            - /url: edit-comments.php
+            - generic [aria-hidden] [ref=f16e103]: 
+        - text:  
+        - listitem [aria-hidden] [ref=f16e105]
+        - listitem [ref=f16e107]:
+          - link "Appearance" [ref=f16e108] [cursor=pointer]:
+            - /url: themes.php
+            - generic [aria-hidden] [ref=f16e109]: 
+          - list [ref=f16e111]:
+            - listitem [ref=f16e112]:
+              - link "Themes 4" [ref=f16e113] [cursor=pointer]:
+                - /url: themes.php
+                - text: Themes
+                - generic [ref=f16e114]: "4"
+            - listitem [ref=f16e115]:
+              - link "Patterns" [ref=f16e116] [cursor=pointer]:
+                - /url: site-editor.php?path=/patterns
+            - listitem [ref=f16e117]:
+              - link "Customize" [ref=f16e118] [cursor=pointer]:
+                - /url: customize.php?return=%2Fwp-admin%2Fpost.php%3Fpost%3D105%26action%3Dedit
+            - listitem [ref=f16e119]:
+              - link "Widgets" [ref=f16e120] [cursor=pointer]:
+                - /url: widgets.php
+            - listitem [ref=f16e121]:
+              - link "Menus" [ref=f16e122] [cursor=pointer]:
+                - /url: nav-menus.php
+            - listitem
+            - listitem [ref=f16e123]:
+              - link "Starter Templates" [ref=f16e124] [cursor=pointer]:
+                - /url: themes.php?page=starter-templates
+            - listitem [ref=f16e125]:
+              - link "Theme File Editor" [ref=f16e126] [cursor=pointer]:
+                - /url: theme-editor.php
+        - listitem [ref=f16e127]:
+          - link "WhatsApp" [ref=f16e128] [cursor=pointer]:
+            - /url: edit.php?post_type=whatsapp-accounts
+          - list [ref=f16e131]:
+            - listitem [ref=f16e132]:
+              - link "All Accounts" [ref=f16e133] [cursor=pointer]:
+                - /url: edit.php?post_type=whatsapp-accounts
+            - listitem [ref=f16e134]:
+              - link "Add New account" [ref=f16e135] [cursor=pointer]:
+                - /url: post-new.php?post_type=whatsapp-accounts
+            - listitem [ref=f16e136]:
+              - link "Floating Widget" [ref=f16e137] [cursor=pointer]:
+                - /url: admin.php?page=nta_whatsapp_floating_widget
+            - listitem [ref=f16e138]:
+              - link "Settings" [ref=f16e139] [cursor=pointer]:
+                - /url: admin.php?page=nta_whatsapp_setting
+            - listitem [ref=f16e140]:
+              - link "Recommended Plugins" [ref=f16e141] [cursor=pointer]:
+                - /url: admin.php?page=nta_whatsapp_recommended_plugins
+        - listitem [ref=f16e142]:
+          - link "Plugins 15" [ref=f16e143] [cursor=pointer]:
+            - /url: plugins.php
+            - generic [aria-hidden] [ref=f16e144]: 
+            - generic [ref=f16e145]:
+              - text: Plugins
+              - generic [ref=f16e146]: "15"
+          - list [ref=f16e147]:
+            - listitem [ref=f16e148]:
+              - link "Installed Plugins" [ref=f16e149] [cursor=pointer]:
+                - /url: plugins.php
+            - listitem [ref=f16e150]:
+              - link "Add New Plugin" [ref=f16e151] [cursor=pointer]:
+                - /url: plugin-install.php
+            - listitem [ref=f16e152]:
+              - link "Plugin File Editor" [ref=f16e153] [cursor=pointer]:
+                - /url: plugin-editor.php
+        - listitem [ref=f16e154]:
+          - link "Profile" [ref=f16e155] [cursor=pointer]:
+            - /url: profile.php
+            - generic [aria-hidden] [ref=f16e156]: 
+        - listitem [ref=f16e158]:
+          - link "Tools" [ref=f16e159] [cursor=pointer]:
+            - /url: tools.php
+            - generic [aria-hidden] [ref=f16e160]: 
+          - list [ref=f16e162]:
+            - listitem [ref=f16e163]:
+              - link "Available Tools" [ref=f16e164] [cursor=pointer]:
+                - /url: tools.php
+            - listitem [ref=f16e165]:
+              - link "Import" [ref=f16e166] [cursor=pointer]:
+                - /url: import.php
+            - listitem [ref=f16e167]:
+              - link "Export" [ref=f16e168] [cursor=pointer]:
+                - /url: export.php
+            - listitem [ref=f16e169]:
+              - link "Site Health" [ref=f16e170] [cursor=pointer]:
+                - /url: site-health.php
+            - listitem [ref=f16e171]:
+              - link "Export Personal Data" [ref=f16e172] [cursor=pointer]:
+                - /url: export-personal-data.php
+            - listitem [ref=f16e173]:
+              - link "Erase Personal Data" [ref=f16e174] [cursor=pointer]:
+                - /url: erase-personal-data.php
+            - listitem [ref=f16e175]:
+              - link "Scheduled Actions" [ref=f16e176] [cursor=pointer]:
+                - /url: tools.php?page=action-scheduler
+            - listitem [ref=f16e177]:
+              - link "Redirection" [ref=f16e178] [cursor=pointer]:
+                - /url: tools.php?page=redirection.php
+        - listitem [ref=f16e179]:
+          - link "All-in-One WP Migration" [ref=f16e180] [cursor=pointer]:
+            - /url: admin.php?page=ai1wm_export
+          - list [ref=f16e183]:
+            - listitem [ref=f16e184]:
+              - link "Export" [ref=f16e185] [cursor=pointer]:
+                - /url: admin.php?page=ai1wm_export
+            - listitem [ref=f16e186]:
+              - link "Import" [ref=f16e187] [cursor=pointer]:
+                - /url: admin.php?page=ai1wm_import
+            - listitem [ref=f16e188]:
+              - link "Backups 1" [ref=f16e189] [cursor=pointer]:
+                - /url: admin.php?page=ai1wm_backups
+                - text: Backups
+                - generic "You have 1 backup" [ref=f16e190]: "1"
+            - listitem [ref=f16e191]:
+              - link "Reset Hub Premium" [ref=f16e192] [cursor=pointer]:
+                - /url: admin.php?page=ai1wm_reset
+                - text: Reset Hub
+                - generic [ref=f16e193]: Premium
+            - listitem [ref=f16e194]:
+              - link "Schedules Premium" [ref=f16e195] [cursor=pointer]:
+                - /url: admin.php?page=ai1wm_schedules
+                - text: Schedules
+                - generic [ref=f16e196]: Premium
+        - listitem [ref=f16e197]:
+          - link "Settings" [ref=f16e198] [cursor=pointer]:
+            - /url: options-general.php
+            - generic [aria-hidden] [ref=f16e199]: 
+          - list [ref=f16e201]:
+            - listitem [ref=f16e202]:
+              - link "General" [ref=f16e203] [cursor=pointer]:
+                - /url: options-general.php
+            - listitem [ref=f16e204]:
+              - link "Writing" [ref=f16e205] [cursor=pointer]:
+                - /url: options-writing.php
+            - listitem [ref=f16e206]:
+              - link "Reading" [ref=f16e207] [cursor=pointer]:
+                - /url: options-reading.php
+            - listitem [ref=f16e208]:
+              - link "Discussion" [ref=f16e209] [cursor=pointer]:
+                - /url: options-discussion.php
+            - listitem [ref=f16e210]:
+              - link "Media" [ref=f16e211] [cursor=pointer]:
+                - /url: options-media.php
+            - listitem [ref=f16e212]:
+              - link "Permalinks" [ref=f16e213] [cursor=pointer]:
+                - /url: options-permalink.php
+            - listitem [ref=f16e214]:
+              - link "Privacy" [ref=f16e215] [cursor=pointer]:
+                - /url: options-privacy.php
+            - listitem [ref=f16e216]:
+              - link "Menu Editor" [ref=f16e217] [cursor=pointer]:
+                - /url: options-general.php?page=menu_editor
+        - listitem [ref=f16e218]:
+          - link "Buttonizer" [ref=f16e219] [cursor=pointer]:
+            - /url: admin.php?page=Buttonizer
+          - list [ref=f16e222]:
+            - listitem [ref=f16e223]:
+              - link "Buttonizer" [ref=f16e224] [cursor=pointer]:
+                - /url: admin.php?page=Buttonizer
+            - listitem [ref=f16e225]:
+              - link "Edit buttons" [ref=f16e226] [cursor=pointer]:
+                - /url: admin.php?page=Buttonizer#/editor
+            - listitem [ref=f16e227]:
+              - link "I need support" [ref=f16e228] [cursor=pointer]:
+                - /url: admin.php?page=Buttonizer#/support
+            - listitem [ref=f16e229]:
+              - link "Community" [ref=f16e230] [cursor=pointer]:
+                - /url: https://r.buttonizer.io/support/community?referral=buttonizer-plugin-menu
+            - listitem [ref=f16e231]:
+              - link "Knowledge base" [ref=f16e232] [cursor=pointer]:
+                - /url: https://r.buttonizer.io/support/knowledgebase?referral=buttonizer-plugin-menu
+        - listitem [aria-hidden] [ref=f16e233]
+        - listitem [ref=f16e235]:
+          - link "Yoast SEO" [ref=f16e236] [cursor=pointer]:
+            - /url: admin.php?page=wpseo_dashboard
+          - list [ref=f16e239]:
+            - listitem [ref=f16e240]:
+              - link "General" [ref=f16e241] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_dashboard
+            - listitem [ref=f16e242]:
+              - link "Settings" [ref=f16e243] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_page_settings
+            - listitem [ref=f16e244]:
+              - link "Integrations" [ref=f16e245] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_integrations
+            - listitem [ref=f16e246]:
+              - link "Tools" [ref=f16e247] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_tools
+            - listitem [ref=f16e248]:
+              - link "Academy" [ref=f16e249] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_page_academy
+            - listitem [ref=f16e250]:
+              - link "Upgrades" [ref=f16e251] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_licenses
+            - listitem [ref=f16e252]:
+              - link "Workouts Premium" [ref=f16e253] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_workouts
+                - text: Workouts
+                - generic [ref=f16e254]: Premium
+            - listitem [ref=f16e255]:
+              - link "Redirects Premium" [ref=f16e256] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_redirects
+                - text: Redirects
+                - generic [ref=f16e257]: Premium
+            - listitem [ref=f16e258]:
+              - link "Support" [ref=f16e259] [cursor=pointer]:
+                - /url: admin.php?page=wpseo_page_support
+        - listitem [ref=f16e260]:
+          - link "Members" [ref=f16e261] [cursor=pointer]:
+            - /url: admin.php?page=members-settings
+          - list [ref=f16e264]:
+            - listitem [ref=f16e265]:
+              - link "Settings" [ref=f16e266] [cursor=pointer]:
+                - /url: admin.php?page=members-settings
+            - listitem [ref=f16e267]:
+              - link "Add-Ons" [ref=f16e268] [cursor=pointer]:
+                - /url: admin.php?page=members-settings&view=add-ons
+            - listitem [ref=f16e269]:
+              - link "Payments" [ref=f16e270] [cursor=pointer]:
+                - /url: admin.php?page=members-payments
+            - listitem [ref=f16e271]:
+              - link "About Us" [ref=f16e272] [cursor=pointer]:
+                - /url: admin.php?page=members-about
+            - listitem [ref=f16e273]:
+              - link "Growth Tools" [ref=f16e274] [cursor=pointer]:
+                - /url: admin.php?page=members-growth-tools
+        - listitem [ref=f16e275]:
+          - link "AIOS" [ref=f16e276] [cursor=pointer]:
+            - /url: admin.php?page=aiowpsec
+          - list [ref=f16e279]:
+            - listitem [ref=f16e280]:
+              - link "Dashboard" [ref=f16e281] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec
+            - listitem [ref=f16e282]:
+              - link "Settings" [ref=f16e283] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_settings
+            - listitem [ref=f16e284]:
+              - link "User Security" [ref=f16e285] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_usersec
+            - listitem [ref=f16e286]:
+              - link "File Security" [ref=f16e287] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_filesystem
+            - listitem [ref=f16e288]:
+              - link "Firewall" [ref=f16e289] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_firewall
+            - listitem [ref=f16e290]:
+              - link "Brute Force" [ref=f16e291] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_brute_force
+            - listitem [ref=f16e292]:
+              - link "Spam Prevention" [ref=f16e293] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_spam
+            - listitem [ref=f16e294]:
+              - link "Tools" [ref=f16e295] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_tools
+            - listitem [ref=f16e296]:
+              - link "Two Factor Auth" [ref=f16e297] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec_two_factor_auth_user
+            - listitem [ref=f16e298]:
+              - link "Premium Upgrade" [ref=f16e299] [cursor=pointer]:
+                - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+        - listitem [ref=f16e300]:
+          - link "Statistics" [ref=f16e301] [cursor=pointer]:
+            - /url: admin.php?page=wps_overview_page
+            - generic [aria-hidden] [ref=f16e302]: 
+          - list [ref=f16e304]:
+            - listitem [ref=f16e305]:
+              - link "Overview" [ref=f16e306] [cursor=pointer]:
+                - /url: admin.php?page=wps_overview_page
+            - listitem [ref=f16e307]:
+              - link "Visitor Insights" [ref=f16e308] [cursor=pointer]:
+                - /url: admin.php?page=wps_visitors_page
+            - listitem [ref=f16e309]:
+              - link "Page Insights" [ref=f16e310] [cursor=pointer]:
+                - /url: admin.php?page=wps_pages_page
+            - listitem [ref=f16e311]:
+              - link "Referrals" [ref=f16e312] [cursor=pointer]:
+                - /url: admin.php?page=wps_referrals_page
+            - listitem [ref=f16e313]:
+              - link "Content Analytics" [ref=f16e314] [cursor=pointer]:
+                - /url: admin.php?page=wps_content-analytics_page
+            - listitem [ref=f16e315]:
+              - link "Author Analytics" [ref=f16e316] [cursor=pointer]:
+                - /url: admin.php?page=wps_author-analytics_page
+            - listitem [ref=f16e317]:
+              - link "Category Analytics" [ref=f16e318] [cursor=pointer]:
+                - /url: admin.php?page=wps_category-analytics_page
+            - listitem [ref=f16e319]:
+              - link "Geographic" [ref=f16e320] [cursor=pointer]:
+                - /url: admin.php?page=wps_geographic_page
+            - listitem [ref=f16e321]:
+              - link "Devices" [ref=f16e322] [cursor=pointer]:
+                - /url: admin.php?page=wps_devices_page
+            - listitem [ref=f16e323]:
+              - link "Add-ons" [ref=f16e324] [cursor=pointer]:
+                - /url: admin.php?page=wps_plugins_page
+            - listitem [ref=f16e325]:
+              - link "Privacy Audit" [ref=f16e326] [cursor=pointer]:
+                - /url: admin.php?page=wps_privacy-audit_page
+            - listitem [ref=f16e327]:
+              - link "Settings" [ref=f16e328] [cursor=pointer]:
+                - /url: admin.php?page=wps_settings_page
+            - listitem [ref=f16e329]:
+              - link "Optimization" [ref=f16e330] [cursor=pointer]:
+                - /url: admin.php?page=wps_optimization_page
+            - listitem [ref=f16e331]:
+              - link "Help Center 4" [ref=f16e332] [cursor=pointer]:
+                - /url: admin.php?page=wps_help-center_page
+                - text: Help Center
+                - generic "4 plugin notifications" [ref=f16e333]: "4"
+        - listitem [ref=f16e334]:
+          - link "LiteSpeed Cache" [ref=f16e335] [cursor=pointer]:
+            - /url: admin.php?page=litespeed
+            - generic [aria-hidden] [ref=f16e336]: 
+          - list [ref=f16e338]:
+            - listitem [ref=f16e339]:
+              - link "Dashboard" [ref=f16e340] [cursor=pointer]:
+                - /url: admin.php?page=litespeed
+            - listitem [ref=f16e341]:
+              - link "Presets" [ref=f16e342] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-presets
+            - listitem [ref=f16e343]:
+              - link "General" [ref=f16e344] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-general
+            - listitem [ref=f16e345]:
+              - link "Cache" [ref=f16e346] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-cache
+            - listitem [ref=f16e347]:
+              - link "CDN" [ref=f16e348] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-cdn
+            - listitem [ref=f16e349]:
+              - link "Image Optimization" [ref=f16e350] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-img_optm
+            - listitem [ref=f16e351]:
+              - link "Page Optimization" [ref=f16e352] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-page_optm
+            - listitem [ref=f16e353]:
+              - link "Database" [ref=f16e354] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-db_optm
+            - listitem [ref=f16e355]:
+              - link "Crawler" [ref=f16e356] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-crawler
+            - listitem [ref=f16e357]:
+              - link "Toolbox" [ref=f16e358] [cursor=pointer]:
+                - /url: admin.php?page=litespeed-toolbox
+        - listitem [ref=f16e359]:
+          - link "Site Kit" [ref=f16e360] [cursor=pointer]:
+            - /url: admin.php?page=googlesitekit-splash
+          - list [ref=f16e363]:
+            - listitem [ref=f16e364]:
+              - link "Dashboard" [ref=f16e365] [cursor=pointer]:
+                - /url: admin.php?page=googlesitekit-splash
+        - text: 
+        - listitem [ref=f16e366]:
+          - link "Chaty" [ref=f16e367] [cursor=pointer]:
+            - /url: admin.php?page=chaty-app
+          - list [ref=f16e370]:
+            - listitem [ref=f16e371]:
+              - link "Dashboard" [ref=f16e372] [cursor=pointer]:
+                - /url: admin.php?page=chaty-app
+            - listitem [ref=f16e373]:
+              - link "Chaty Upgrade" [ref=f16e374] [cursor=pointer]:
+                - /url: admin.php?page=chaty-upgrade
+            - listitem [ref=f16e375]:
+              - link "Chatway Live Chat" [ref=f16e376] [cursor=pointer]:
+                - /url: admin.php?page=chaty-live-chat
+            - listitem [ref=f16e377]:
+              - link "Widget Analytics" [ref=f16e378] [cursor=pointer]:
+                - /url: admin.php?page=widget-analytics
+            - listitem [ref=f16e379]:
+              - link "Contact form leads" [ref=f16e380] [cursor=pointer]:
+                - /url: admin.php?page=chaty-contact-form-feed
+            - listitem [ref=f16e381]:
+              - link "Recommended Plugins" [ref=f16e382] [cursor=pointer]:
+                - /url: admin.php?page=recommended-chaty-plugins
+            - listitem [ref=f16e383]:
+              - link "Upgrade to Pro" [ref=f16e384] [cursor=pointer]:
+                - /url: admin.php?page=chaty-app-upgrade
+        - listitem [aria-hidden] [ref=f16e385]
+        - listitem [ref=f16e387]:
+          - button "Collapse Main menu" [expanded] [ref=f16e388] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f16e389]: 
+            - generic [ref=f16e390]: Collapse menu
+    - generic [ref=f16e391]:
+      - generic [ref=f16e392]:
+        - navigation "Toolbar":
+          - menu:
+            - group [ref=f16e393]:
+              - menuitem "About WordPress" [ref=f16e394] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f16e395]: 
+            - group [ref=f16e397]:
+              - menuitem " Yomet App" [ref=f16e398] [cursor=pointer]
+            - group [ref=f16e399]:
+              - menuitem "20 updates available" [ref=f16e400] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f16e401]: 
+                - generic [aria-hidden] [ref=f16e402]: "20"
+            - group [ref=f16e404]:
+              - menuitem "0 Comments in moderation" [ref=f16e405] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f16e406]: 
+                - generic [aria-hidden] [ref=f16e407]: "0"
+            - group [ref=f16e409]:
+              - 'menuitem " Online: 0" [ref=f16e410] [cursor=pointer]':
+                - generic [ref=f16e411]: 
+                - text: "Online: 0"
+              - text: 
+            - group [ref=f16e412]:
+              - menuitem "New" [ref=f16e413] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f16e414]: 
+            - group [ref=f16e416]:
+              - menuitem "View Page" [ref=f16e417] [cursor=pointer]
+            - group [ref=f16e418]:
+              - menuitem "" [ref=f16e419] [cursor=pointer]:
+                - generic "LiteSpeed Cache Purge All - LSCache" [ref=f16e420]: 
+            - group [ref=f16e421]:
+              - menuitem "SEO" [ref=f16e422] [cursor=pointer]:
+                - generic [ref=f16e426]: Good SEO score
+              - text:  Premium Premium
+            - group [ref=f16e427]:
+              - menuitem [ref=f16e428] [cursor=pointer]
+            - group [ref=f16e430]:
+              - menuitem "Hostinger" [ref=f16e431]
+            - group [ref=f16e434]:
+              - menuitem "Edit Home Page" [ref=f16e435] [cursor=pointer]
+          - menu [ref=f16e436]:
+            - group [ref=f16e437]:
+              - menuitem [ref=f16e438] [cursor=pointer]
+            - group [ref=f16e443]:
+              - menuitem "Howdy, irza" [ref=f16e444] [cursor=pointer]
+      - main [ref=f16e445]:
+        - generic [ref=f16e446]:
+          - generic [ref=f16e447]:
+            - button "Screen Options " [ref=f16e449] [cursor=pointer]
+            - button "Help " [ref=f16e451] [cursor=pointer]
+          - generic [ref=f16e452]:
+            - heading "Edit Page" [level=1] [ref=f16e453]
+            - link "Add New Page" [ref=f16e454] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/post-new.php?post_type=page
+            - generic [ref=f16e455]:
+              - link "WordPress 7.1.4" [ref=f16e456] [cursor=pointer]:
+                - /url: https://wordpress.org/documentation/wordpress-version/version-7-1-4/
+              - text: is available!
+              - link "Please update WordPress now" [ref=f16e457] [cursor=pointer]:
+                - /url: https://yometapp.com/wp-admin/update-core.php
+                - text: Please update now
+              - text: .
+            - generic [ref=f16e458]:
+              - generic [ref=f16e459]:
+                - paragraph [ref=f16e460]: Are you enjoying using Members?
+                - paragraph [ref=f16e461]:
+                  - link "Yes, I love it" [ref=f16e462] [cursor=pointer]:
+                    - /url: "#"
+                  - text: 🙂 |
+                  - link "Not really..." [ref=f16e463] [cursor=pointer]:
+                    - /url: "#"
+              - button " Dismiss this notice." [ref=f16e464] [cursor=pointer]:
+                - text: 
+                - generic [ref=f16e465]: Dismiss this notice.
+            - region "Elementor notice" [ref=f16e466]:
+              - button "Dismiss this notice." [ref=f16e467] [cursor=pointer]: 
+              - generic [aria-hidden] [ref=f16e470]: 
+              - generic [ref=f16e471]:
+                - heading "Form Submissions now activated by default on all websites" [level=3] [ref=f16e472]
+                - paragraph [ref=f16e473]:
+                  - text: The Form Submissions feature, previously located under the Features tab in Elementor, is now enabled by default on all websites. If you prefer to disable this feature, you can do so by navigating to
+                  - link [ref=f16e474] [cursor=pointer]:
+                    - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-settings#tab-advanced
+                    - strong [ref=f16e475]: Settings → Advanced
+                  - text: .
+                - link "Got it! Keep it enabled" [ref=f16e477] [cursor=pointer]:
+                  - /url: https://yometapp.com/wp-admin/admin-post.php?action=elementor_set_admin_notice_viewed&notice_id=elementor-pro-forms-submissions
+            - region "Elementor notice" [ref=f16e478]:
+              - button "Dismiss this notice." [ref=f16e479] [cursor=pointer]: 
+              - generic [aria-hidden] [ref=f16e482]: 
+              - generic [ref=f16e483]:
+                - heading "Improve your site’s performance score." [level=3] [ref=f16e484]
+                - paragraph [ref=f16e485]: With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed.
+                - generic [ref=f16e486]:
+                  - link "Try it out" [ref=f16e487] [cursor=pointer]:
+                    - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-settings#tab-experiments
+                  - link "Learn more" [ref=f16e488] [cursor=pointer]:
+                    - /url: https://go.elementor.com/wp-dash-experiment-promotion/
+            - generic [ref=f16e489]:
+              - generic [ref=f16e491]:
+                - generic [ref=f16e492]:
+                  - strong [ref=f16e493]: Help shape the future of Starter Templates.
+                  - text: Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions.
+                  - link "Learn more." [ref=f16e495] [cursor=pointer]:
+                    - /url: https://store.brainstormforce.com/usage-tracking/?utm_source=astra_sites&utm_medium=notice&utm_campaign=usage_tracking
+                - generic [ref=f16e496]:
+                  - link "Happy to help!" [ref=f16e497] [cursor=pointer]:
+                    - /url: /wp-admin/post.php?post=105&action=edit&astra_sites_analytics_optin=yes&astra_sites_analytics_nonce=b02d6e27b5&bsf_analytics_source=astra_sites
+                  - link "Skip" [ref=f16e498] [cursor=pointer]:
+                    - /url: /wp-admin/post.php?post=105&action=edit&astra_sites_analytics_optin=no&astra_sites_analytics_nonce=b02d6e27b5&bsf_analytics_source=astra_sites
+              - button " Dismiss this notice." [ref=f16e499] [cursor=pointer]:
+                - text: 
+                - generic [ref=f16e500]: Dismiss this notice.
+            - text: 
+            - generic [ref=f16e502]:
+              - generic:
+                - generic [ref=f16e503]:
+                  - generic [ref=f16e504]:
+                    - generic [ref=f16e505]:
+                      - generic: Add title
+                      - textbox "Add title" [ref=f16e506]: Contact Us
+                      - link "Skip to Editor" [ref=f16e507] [cursor=pointer]:
+                        - /url: "#content"
+                    - generic [ref=f16e509]:
+                      - strong [ref=f16e510]: "Permalink:"
+                      - link "https://yometapp.com/contact-us/" [ref=f16e512] [cursor=pointer]:
+                        - /url: https://yometapp.com/contact-us/
+                      - text: ‎
+                      - button "Edit permalink" [ref=f16e514] [cursor=pointer]: Edit
+                  - button [ref=f16e516] [cursor=pointer]:
+                    - generic [ref=f16e517]:
+                      - generic [aria-hidden] [ref=f16e518]: 
+                      - text: Back to WordPress Editor
+                    - text: 
+                  - link [ref=f16e520] [cursor=pointer]:
+                    - /url: https://yometapp.com/wp-admin/post.php?post=105&action=elementor
+                    - generic [ref=f16e521]:
+                      - generic [aria-hidden] [ref=f16e522]: 
+                      - text: Edit with Elementor
+                  - text:                         
+                - generic [ref=f16e524]:
+                  - generic [ref=f16e525]:
+                    - generic [ref=f16e526]:
+                      - heading "Statistics - Summary" [level=2] [ref=f16e527]
+                      - generic [ref=f16e528]:
+                        - button "reload button" [ref=f16e529] [cursor=pointer]
+                        - button "Move up" [disabled] [ref=f16e530]:
+                          - generic [aria-hidden] [ref=f16e532]: 
+                        - button "Move down" [ref=f16e533] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e535]: 
+                        - 'button "Toggle panel: Statistics - Summary" [expanded] [ref=f16e536] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e538]: 
+                    - generic [ref=f16e539]:
+                      - paragraph [ref=f16e540]:
+                        - text: Over the past week (Oct 26 - Nov 1), this post has been viewed 76 times by 11 visitors.In total, this post has been viewed 307 times by 93 visitors, with '
+                        - link "google.com" [ref=f16e541] [cursor=pointer]:
+                          - /url: http://google.com
+                        - text: "' leading with 4 referrals. For more detailed insights, visit the"
+                        - link "analytics section" [ref=f16e543] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&type=single&post_id=105
+                        - text: .
+                      - img "Summary chart" [ref=f16e545]
+                  - generic [ref=f16e547]:
+                    - generic [ref=f16e548]:
+                      - heading "Publish" [level=2] [ref=f16e549]
+                      - generic [ref=f16e550]:
+                        - button "Move up" [ref=f16e551] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e553]: 
+                        - button "Move down" [ref=f16e554] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e556]: 
+                        - 'button "Toggle panel: Publish" [expanded] [ref=f16e557] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e559]: 
+                    - generic [ref=f16e561]:
+                      - generic [ref=f16e562]:
+                        - link "Preview Changes (opens in a new tab)" [ref=f16e564] [cursor=pointer]:
+                          - /url: https://yometapp.com/contact-us/?preview=true
+                          - text: Preview Changes
+                          - generic [ref=f16e565]: (opens in a new tab)
+                        - generic [ref=f16e566]:
+                          - generic [ref=f16e567]:
+                            - text: " Status: Published"
+                            - button "Edit status" [ref=f16e568] [cursor=pointer]: Edit
+                          - generic [ref=f16e570]:
+                            - text: " Visibility: Public"
+                            - button "Edit visibility" [ref=f16e571] [cursor=pointer]: Edit
+                          - generic [ref=f16e573]:
+                            - text: " Revisions: 70"
+                            - link "Browse revisions" [ref=f16e574] [cursor=pointer]:
+                              - /url: https://yometapp.com/wp-admin/revision.php?revision=3317
+                              - text: Browse
+                          - generic [ref=f16e576]:
+                            - generic [ref=f16e577]: " Published on: Nov 2, 2023 at 10:10"
+                            - button "Edit date and time" [ref=f16e578] [cursor=pointer]: Edit
+                          - generic [ref=f16e580]:
+                            - generic [ref=f16e583]:
+                              - link "SEO analysis:" [ref=f16e584] [cursor=pointer]:
+                                - /url: "#yoast-seo-analysis-collapsible-metabox"
+                              - strong [ref=f16e585]: Needs improvement
+                            - generic [ref=f16e588]:
+                              - link "Readability analysis:" [ref=f16e589] [cursor=pointer]:
+                                - /url: "#yoast-readability-analysis-collapsible-metabox"
+                              - strong [ref=f16e590]: Good
+                      - generic [ref=f16e591]:
+                        - link "Move to Trash" [ref=f16e593] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=105&action=trash&_wpnonce=79815064d3
+                        - button "Update" [ref=f16e595] [cursor=pointer]
+                  - generic [ref=f16e596]:
+                    - generic [ref=f16e597]:
+                      - heading "Page Attributes" [level=2] [ref=f16e598]
+                      - generic [ref=f16e599]:
+                        - button "Move up" [ref=f16e600] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e602]: 
+                        - button "Move down" [ref=f16e603] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e605]: 
+                        - 'button "Toggle panel: Page Attributes" [expanded] [ref=f16e606] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e608]: 
+                    - generic [ref=f16e609]:
+                      - paragraph [ref=f16e610]: Parent
+                      - combobox "Parent" [ref=f16e611] [cursor=pointer]:
+                        - option "(no parent)" [selected]
+                        - option "Agency"
+                        - option "Bio"
+                        - option "Home"
+                        - option "Host Cooperation"
+                        - option "Login Customizer"
+                      - paragraph [ref=f16e612]: Template
+                      - combobox "Template" [ref=f16e613] [cursor=pointer]:
+                        - option "Default template"
+                        - option "Elementor Canvas"
+                        - option "Elementor Full Width" [selected]
+                        - option "Theme"
+                      - paragraph [ref=f16e614]: Order
+                      - textbox "Order" [ref=f16e615]: "0"
+                      - paragraph [ref=f16e616]: Need help? Use the Help tab above the screen title.
+                  - generic [ref=f16e617]:
+                    - generic [ref=f16e618]:
+                      - heading "LiteSpeed" [level=2] [ref=f16e619]
+                      - generic [ref=f16e620]:
+                        - button "Move up" [ref=f16e621] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e623]: 
+                        - button "Move down" [ref=f16e624] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e626]: 
+                        - 'button "Toggle panel: LiteSpeed" [expanded] [ref=f16e627] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e629]: 
+                    - generic [ref=f16e630]:
+                      - generic [ref=f16e631]:
+                        - generic [ref=f16e632]: Disable Cache
+                        - checkbox "Disable Cache" [ref=f16e633] [cursor=pointer]
+                      - generic [ref=f16e634]:
+                        - generic [ref=f16e635]: Disable Image Lazyload
+                        - checkbox "Disable Image Lazyload" [ref=f16e636] [cursor=pointer]
+                      - generic [ref=f16e637]:
+                        - generic [ref=f16e638]: Disable VPI
+                        - checkbox "Disable VPI" [ref=f16e639] [cursor=pointer]
+                      - generic [ref=f16e640]:
+                        - text: Viewport Images
+                        - textbox "Viewport Images" [ref=f16e641]
+                      - generic [ref=f16e642]:
+                        - text: Viewport Images - Mobile
+                        - textbox "Viewport Images - Mobile" [ref=f16e643]
+                      - link "Learn More" [ref=f16e645] [cursor=pointer]:
+                        - /url: https://docs.litespeedtech.com/lscache/lscwp/metabox/
+                  - generic [ref=f16e646]:
+                    - generic [ref=f16e647]:
+                      - heading "Astra Settings" [level=2] [ref=f16e648]
+                      - generic [ref=f16e649]:
+                        - button "Move up" [ref=f16e650] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e652]: 
+                        - button "Move down" [ref=f16e653] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e655]: 
+                        - 'button "Toggle panel: Astra Settings" [expanded] [ref=f16e656] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e658]: 
+                    - generic [ref=f16e659]:
+                      - generic [ref=f16e660]:
+                        - paragraph [ref=f16e661]:
+                          - strong [ref=f16e662]: Container Layout
+                        - combobox [ref=f16e663] [cursor=pointer]:
+                          - option "Customizer Setting"
+                          - option "Normal"
+                          - option "Narrow"
+                          - option "Full Width" [selected]
+                      - generic [ref=f16e664]:
+                        - paragraph [ref=f16e665]:
+                          - strong [ref=f16e666]: Container Style
+                        - combobox [ref=f16e667] [cursor=pointer]:
+                          - option "Customizer Setting" [selected]
+                          - option "Unboxed"
+                          - option "Boxed"
+                      - generic [ref=f16e668]:
+                        - paragraph [ref=f16e669]:
+                          - strong [ref=f16e670]: Sidebar Layout
+                        - combobox [ref=f16e671] [cursor=pointer]:
+                          - option "Customizer Setting"
+                          - option "Left Sidebar"
+                          - option "Right Sidebar"
+                          - option "No Sidebar" [selected]
+                      - generic [ref=f16e672]:
+                        - paragraph [ref=f16e673]:
+                          - strong [ref=f16e674]: Sidebar Style
+                        - combobox [ref=f16e675] [cursor=pointer]:
+                          - option "Customizer Setting" [selected]
+                          - option "Unboxed"
+                          - option "Boxed"
+                      - generic [ref=f16e676]:
+                        - paragraph [ref=f16e677]:
+                          - strong [ref=f16e678]: Disable Sections
+                        - generic [ref=f16e679]:
+                          - generic [ref=f16e681]:
+                            - checkbox "Disable Primary Header" [ref=f16e682] [cursor=pointer]
+                            - text: Disable Primary Header
+                          - generic [ref=f16e683]:
+                            - checkbox "Disable Mobile Header" [ref=f16e684] [cursor=pointer]
+                            - text: Disable Mobile Header
+                          - generic [ref=f16e686]:
+                            - checkbox "Disable Title" [checked] [ref=f16e687] [cursor=pointer]
+                            - text: Disable Title
+                          - generic [ref=f16e689]:
+                            - checkbox "Disable Breadcrumb" [ref=f16e690] [cursor=pointer]
+                            - text: Disable Breadcrumb
+                          - generic [ref=f16e692]:
+                            - checkbox "Disable Featured Image" [checked] [ref=f16e693] [cursor=pointer]
+                            - text: Disable Featured Image
+                          - generic [ref=f16e695]:
+                            - checkbox "Disable Banner Area" [ref=f16e696] [cursor=pointer]
+                            - text: Disable Banner Area
+                          - generic [ref=f16e698]:
+                            - checkbox "Disable Footer" [ref=f16e699] [cursor=pointer]
+                            - text: Disable Footer
+                      - generic [ref=f16e700]:
+                        - paragraph [ref=f16e701]:
+                          - strong [ref=f16e702]: Transparent Header
+                        - combobox [ref=f16e703] [cursor=pointer]:
+                          - option "Customizer Setting" [selected]
+                          - option "Enabled"
+                          - option "Disabled"
+                      - generic [ref=f16e704]:
+                        - img "Astra Logo" [ref=f16e705]
+                        - paragraph [ref=f16e706]: Go from blank page to live website faster - get 300+ templates and powerful design tools.
+                        - link "Upgrade Now" [ref=f16e707] [cursor=pointer]:
+                          - /url: https://wpastra.com/pricing/?utm_source=free-theme&utm_medium=post-metabox&utm_campaign=upgrade
+                  - generic [ref=f16e708]:
+                    - generic [ref=f16e709]:
+                      - heading "Featured image" [level=2] [ref=f16e710]
+                      - generic [ref=f16e711]:
+                        - button "Move up" [ref=f16e712] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e714]: 
+                        - button "Move down" [ref=f16e715] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e717]: 
+                        - 'button "Toggle panel: Featured image" [expanded] [ref=f16e718] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e720]: 
+                    - paragraph [ref=f16e722]:
+                      - link "Set featured image" [ref=f16e723] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/media-upload.php?post_id=105&type=image&TB_iframe=1
+                  - generic [ref=f16e724]:
+                    - generic [ref=f16e725]:
+                      - heading "External Featured Image" [level=2] [ref=f16e726]
+                      - generic [ref=f16e727]:
+                        - button "Move up" [ref=f16e728] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e730]: 
+                        - button "Move down" [ref=f16e731] [cursor=pointer]:
+                          - generic [aria-hidden] [ref=f16e733]: 
+                        - 'button "Toggle panel: External Featured Image" [expanded] [ref=f16e734] [cursor=pointer]':
+                          - generic [aria-hidden] [ref=f16e736]: 
+                    - paragraph [ref=f16e738]:
+                      - text: "Image URL:"
+                      - textbox "Image URL:" [ref=f16e739]
+                - generic [ref=f16e740]:
+                  - generic [ref=f16e741]:
+                    - generic [ref=f16e742]:
+                      - generic [ref=f16e743]:
+                        - heading "Yoast SEO" [level=2] [ref=f16e744]
+                        - generic [ref=f16e745]:
+                          - button "Move up" [ref=f16e746] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f16e748]: 
+                          - button "Move down" [ref=f16e749] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f16e751]: 
+                          - 'button "Toggle panel: Yoast SEO" [expanded] [ref=f16e752] [cursor=pointer]':
+                            - generic [aria-hidden] [ref=f16e754]: 
+                      - generic [ref=f16e756]:
+                        - tablist "Yoast SEO" [ref=f16e758]:
+                          - tab "SEO" [selected] [ref=f16e759] [cursor=pointer]
+                          - tab "Readability" [ref=f16e763] [cursor=pointer]
+                          - tab "Schema" [ref=f16e768] [cursor=pointer]
+                          - tab " Social" [ref=f16e770] [cursor=pointer]:
+                            - generic [ref=f16e771]: 
+                            - text: Social
+                        - tabpanel "SEO" [ref=f16e772]:
+                          - generic [ref=f16e773]:
+                            - generic [ref=f16e776]:
+                              - generic [ref=f16e777]:
+                                - generic [ref=f16e778]:
+                                  - text: Focus keyphrase
+                                  - link " Help on choosing the perfect focus keyphrase (Opens in a new browser tab)" [ref=f16e779] [cursor=pointer]:
+                                    - /url: https://yoa.st/focus-keyword?php_version=8.2&platform=wordpress&platform_version=6.7.11&software=free&software_version=24.6&days_active=1165&user_language=en_US
+                                    - text: 
+                                    - generic [ref=f16e780]: Help on choosing the perfect focus keyphrase
+                                    - generic [ref=f16e781]: (Opens in a new browser tab)
+                                - textbox "Focus keyphrase" [ref=f16e783]: Contact Us
+                              - link "Get related keyphrases (Opens in a new browser tab)" [ref=f16e785] [cursor=pointer]:
+                                - /url: https://oauth.semrush.com/oauth2/authorize?ref=1513012826&client_id=yoast&redirect_uri=https%3A%2F%2Foauth.semrush.com%2Foauth2%2Fyoast%2Fsuccess&response_type=code&scope=user.id
+                                - text: Get related keyphrases
+                                - generic [ref=f16e786]: (Opens in a new browser tab)
+                            - generic [ref=f16e788]:
+                              - heading [level=2] [ref=f16e789]:
+                                - button "Search appearance" [expanded] [ref=f16e790] [cursor=pointer]
+                              - generic [ref=f16e800]:
+                                - generic [ref=f16e801]: Determine how your post should look in the search results.
+                                - group "Preview as:" [ref=f16e802]:
+                                  - radio "Mobile result" [checked] [ref=f16e804] [cursor=pointer]
+                                  - generic [ref=f16e805] [cursor=pointer]: Mobile result
+                                  - radio "Desktop result" [ref=f16e806] [cursor=pointer]
+                                  - generic [ref=f16e807] [cursor=pointer]: Desktop result
+                                - generic [ref=f16e809]:
+                                  - generic [ref=f16e810]:
+                                    - generic [ref=f16e811]: "Url preview:"
+                                    - generic [ref=f16e815] [cursor=pointer]:
+                                      - generic [ref=f16e816]: Yomet App
+                                      - text: yometapp.com
+                                    - generic [ref=f16e819]: "SEO title preview:"
+                                    - generic [ref=f16e820] [cursor=pointer]: Contact Yomet Partner Support | Host & Agency Help
+                                  - generic [ref=f16e823]:
+                                    - generic [ref=f16e824]: "Meta description preview:"
+                                    - generic [ref=f16e826] [cursor=pointer]:
+                                      - generic [ref=f16e827]: Nov 2, 2023 －
+                                      - text: Contact our Yomet partner support team for help with host registration, agency setup, account issues, withdrawals, and other Yomet platform questions.
+                                - generic [ref=f16e828]:
+                                  - generic [ref=f16e829]:
+                                    - generic [ref=f16e830] [cursor=pointer]: SEO title
+                                    - generic [ref=f16e831]:
+                                      - button "Use AI" [ref=f16e832] [cursor=pointer]
+                                      - button "Insert variable" [ref=f16e833] [cursor=pointer]
+                                    - combobox "SEO title" [ref=f16e837]:
+                                      - generic [ref=f16e838]: Contact Yomet Partner Support | Host & Agency Help
+                                  - progressbar [aria-hidden] [ref=f16e842]
+                                  - generic [ref=f16e843] [cursor=pointer]: Slug
+                                  - textbox "Slug" [ref=f16e845]: contact-us
+                                  - generic [ref=f16e846]:
+                                    - generic [ref=f16e847] [cursor=pointer]: Meta description
+                                    - generic [ref=f16e848]:
+                                      - button "Use AI" [ref=f16e849] [cursor=pointer]
+                                      - button "Insert variable" [ref=f16e850] [cursor=pointer]
+                                    - combobox "Meta description" [ref=f16e854]:
+                                      - generic [ref=f16e855]: Contact our Yomet partner support team for help with host registration, agency setup, account issues, withdrawals, and other Yomet platform questions.
+                                  - progressbar [aria-hidden] [ref=f16e859]
+                            - generic [ref=f16e860]:
+                              - heading [level=2] [ref=f16e862]:
+                                - button "SEO analysis Needs improvement Contact Us" [ref=f16e863] [cursor=pointer]:
+                                  - generic [ref=f16e866]:
+                                    - generic [ref=f16e867]:
+                                      - text: SEO analysis
+                                      - generic [ref=f16e868]: Needs improvement
+                                    - generic [ref=f16e869]: Contact Us
+                              - button "Premium SEO analysis Premium" [ref=f16e876] [cursor=pointer]:
+                                - generic [ref=f16e879]: Premium SEO analysis
+                                - generic [ref=f16e880]: Premium
+                            - button "Add related keyphrase Premium" [ref=f16e886] [cursor=pointer]:
+                              - generic [ref=f16e889]: Add related keyphrase
+                              - generic [ref=f16e890]: Premium
+                            - button "Track SEO performance" [ref=f16e896] [cursor=pointer]
+                            - button "Internal linking suggestions Premium" [ref=f16e902] [cursor=pointer]:
+                              - generic [ref=f16e903]: Internal linking suggestions
+                              - generic [ref=f16e904]: Premium
+                            - heading [level=2] [ref=f16e910]:
+                              - button "Cornerstone content" [ref=f16e911] [cursor=pointer]
+                            - heading [level=2] [ref=f16e921]:
+                              - button "Advanced" [ref=f16e922] [cursor=pointer]
+                            - heading [level=2] [ref=f16e932]:
+                              - button "Insights" [ref=f16e933] [cursor=pointer]
+                        - text: 
+                    - text:                  
+                  - generic [ref=f16e941]:
+                    - generic [ref=f16e942]:
+                      - generic [ref=f16e943]:
+                        - heading "Content Permissions (AME)" [level=2] [ref=f16e944]
+                        - generic [ref=f16e945]:
+                          - button "Move up" [ref=f16e946] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f16e948]: 
+                          - button "Move down" [ref=f16e949] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f16e951]: 
+                          - 'button "Toggle panel: Content Permissions (AME)" [expanded] [ref=f16e952] [cursor=pointer]':
+                            - generic [aria-hidden] [ref=f16e954]: 
+                      - generic [ref=f16e956]:
+                        - text: 
+                        - generic [ref=f16e957]:
+                          - list [ref=f16e959]:
+                            - listitem [ref=f16e960]:
+                              - link "Basic" [ref=f16e961] [cursor=pointer]:
+                                - /url: "#"
+                            - listitem [ref=f16e962]:
+                              - link "Advanced" [ref=f16e963] [cursor=pointer]:
+                                - /url: "#"
+                            - listitem [ref=f16e964]:
+                              - link "Protection" [ref=f16e965] [cursor=pointer]:
+                                - /url: "#"
+                            - listitem [ref=f16e966]:
+                              - link "About" [ref=f16e967] [cursor=pointer]:
+                                - /url: "#"
+                          - generic [ref=f16e968]:
+                            - generic [ref=f16e969]:
+                              - text: "Who can view this content:"
+                              - combobox "Who can view this content:" [ref=f16e970] [cursor=pointer]:
+                                - option "Everyone" [selected]
+                                - option "Logged In Users"
+                                - option "Logged Out Users"
+                                - option "Advanced"
+                              - group [ref=f16e971]:
+                                - generic [ref=f16e972]: "Only selected roles:"
+                                - generic [ref=f16e973]:
+                                  - generic [ref=f16e974]:
+                                    - checkbox "Administrator" [checked] [disabled] [ref=f16e975]
+                                    - text: Administrator
+                                  - generic [ref=f16e976]:
+                                    - checkbox "Editor" [checked] [disabled] [ref=f16e977]
+                                    - text: Editor
+                                  - generic [ref=f16e978]:
+                                    - checkbox "Author" [checked] [disabled] [ref=f16e979]
+                                    - text: Author
+                                  - generic [ref=f16e980]:
+                                    - checkbox "Contributor" [checked] [disabled] [ref=f16e981]
+                                    - text: Contributor
+                                  - generic [ref=f16e982]:
+                                    - checkbox "Subscriber" [checked] [disabled] [ref=f16e983]
+                                    - text: Subscriber
+                                  - generic [ref=f16e984]:
+                                    - checkbox "SEO Editor" [checked] [disabled] [ref=f16e985]
+                                    - text: SEO Editor
+                                  - generic [ref=f16e986]:
+                                    - checkbox "SEO Manager" [checked] [disabled] [ref=f16e987]
+                                    - text: SEO Manager
+                                - generic [ref=f16e988]:
+                                  - text: Check
+                                  - link "All" [ref=f16e989] [cursor=pointer]:
+                                    - /url: "#"
+                                  - text: "|"
+                                  - link "None" [ref=f16e990] [cursor=pointer]:
+                                    - /url: "#"
+                            - text:                                   
+                    - generic [ref=f16e991]:
+                      - generic [ref=f16e992]:
+                        - heading "Content Permissions (Members)" [level=2] [ref=f16e993]
+                        - generic [ref=f16e994]:
+                          - button "Move up" [ref=f16e995] [cursor=pointer]:
+                            - generic [aria-hidden] [ref=f16e997]: 
+                          - button "Move down" [disabled] [ref=f16e998]:
+                            - generic [aria-hidden] [ref=f16e1000]: 
+                          - 'button "Toggle panel: Content Permissions (Members)" [expanded] [ref=f16e1001] [cursor=pointer]':
+                            - generic [aria-hidden] [ref=f16e1003]: 
+                      - generic [ref=f16e1005]:
+                        - list [ref=f16e1006]:
+                          - listitem [ref=f16e1007]:
+                            - link " Roles" [ref=f16e1008] [cursor=pointer]:
+                              - /url: "#members-tab-cp-roles"
+                              - generic [ref=f16e1009]: 
+                              - text: Roles
+                          - listitem [ref=f16e1010]:
+                            - link "Paid Memberships" [ref=f16e1011] [cursor=pointer]:
+                              - /url: "#members-tab-paid-memberships"
+                          - listitem [ref=f16e1014]:
+                            - link " Error Message" [ref=f16e1015] [cursor=pointer]:
+                              - /url: "#members-tab-cp-message"
+                              - generic [ref=f16e1016]: 
+                              - text: Error Message
+                        - generic [ref=f16e1017]:
+                          - generic [ref=f16e1018]:
+                            - generic [ref=f16e1019]: Limit access to the content to users of the selected roles.
+                            - list [ref=f16e1021]:
+                              - listitem [ref=f16e1022]:
+                                - generic [ref=f16e1023]:
+                                  - checkbox "Administrator" [ref=f16e1024] [cursor=pointer]
+                                  - text: Administrator
+                              - listitem [ref=f16e1025]:
+                                - generic [ref=f16e1026]:
+                                  - checkbox "Author" [ref=f16e1027] [cursor=pointer]
+                                  - text: Author
+                              - listitem [ref=f16e1028]:
+                                - generic [ref=f16e1029]:
+                                  - checkbox "Contributor" [ref=f16e1030] [cursor=pointer]
+                                  - text: Contributor
+                              - listitem [ref=f16e1031]:
+                                - generic [ref=f16e1032]:
+                                  - checkbox "Editor" [ref=f16e1033] [cursor=pointer]
+                                  - text: Editor
+                              - listitem [ref=f16e1034]:
+                                - generic [ref=f16e1035]:
+                                  - checkbox "SEO Editor" [ref=f16e1036] [cursor=pointer]
+                                  - text: SEO Editor
+                              - listitem [ref=f16e1037]:
+                                - generic [ref=f16e1038]:
+                                  - checkbox "SEO Manager" [ref=f16e1039] [cursor=pointer]
+                                  - text: SEO Manager
+                              - listitem [ref=f16e1040]:
+                                - generic [ref=f16e1041]:
+                                  - checkbox "Subscriber" [ref=f16e1042] [cursor=pointer]
+                                  - text: Subscriber
+                            - generic [ref=f16e1043]:
+                              - text: If no roles are selected, everyone can view the content. The author, any users who can edit the content, and users with the
+                              - code [ref=f16e1044]: restrict_content
+                              - text: capability can view the content regardless of role.
+                          - text:                         
+    - contentinfo [ref=f16e1045]:
+      - paragraph [ref=f16e1046]:
+        - generic [ref=f16e1047]:
+          - text: Thank you for creating with
+          - link "WordPress" [ref=f16e1048] [cursor=pointer]:
+            - /url: https://wordpress.org/
+          - text: .
+      - paragraph [ref=f16e1049]:
+        - strong [ref=f16e1050]:
+          - link "Get Version 7.1.4" [ref=f16e1051] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-admin/update-core.php
+    - generic [ref=f16e1052]:
+      - dialog "Kodee AI Assistant" [ref=f16e1053]:
+        - generic [ref=f16e1054]:
+          - generic [ref=f16e1055]:
+            - heading "Kodee" [level=4] [ref=f16e1056]
+            - button "Hide" [ref=f16e1058] [cursor=pointer]
+          - generic [ref=f16e1061]:
+            - generic [ref=f16e1062]:
+              - heading "Hey," [level=2] [ref=f16e1066]
+              - heading "How can I help you?" [level=3] [ref=f16e1067]
+            - generic [ref=f16e1068]:
+              - paragraph [ref=f16e1069]: "I’m Kodee – your AI WordPress assistant. I can help you:"
+              - list [ref=f16e1070]:
+                - listitem [ref=f16e1071]:
+                  - heading "Create and edit pages or posts" [level=4] [ref=f16e1074]
+                - listitem [ref=f16e1075]:
+                  - heading "Manage users and permissions" [level=4] [ref=f16e1078]
+                - listitem [ref=f16e1079]:
+                  - heading "Summarize your store or site performance" [level=4] [ref=f16e1082]
+                - listitem [ref=f16e1083]:
+                  - heading "Add and manage WooCommerce products" [level=4] [ref=f16e1086]
+            - button "Give it a try" [ref=f16e1087] [cursor=pointer]
+      - button "Ask Kodee" [expanded] [ref=f16e1090] [cursor=pointer]
+    - text:  
+  - generic: Contact Yomet Partner Support | Host & Agency Help
+  - log [ref=f16e1096]
+  - text:          
+  - status [ref=f16e1099]
+  - text:            
+  - status [ref=f16e1100]
+  - text:            
+  - status [ref=f16e1101]
+  - text:  

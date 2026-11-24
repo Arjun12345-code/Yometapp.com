@@ -1,0 +1,182 @@
+- generic [active] [ref=f28e1]:
+  - generic [ref=f28e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f28e3]:
+          - menuitem "About WordPress" [ref=f28e4] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f28e5]: 
+        - group [ref=f28e7]:
+          - menuitem " Yomet App" [ref=f28e8] [cursor=pointer]
+        - group [ref=f28e9]:
+          - menuitem " Customize" [ref=f28e10] [cursor=pointer]
+        - group [ref=f28e11]:
+          - menuitem "19 updates available" [ref=f28e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f28e13]: 
+            - generic [aria-hidden] [ref=f28e14]: "19"
+        - group [ref=f28e16]:
+          - menuitem "0 Comments in moderation" [ref=f28e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f28e18]: 
+            - generic [aria-hidden] [ref=f28e19]: "0"
+        - group [ref=f28e21]:
+          - 'menuitem " Page Views: 97 - Online: 1" [ref=f28e22] [cursor=pointer]':
+            - generic [ref=f28e23]: 
+            - text: "Page Views: 97 - Online: 1"
+          - text: 
+        - group [ref=f28e24]:
+          - menuitem "New" [ref=f28e25] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f28e26]: 
+        - group [ref=f28e28]:
+          - menuitem " Edit Page" [ref=f28e29] [cursor=pointer]
+        - listitem [ref=f28e30]:
+          - link " Edit with Elementor" [ref=f28e31] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-admin/post.php?post=105&action=elementor
+        - group [ref=f28e32]:
+          - menuitem "" [ref=f28e33] [cursor=pointer]
+          - text: 
+        - group [ref=f28e35]:
+          - menuitem "SEO" [ref=f28e36] [cursor=pointer]:
+            - generic [ref=f28e40]: Needs improvement
+          - text:    
+        - group [ref=f28e41]:
+          - menuitem [ref=f28e42] [cursor=pointer]
+        - group [ref=f28e44]:
+          - menuitem " Notes" [ref=f28e45] [cursor=pointer]
+        - group [ref=f28e46]:
+          - menuitem "Hostinger" [ref=f28e47]
+        - group [ref=f28e50]:
+          - menuitem "Edit Home Page" [ref=f28e51] [cursor=pointer]
+      - menu [ref=f28e52]:
+        - group [ref=f28e53]:
+          - menuitem "Howdy, irza" [ref=f28e54] [cursor=pointer]
+        - group [ref=f28e55]:
+          - menuitem " Search" [ref=f28e56]:
+            - generic [ref=f28e57]:
+              - text: 
+              - textbox "Search" [ref=f28e58] [cursor=pointer]
+              - generic [ref=f28e59]: Search
+  - link "Skip to content" [ref=f28e60] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f28e61]:
+    - generic [ref=f28e62]:
+      - link "Yomet Partner Official" [ref=f28e63] [cursor=pointer]:
+        - /url: /
+        - img "Yomet Official Logo"
+        - generic [ref=f28e64]: Yomet
+      - navigation [ref=f28e66]:
+        - link "Home" [ref=f28e67] [cursor=pointer]:
+          - /url: /
+        - link "Become a Host" [ref=f28e68] [cursor=pointer]:
+          - /url: /host
+        - link "Become an Agency" [ref=f28e69] [cursor=pointer]:
+          - /url: /agency
+        - link "Contact Support" [ref=f28e70] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f28e71]:
+        - link "Join as Agent" [ref=f28e72] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+        - link "Join as Host" [ref=f28e73] [cursor=pointer]:
+          - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+    - generic [ref=f28e82]:
+      - generic [ref=f28e85]:
+        - generic [ref=f28e86]: Partner Support
+        - heading "Contact Us" [level=1] [ref=f28e88]
+        - paragraph [ref=f28e90]: Contact our Yomet partner support team for help with host registration, agency setup, account issues, withdrawals, and other Yomet platform questions.
+      - generic [ref=f28e94]:
+        - heading "Contact & Support" [level=2] [ref=f28e95]
+        - generic [ref=f28e96]:
+          - link "Telegram Support" [ref=f28e97] [cursor=pointer]:
+            - /url: https://telegram.me/yometappservice
+          - link "WhatsApp Support" [ref=f28e101] [cursor=pointer]:
+            - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - link "Instagram Profile" [ref=f28e104] [cursor=pointer]:
+            - /url: https://www.instagram.com/olametagency
+          - link "Facebook Page" [ref=f28e109] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61587048279977
+        - generic [ref=f28e112]:
+          - link "telegram.me/yometappservice (Telegram)" [ref=f28e113] [cursor=pointer]:
+            - /url: https://telegram.me/yometappservice
+          - link "+60 18-247-0950 (WhatsApp)" [ref=f28e120] [cursor=pointer]:
+            - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - link "@olametagency (Instagram)" [ref=f28e126] [cursor=pointer]:
+            - /url: https://www.instagram.com/olametagency
+          - link "Facebook Support" [ref=f28e134] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61587048279977
+    - generic [ref=f28e148]:
+      - generic [ref=f28e149]:
+        - generic [ref=f28e150]:
+          - link "Yomet Official Logo Yomet" [ref=f28e151] [cursor=pointer]:
+            - /url: /
+            - img "Yomet Official Logo"
+            - generic [ref=f28e152]: Yomet
+          - paragraph [ref=f28e154]: Official Yomet agency partner facilitating live streamers and agency owners with professional guidance, ongoing support, and earning opportunities.
+          - generic [ref=f28e155]:
+            - link "Telegram Support" [ref=f28e156] [cursor=pointer]:
+              - /url: https://telegram.me/yometappservice
+            - link "WhatsApp Support" [ref=f28e160] [cursor=pointer]:
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - link "Instagram Profile" [ref=f28e163] [cursor=pointer]:
+              - /url: https://www.instagram.com/olametagency
+            - link "Facebook Page" [ref=f28e168] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61587048279977
+        - generic [ref=f28e171]:
+          - heading "Navigation" [level=3] [ref=f28e172]
+          - list [ref=f28e173]:
+            - listitem [ref=f28e174]:
+              - link "Home" [ref=f28e175] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f28e176]:
+              - link "Become a Host" [ref=f28e177] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f28e178]:
+              - link "Become an Agency" [ref=f28e179] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f28e180]:
+              - link "Contact Support" [ref=f28e181] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f28e182]:
+          - heading "Quick Resources" [level=3] [ref=f28e183]
+          - list [ref=f28e184]:
+            - listitem [ref=f28e185]:
+              - link "Daily Task Rewards" [ref=f28e186] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f28e187]:
+              - link "Yomet Host Rules" [ref=f28e188] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f28e189]:
+              - link "Agency Commission Rate" [ref=f28e190] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f28e191]:
+              - link "Withdrawal Information" [ref=f28e192] [cursor=pointer]:
+                - /url: /agency
+        - generic [ref=f28e193]:
+          - heading "Official Channels" [level=3] [ref=f28e194]
+          - list [ref=f28e195]:
+            - listitem [ref=f28e196]:
+              - 'link "Telegram: @yometappservice" [ref=f28e197] [cursor=pointer]':
+                - /url: https://telegram.me/yometappservice
+            - listitem [ref=f28e198]:
+              - 'link "WhatsApp: +60 18-247-0950" [ref=f28e199] [cursor=pointer]':
+                - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - listitem [ref=f28e200]:
+              - 'link "Instagram: @olametagency" [ref=f28e201] [cursor=pointer]':
+                - /url: https://www.instagram.com/olametagency
+            - listitem [ref=f28e202]:
+              - link "Facebook Support" [ref=f28e203] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61587048279977
+      - generic [ref=f28e204]:
+        - generic [ref=f28e205]: © 2026 Yomet Partner (yometapp.com). All rights reserved.
+        - generic [ref=f28e206]: Official Yomet Agency Partner Portal
+  - generic [ref=f28e207]: desktop
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Whatsapp":
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - generic:
+            - link "Telegram":
+              - /url: https://telegram.me/yometappservice
+        - generic [ref=f28e209] [cursor=pointer]:
+          - paragraph [ref=f28e211]: Contact us
+          - button "Open chaty" [ref=f28e213]

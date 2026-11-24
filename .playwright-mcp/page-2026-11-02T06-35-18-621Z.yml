@@ -1,0 +1,1888 @@
+- generic [ref=f20e2]:
+  - navigation "Main menu":
+    - link "Skip to main content" [ref=f20e3] [cursor=pointer]:
+      - /url: "#wpbody-content"
+    - link "Skip to toolbar" [ref=f20e4] [cursor=pointer]:
+      - /url: "#wp-toolbar"
+    - list [ref=f20e7]:
+      - listitem [ref=f20e8]:
+        - link "Hostinger" [ref=f20e9] [cursor=pointer]:
+          - /url: admin.php?page=hostinger
+        - list [ref=f20e12]:
+          - listitem [ref=f20e13]:
+            - link "Onboarding" [ref=f20e14] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-get-onboarding
+          - listitem [ref=f20e15]:
+            - link "Tools" [ref=f20e16] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-tools
+          - listitem [ref=f20e17]:
+            - link "AI Content Creator" [ref=f20e18] [cursor=pointer]:
+              - /url: admin.php?page=hostinger-ai-assistant
+      - listitem [ref=f20e19]:
+        - link "Dashboard" [ref=f20e20] [cursor=pointer]:
+          - /url: index.php
+          - generic [aria-hidden] [ref=f20e21]: 
+        - list [ref=f20e23]:
+          - listitem [ref=f20e24]:
+            - link "Home" [ref=f20e25] [cursor=pointer]:
+              - /url: index.php
+          - listitem [ref=f20e26]:
+            - link "Updates 20" [ref=f20e27] [cursor=pointer]:
+              - /url: update-core.php
+              - text: Updates
+              - generic [ref=f20e28]: "20"
+      - listitem [ref=f20e29]:
+        - link "Astra" [ref=f20e30] [cursor=pointer]:
+          - /url: admin.php?page=astra
+        - list [ref=f20e33]:
+          - listitem [ref=f20e34]:
+            - link "Dashboard" [ref=f20e35] [cursor=pointer]:
+              - /url: admin.php?page=astra
+          - listitem [ref=f20e36]:
+            - link "Customize" [ref=f20e37] [cursor=pointer]:
+              - /url: customize.php
+          - listitem [ref=f20e38]:
+            - link "Site Builder" [ref=f20e39] [cursor=pointer]:
+              - /url: admin.php?page=theme-builder-free
+          - listitem [ref=f20e40]:
+            - link "Starter Templates" [ref=f20e41] [cursor=pointer]:
+              - /url: themes.php?page=starter-templates
+          - listitem [ref=f20e42]:
+            - link "Learn 5" [ref=f20e43] [cursor=pointer]:
+              - /url: admin.php?page=astra&path=learn
+              - text: Learn
+              - generic [ref=f20e44]: "5"
+      - listitem [ref=f20e45]:
+        - link "Elementor" [ref=f20e46] [cursor=pointer]:
+          - /url: admin.php?page=elementor-home
+        - list [ref=f20e49]:
+          - listitem [ref=f20e50]:
+            - link "Home" [ref=f20e51] [cursor=pointer]:
+              - /url: admin.php?page=elementor-home
+          - listitem [ref=f20e52]:
+            - link "Editor" [ref=f20e53] [cursor=pointer]:
+              - /url: admin.php?page=elementor
+          - listitem [ref=f20e54]:
+            - link "Theme Builder" [ref=f20e55] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1&return_to=/wp-admin/edit.php?post_type=elementor_library#/site-editor
+          - listitem [ref=f20e56]:
+            - link "Submissions" [ref=f20e57] [cursor=pointer]:
+              - /url: admin.php?page=e-form-submissions
+          - listitem [ref=f20e58]:
+            - link "Add New Template" [ref=f20e59] [cursor=pointer]:
+              - /url: post-new.php?post_type=elementor_library
+          - listitem [ref=f20e60]:
+            - link "Categories" [ref=f20e61] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=elementor_library_category&post_type=elementor_library
+          - listitem [ref=f20e62]:
+            - link "Popups" [ref=f20e63] [cursor=pointer]:
+              - /url: edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup
+          - listitem [ref=f20e64]:
+            - link "Theme Builder" [ref=f20e65] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1#/site-editor
+          - listitem [ref=f20e66]:
+            - link "Addons" [ref=f20e67] [cursor=pointer]:
+              - /url: elementor-third-party-pages
+      - listitem [aria-hidden] [ref=f20e68]
+      - listitem [ref=f20e70]:
+        - link "Posts" [ref=f20e71] [cursor=pointer]:
+          - /url: edit.php
+          - generic [aria-hidden] [ref=f20e72]: 
+        - list [ref=f20e74]:
+          - listitem [ref=f20e75]:
+            - link "All Posts" [ref=f20e76] [cursor=pointer]:
+              - /url: edit.php
+          - listitem [ref=f20e77]:
+            - link "Add New Post" [ref=f20e78] [cursor=pointer]:
+              - /url: post-new.php
+          - listitem [ref=f20e79]:
+            - link "Categories" [ref=f20e80] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=category
+          - listitem [ref=f20e81]:
+            - link "Tags" [ref=f20e82] [cursor=pointer]:
+              - /url: edit-tags.php?taxonomy=post_tag
+      - listitem [ref=f20e83]:
+        - link "Media" [ref=f20e84] [cursor=pointer]:
+          - /url: upload.php
+          - generic [aria-hidden] [ref=f20e85]: 
+        - list [ref=f20e87]:
+          - listitem [ref=f20e88]:
+            - link "Library" [ref=f20e89] [cursor=pointer]:
+              - /url: upload.php
+          - listitem [ref=f20e90]:
+            - link "Add New Media File" [ref=f20e91] [cursor=pointer]:
+              - /url: media-new.php
+      - listitem [ref=f20e92]:
+        - link "Pages" [ref=f20e93] [cursor=pointer]:
+          - /url: edit.php?post_type=page
+          - generic [aria-hidden] [ref=f20e94]: 
+        - list [ref=f20e96]:
+          - listitem [ref=f20e97]:
+            - link "All Pages" [ref=f20e98] [cursor=pointer]:
+              - /url: edit.php?post_type=page
+          - listitem [ref=f20e99]:
+            - link "Add New Page" [ref=f20e100] [cursor=pointer]:
+              - /url: post-new.php?post_type=page
+      - listitem [ref=f20e101]:
+        - link "Comments" [ref=f20e102] [cursor=pointer]:
+          - /url: edit-comments.php
+          - generic [aria-hidden] [ref=f20e103]: 
+      - text:  
+      - listitem [aria-hidden] [ref=f20e105]
+      - listitem [ref=f20e107]:
+        - link "Appearance" [ref=f20e108] [cursor=pointer]:
+          - /url: themes.php
+          - generic [aria-hidden] [ref=f20e109]: 
+        - list [ref=f20e111]:
+          - listitem [ref=f20e112]:
+            - link "Themes 4" [ref=f20e113] [cursor=pointer]:
+              - /url: themes.php
+              - text: Themes
+              - generic [ref=f20e114]: "4"
+          - listitem [ref=f20e115]:
+            - link "Patterns" [ref=f20e116] [cursor=pointer]:
+              - /url: site-editor.php?path=/patterns
+          - listitem [ref=f20e117]:
+            - link "Customize" [ref=f20e118] [cursor=pointer]:
+              - /url: customize.php?return=%2Fwp-admin%2Fedit.php%3Fpost_type%3Delementor_library
+          - listitem [ref=f20e119]:
+            - link "Widgets" [ref=f20e120] [cursor=pointer]:
+              - /url: widgets.php
+          - listitem [ref=f20e121]:
+            - link "Menus" [ref=f20e122] [cursor=pointer]:
+              - /url: nav-menus.php
+          - listitem
+          - listitem [ref=f20e123]:
+            - link "Starter Templates" [ref=f20e124] [cursor=pointer]:
+              - /url: themes.php?page=starter-templates
+          - listitem [ref=f20e125]:
+            - link "Theme File Editor" [ref=f20e126] [cursor=pointer]:
+              - /url: theme-editor.php
+      - listitem [ref=f20e127]:
+        - link "WhatsApp" [ref=f20e128] [cursor=pointer]:
+          - /url: edit.php?post_type=whatsapp-accounts
+        - list [ref=f20e131]:
+          - listitem [ref=f20e132]:
+            - link "All Accounts" [ref=f20e133] [cursor=pointer]:
+              - /url: edit.php?post_type=whatsapp-accounts
+          - listitem [ref=f20e134]:
+            - link "Add New account" [ref=f20e135] [cursor=pointer]:
+              - /url: post-new.php?post_type=whatsapp-accounts
+          - listitem [ref=f20e136]:
+            - link "Floating Widget" [ref=f20e137] [cursor=pointer]:
+              - /url: admin.php?page=nta_whatsapp_floating_widget
+          - listitem [ref=f20e138]:
+            - link "Settings" [ref=f20e139] [cursor=pointer]:
+              - /url: admin.php?page=nta_whatsapp_setting
+          - listitem [ref=f20e140]:
+            - link "Recommended Plugins" [ref=f20e141] [cursor=pointer]:
+              - /url: admin.php?page=nta_whatsapp_recommended_plugins
+      - listitem [ref=f20e142]:
+        - link "Plugins 15" [ref=f20e143] [cursor=pointer]:
+          - /url: plugins.php
+          - generic [aria-hidden] [ref=f20e144]: 
+          - generic [ref=f20e145]:
+            - text: Plugins
+            - generic [ref=f20e146]: "15"
+        - list [ref=f20e147]:
+          - listitem [ref=f20e148]:
+            - link "Installed Plugins" [ref=f20e149] [cursor=pointer]:
+              - /url: plugins.php
+          - listitem [ref=f20e150]:
+            - link "Add New Plugin" [ref=f20e151] [cursor=pointer]:
+              - /url: plugin-install.php
+          - listitem [ref=f20e152]:
+            - link "Plugin File Editor" [ref=f20e153] [cursor=pointer]:
+              - /url: plugin-editor.php
+      - listitem [ref=f20e154]:
+        - link "Profile" [ref=f20e155] [cursor=pointer]:
+          - /url: profile.php
+          - generic [aria-hidden] [ref=f20e156]: 
+      - listitem [ref=f20e158]:
+        - link "Tools" [ref=f20e159] [cursor=pointer]:
+          - /url: tools.php
+          - generic [aria-hidden] [ref=f20e160]: 
+        - list [ref=f20e162]:
+          - listitem [ref=f20e163]:
+            - link "Available Tools" [ref=f20e164] [cursor=pointer]:
+              - /url: tools.php
+          - listitem [ref=f20e165]:
+            - link "Import" [ref=f20e166] [cursor=pointer]:
+              - /url: import.php
+          - listitem [ref=f20e167]:
+            - link "Export" [ref=f20e168] [cursor=pointer]:
+              - /url: export.php
+          - listitem [ref=f20e169]:
+            - link "Site Health" [ref=f20e170] [cursor=pointer]:
+              - /url: site-health.php
+          - listitem [ref=f20e171]:
+            - link "Export Personal Data" [ref=f20e172] [cursor=pointer]:
+              - /url: export-personal-data.php
+          - listitem [ref=f20e173]:
+            - link "Erase Personal Data" [ref=f20e174] [cursor=pointer]:
+              - /url: erase-personal-data.php
+          - listitem [ref=f20e175]:
+            - link "Scheduled Actions" [ref=f20e176] [cursor=pointer]:
+              - /url: tools.php?page=action-scheduler
+          - listitem [ref=f20e177]:
+            - link "Redirection" [ref=f20e178] [cursor=pointer]:
+              - /url: tools.php?page=redirection.php
+      - listitem [ref=f20e179]:
+        - link "All-in-One WP Migration" [ref=f20e180] [cursor=pointer]:
+          - /url: admin.php?page=ai1wm_export
+        - list [ref=f20e183]:
+          - listitem [ref=f20e184]:
+            - link "Export" [ref=f20e185] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_export
+          - listitem [ref=f20e186]:
+            - link "Import" [ref=f20e187] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_import
+          - listitem [ref=f20e188]:
+            - link "Backups 1" [ref=f20e189] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_backups
+              - text: Backups
+              - generic "You have 1 backup" [ref=f20e190]: "1"
+          - listitem [ref=f20e191]:
+            - link "Reset Hub Premium" [ref=f20e192] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_reset
+              - text: Reset Hub
+              - generic [ref=f20e193]: Premium
+          - listitem [ref=f20e194]:
+            - link "Schedules Premium" [ref=f20e195] [cursor=pointer]:
+              - /url: admin.php?page=ai1wm_schedules
+              - text: Schedules
+              - generic [ref=f20e196]: Premium
+      - listitem [ref=f20e197]:
+        - link "Settings" [ref=f20e198] [cursor=pointer]:
+          - /url: options-general.php
+          - generic [aria-hidden] [ref=f20e199]: 
+        - list [ref=f20e201]:
+          - listitem [ref=f20e202]:
+            - link "General" [ref=f20e203] [cursor=pointer]:
+              - /url: options-general.php
+          - listitem [ref=f20e204]:
+            - link "Writing" [ref=f20e205] [cursor=pointer]:
+              - /url: options-writing.php
+          - listitem [ref=f20e206]:
+            - link "Reading" [ref=f20e207] [cursor=pointer]:
+              - /url: options-reading.php
+          - listitem [ref=f20e208]:
+            - link "Discussion" [ref=f20e209] [cursor=pointer]:
+              - /url: options-discussion.php
+          - listitem [ref=f20e210]:
+            - link "Media" [ref=f20e211] [cursor=pointer]:
+              - /url: options-media.php
+          - listitem [ref=f20e212]:
+            - link "Permalinks" [ref=f20e213] [cursor=pointer]:
+              - /url: options-permalink.php
+          - listitem [ref=f20e214]:
+            - link "Privacy" [ref=f20e215] [cursor=pointer]:
+              - /url: options-privacy.php
+          - listitem [ref=f20e216]:
+            - link "Menu Editor" [ref=f20e217] [cursor=pointer]:
+              - /url: options-general.php?page=menu_editor
+      - listitem [ref=f20e218]:
+        - link "Buttonizer" [ref=f20e219] [cursor=pointer]:
+          - /url: admin.php?page=Buttonizer
+        - list [ref=f20e222]:
+          - listitem [ref=f20e223]:
+            - link "Buttonizer" [ref=f20e224] [cursor=pointer]:
+              - /url: admin.php?page=Buttonizer
+          - listitem [ref=f20e225]:
+            - link "Edit buttons" [ref=f20e226] [cursor=pointer]:
+              - /url: admin.php?page=Buttonizer#/editor
+          - listitem [ref=f20e227]:
+            - link "I need support" [ref=f20e228] [cursor=pointer]:
+              - /url: admin.php?page=Buttonizer#/support
+          - listitem [ref=f20e229]:
+            - link "Community" [ref=f20e230] [cursor=pointer]:
+              - /url: https://r.buttonizer.io/support/community?referral=buttonizer-plugin-menu
+          - listitem [ref=f20e231]:
+            - link "Knowledge base" [ref=f20e232] [cursor=pointer]:
+              - /url: https://r.buttonizer.io/support/knowledgebase?referral=buttonizer-plugin-menu
+      - listitem [aria-hidden] [ref=f20e233]
+      - listitem [ref=f20e235]:
+        - link "Yoast SEO" [ref=f20e236] [cursor=pointer]:
+          - /url: admin.php?page=wpseo_dashboard
+        - list [ref=f20e239]:
+          - listitem [ref=f20e240]:
+            - link "General" [ref=f20e241] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_dashboard
+          - listitem [ref=f20e242]:
+            - link "Settings" [ref=f20e243] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_settings
+          - listitem [ref=f20e244]:
+            - link "Integrations" [ref=f20e245] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_integrations
+          - listitem [ref=f20e246]:
+            - link "Tools" [ref=f20e247] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_tools
+          - listitem [ref=f20e248]:
+            - link "Academy" [ref=f20e249] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_academy
+          - listitem [ref=f20e250]:
+            - link "Upgrades" [ref=f20e251] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_licenses
+          - listitem [ref=f20e252]:
+            - link "Workouts Premium" [ref=f20e253] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_workouts
+              - text: Workouts
+              - generic [ref=f20e254]: Premium
+          - listitem [ref=f20e255]:
+            - link "Redirects Premium" [ref=f20e256] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_redirects
+              - text: Redirects
+              - generic [ref=f20e257]: Premium
+          - listitem [ref=f20e258]:
+            - link "Support" [ref=f20e259] [cursor=pointer]:
+              - /url: admin.php?page=wpseo_page_support
+      - listitem [ref=f20e260]:
+        - link "Members" [ref=f20e261] [cursor=pointer]:
+          - /url: admin.php?page=members-settings
+        - list [ref=f20e264]:
+          - listitem [ref=f20e265]:
+            - link "Settings" [ref=f20e266] [cursor=pointer]:
+              - /url: admin.php?page=members-settings
+          - listitem [ref=f20e267]:
+            - link "Add-Ons" [ref=f20e268] [cursor=pointer]:
+              - /url: admin.php?page=members-settings&view=add-ons
+          - listitem [ref=f20e269]:
+            - link "Payments" [ref=f20e270] [cursor=pointer]:
+              - /url: admin.php?page=members-payments
+          - listitem [ref=f20e271]:
+            - link "About Us" [ref=f20e272] [cursor=pointer]:
+              - /url: admin.php?page=members-about
+          - listitem [ref=f20e273]:
+            - link "Growth Tools" [ref=f20e274] [cursor=pointer]:
+              - /url: admin.php?page=members-growth-tools
+      - listitem [ref=f20e275]:
+        - link "AIOS" [ref=f20e276] [cursor=pointer]:
+          - /url: admin.php?page=aiowpsec
+        - list [ref=f20e279]:
+          - listitem [ref=f20e280]:
+            - link "Dashboard" [ref=f20e281] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec
+          - listitem [ref=f20e282]:
+            - link "Settings" [ref=f20e283] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_settings
+          - listitem [ref=f20e284]:
+            - link "User Security" [ref=f20e285] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_usersec
+          - listitem [ref=f20e286]:
+            - link "File Security" [ref=f20e287] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_filesystem
+          - listitem [ref=f20e288]:
+            - link "Firewall" [ref=f20e289] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_firewall
+          - listitem [ref=f20e290]:
+            - link "Brute Force" [ref=f20e291] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_brute_force
+          - listitem [ref=f20e292]:
+            - link "Spam Prevention" [ref=f20e293] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_spam
+          - listitem [ref=f20e294]:
+            - link "Tools" [ref=f20e295] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_tools
+          - listitem [ref=f20e296]:
+            - link "Two Factor Auth" [ref=f20e297] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec_two_factor_auth_user
+          - listitem [ref=f20e298]:
+            - link "Premium Upgrade" [ref=f20e299] [cursor=pointer]:
+              - /url: admin.php?page=aiowpsec&tab=premium-upgrade
+      - listitem [ref=f20e300]:
+        - link "Statistics" [ref=f20e301] [cursor=pointer]:
+          - /url: admin.php?page=wps_overview_page
+          - generic [aria-hidden] [ref=f20e302]: 
+        - list [ref=f20e304]:
+          - listitem [ref=f20e305]:
+            - link "Overview" [ref=f20e306] [cursor=pointer]:
+              - /url: admin.php?page=wps_overview_page
+          - listitem [ref=f20e307]:
+            - link "Visitor Insights" [ref=f20e308] [cursor=pointer]:
+              - /url: admin.php?page=wps_visitors_page
+          - listitem [ref=f20e309]:
+            - link "Page Insights" [ref=f20e310] [cursor=pointer]:
+              - /url: admin.php?page=wps_pages_page
+          - listitem [ref=f20e311]:
+            - link "Referrals" [ref=f20e312] [cursor=pointer]:
+              - /url: admin.php?page=wps_referrals_page
+          - listitem [ref=f20e313]:
+            - link "Content Analytics" [ref=f20e314] [cursor=pointer]:
+              - /url: admin.php?page=wps_content-analytics_page
+          - listitem [ref=f20e315]:
+            - link "Author Analytics" [ref=f20e316] [cursor=pointer]:
+              - /url: admin.php?page=wps_author-analytics_page
+          - listitem [ref=f20e317]:
+            - link "Category Analytics" [ref=f20e318] [cursor=pointer]:
+              - /url: admin.php?page=wps_category-analytics_page
+          - listitem [ref=f20e319]:
+            - link "Geographic" [ref=f20e320] [cursor=pointer]:
+              - /url: admin.php?page=wps_geographic_page
+          - listitem [ref=f20e321]:
+            - link "Devices" [ref=f20e322] [cursor=pointer]:
+              - /url: admin.php?page=wps_devices_page
+          - listitem [ref=f20e323]:
+            - link "Add-ons" [ref=f20e324] [cursor=pointer]:
+              - /url: admin.php?page=wps_plugins_page
+          - listitem [ref=f20e325]:
+            - link "Privacy Audit" [ref=f20e326] [cursor=pointer]:
+              - /url: admin.php?page=wps_privacy-audit_page
+          - listitem [ref=f20e327]:
+            - link "Settings" [ref=f20e328] [cursor=pointer]:
+              - /url: admin.php?page=wps_settings_page
+          - listitem [ref=f20e329]:
+            - link "Optimization" [ref=f20e330] [cursor=pointer]:
+              - /url: admin.php?page=wps_optimization_page
+          - listitem [ref=f20e331]:
+            - link "Help Center 4" [ref=f20e332] [cursor=pointer]:
+              - /url: admin.php?page=wps_help-center_page
+              - text: Help Center
+              - generic "4 plugin notifications" [ref=f20e333]: "4"
+      - listitem [ref=f20e334]:
+        - link "LiteSpeed Cache" [ref=f20e335] [cursor=pointer]:
+          - /url: admin.php?page=litespeed
+          - generic [aria-hidden] [ref=f20e336]: 
+        - list [ref=f20e338]:
+          - listitem [ref=f20e339]:
+            - link "Dashboard" [ref=f20e340] [cursor=pointer]:
+              - /url: admin.php?page=litespeed
+          - listitem [ref=f20e341]:
+            - link "Presets" [ref=f20e342] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-presets
+          - listitem [ref=f20e343]:
+            - link "General" [ref=f20e344] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-general
+          - listitem [ref=f20e345]:
+            - link "Cache" [ref=f20e346] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cache
+          - listitem [ref=f20e347]:
+            - link "CDN" [ref=f20e348] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-cdn
+          - listitem [ref=f20e349]:
+            - link "Image Optimization" [ref=f20e350] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-img_optm
+          - listitem [ref=f20e351]:
+            - link "Page Optimization" [ref=f20e352] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-page_optm
+          - listitem [ref=f20e353]:
+            - link "Database" [ref=f20e354] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-db_optm
+          - listitem [ref=f20e355]:
+            - link "Crawler" [ref=f20e356] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-crawler
+          - listitem [ref=f20e357]:
+            - link "Toolbox" [ref=f20e358] [cursor=pointer]:
+              - /url: admin.php?page=litespeed-toolbox
+      - listitem [ref=f20e359]:
+        - link "Site Kit" [ref=f20e360] [cursor=pointer]:
+          - /url: admin.php?page=googlesitekit-splash
+        - list [ref=f20e363]:
+          - listitem [ref=f20e364]:
+            - link "Dashboard" [ref=f20e365] [cursor=pointer]:
+              - /url: admin.php?page=googlesitekit-splash
+      - text: 
+      - listitem [ref=f20e366]:
+        - link "Chaty" [ref=f20e367] [cursor=pointer]:
+          - /url: admin.php?page=chaty-app
+        - list [ref=f20e370]:
+          - listitem [ref=f20e371]:
+            - link "Dashboard" [ref=f20e372] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app
+          - listitem [ref=f20e373]:
+            - link "Chaty Upgrade" [ref=f20e374] [cursor=pointer]:
+              - /url: admin.php?page=chaty-upgrade
+          - listitem [ref=f20e375]:
+            - link "Chatway Live Chat" [ref=f20e376] [cursor=pointer]:
+              - /url: admin.php?page=chaty-live-chat
+          - listitem [ref=f20e377]:
+            - link "Widget Analytics" [ref=f20e378] [cursor=pointer]:
+              - /url: admin.php?page=widget-analytics
+          - listitem [ref=f20e379]:
+            - link "Contact form leads" [ref=f20e380] [cursor=pointer]:
+              - /url: admin.php?page=chaty-contact-form-feed
+          - listitem [ref=f20e381]:
+            - link "Recommended Plugins" [ref=f20e382] [cursor=pointer]:
+              - /url: admin.php?page=recommended-chaty-plugins
+          - listitem [ref=f20e383]:
+            - link "Upgrade to Pro" [ref=f20e384] [cursor=pointer]:
+              - /url: admin.php?page=chaty-app-upgrade
+      - listitem [aria-hidden] [ref=f20e385]
+      - listitem [ref=f20e387]:
+        - button "Collapse Main menu" [expanded] [ref=f20e388] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f20e389]: 
+          - generic [ref=f20e390]: Collapse menu
+  - generic [ref=f20e391]:
+    - generic [ref=f20e392]:
+      - navigation "Toolbar":
+        - menu:
+          - group [ref=f20e393]:
+            - menuitem "About WordPress" [ref=f20e394] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f20e395]: 
+          - group [ref=f20e397]:
+            - menuitem " Yomet App" [ref=f20e398] [cursor=pointer]
+          - group [ref=f20e399]:
+            - menuitem "20 updates available" [ref=f20e400] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f20e401]: 
+              - generic [aria-hidden] [ref=f20e402]: "20"
+          - group [ref=f20e404]:
+            - menuitem "0 Comments in moderation" [ref=f20e405] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f20e406]: 
+              - generic [aria-hidden] [ref=f20e407]: "0"
+          - group [ref=f20e409]:
+            - 'menuitem " Online: 0" [ref=f20e410] [cursor=pointer]':
+              - generic [ref=f20e411]: 
+              - text: "Online: 0"
+            - text: 
+          - group [ref=f20e412]:
+            - menuitem "New" [ref=f20e413] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f20e414]: 
+          - group [ref=f20e416]:
+            - menuitem "" [ref=f20e417] [cursor=pointer]:
+              - generic "LiteSpeed Cache Purge All - LSCache" [ref=f20e418]: 
+          - group [ref=f20e419]:
+            - menuitem "SEO" [ref=f20e420] [cursor=pointer]
+            - text:  Premium Premium
+          - group [ref=f20e423]:
+            - menuitem [ref=f20e424] [cursor=pointer]
+          - group [ref=f20e426]:
+            - menuitem "Hostinger" [ref=f20e427]
+          - group [ref=f20e430]:
+            - menuitem "Edit Home Page" [ref=f20e431] [cursor=pointer]
+        - menu [ref=f20e432]:
+          - group [ref=f20e433]:
+            - menuitem [ref=f20e434] [cursor=pointer]
+          - group [ref=f20e439]:
+            - menuitem "Howdy, irza" [ref=f20e440] [cursor=pointer]
+    - navigation [ref=f20e442]:
+      - generic [ref=f20e443]:
+        - generic [ref=f20e444]:
+          - heading "Editor" [level=6] [ref=f20e449]
+          - button [ref=f20e450] [cursor=pointer]
+        - button [ref=f20e453] [cursor=pointer]
+      - list [ref=f20e457]:
+        - listitem [ref=f20e458]:
+          - button [ref=f20e459] [cursor=pointer]:
+            - paragraph [ref=f20e464]: Quick Start
+        - listitem [ref=f20e465]:
+          - button [ref=f20e466] [cursor=pointer]:
+            - paragraph [ref=f20e471]: Settings
+        - listitem [ref=f20e472]:
+          - button [ref=f20e473] [cursor=pointer]:
+            - paragraph [ref=f20e478]: Tools
+        - listitem [ref=f20e479]:
+          - button [ref=f20e480] [cursor=pointer]:
+            - paragraph [ref=f20e488]: Role Manager
+        - listitem [ref=f20e489]:
+          - button [ref=f20e490] [cursor=pointer]:
+            - paragraph [ref=f20e495]: Submissions
+        - listitem [ref=f20e496]:
+          - button [ref=f20e497] [cursor=pointer]:
+            - paragraph [ref=f20e502]: Templates
+        - list [ref=f20e508]:
+          - listitem [ref=f20e509]:
+            - link [ref=f20e510] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group=library
+              - paragraph [ref=f20e512]: Saved Templates
+          - listitem [ref=f20e513]:
+            - link [ref=f20e514] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1&return_to=/wp-admin/edit.php?post_type=elementor_library#/site-editor
+              - paragraph [ref=f20e516]: Theme Builder
+          - listitem [ref=f20e517]:
+            - link [ref=f20e518] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-app&ver=4.1.1&return_to=/wp-admin/edit.php?post_type=elementor_library&source=wp_db_templates_menu#/kit-library
+              - paragraph [ref=f20e520]: Website Templates
+          - listitem [ref=f20e521]:
+            - link [ref=f20e522] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/post-new.php?post_type=elementor_library
+              - paragraph [ref=f20e524]: Add New Template
+          - listitem [ref=f20e525]:
+            - link [ref=f20e526] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup
+              - paragraph [ref=f20e528]: Popups
+        - listitem [ref=f20e529]:
+          - button [ref=f20e530] [cursor=pointer]:
+            - paragraph [ref=f20e535]: Custom Elements
+        - list [ref=f20e541]:
+          - listitem [ref=f20e542]:
+            - link [ref=f20e543] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_font
+              - paragraph [ref=f20e545]: Fonts
+          - listitem [ref=f20e546]:
+            - link [ref=f20e547] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_icons
+              - paragraph [ref=f20e549]: Icons
+          - listitem [ref=f20e550]:
+            - link [ref=f20e551] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_snippet
+              - paragraph [ref=f20e553]: Code
+        - listitem [ref=f20e554]:
+          - button [ref=f20e555] [cursor=pointer]:
+            - paragraph [ref=f20e562]: System
+        - list [ref=f20e568]:
+          - listitem [ref=f20e569]:
+            - link [ref=f20e570] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-system-info
+              - paragraph [ref=f20e572]: System Info
+          - listitem [ref=f20e573]:
+            - link [ref=f20e574] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-element-manager
+              - paragraph [ref=f20e576]: Element Manager
+          - listitem [ref=f20e577]:
+            - link [ref=f20e578] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-license
+              - paragraph [ref=f20e580]: License
+        - separator [ref=f20e581]
+        - listitem [ref=f20e582]:
+          - button [ref=f20e583] [cursor=pointer]:
+            - paragraph [ref=f20e588]: Addons
+        - list [ref=f20e594]:
+          - listitem [ref=f20e595]:
+            - link [ref=f20e596] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-pro-notes-proxy
+              - paragraph [ref=f20e598]: Notes Proxy
+      - separator [ref=f20e599]
+    - banner [ref=f20e600]:
+      - generic [ref=f20e602]:
+        - generic [ref=f20e603]: website builder
+        - generic [ref=f20e607]:
+          - button [ref=f20e609] [cursor=pointer]
+          - link [ref=f20e613] [cursor=pointer]:
+            - /url: https://go.elementor.com/one-help-center-editor/
+          - separator [ref=f20e618]
+          - button "My account" [ref=f20e619] [cursor=pointer]
+    - main [ref=f20e623]:
+      - generic [ref=f20e624]:
+        - button "Screen Options " [ref=f20e627] [cursor=pointer]
+        - generic [ref=f20e628]:
+          - heading "My Templates" [level=1] [ref=f20e629]
+          - generic [ref=f20e630] [cursor=pointer]: Import Templates
+          - link "Add New Template" [ref=f20e631] [cursor=pointer]:
+            - /url: https://yometapp.com/wp-admin/post-new.php?post_type=elementor_library
+          - generic [ref=f20e632]:
+            - link "WordPress 7.1.4" [ref=f20e633] [cursor=pointer]:
+              - /url: https://wordpress.org/documentation/wordpress-version/version-7-1-4/
+            - text: is available!
+            - link "Please update WordPress now" [ref=f20e634] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/update-core.php
+              - text: Please update now
+            - text: .
+          - generic [ref=f20e635]:
+            - generic [ref=f20e636]:
+              - paragraph [ref=f20e637]: Are you enjoying using Members?
+              - paragraph [ref=f20e638]:
+                - link "Yes, I love it" [ref=f20e639] [cursor=pointer]:
+                  - /url: "#"
+                - text: 🙂 |
+                - link "Not really..." [ref=f20e640] [cursor=pointer]:
+                  - /url: "#"
+            - button " Dismiss this notice." [ref=f20e641] [cursor=pointer]:
+              - text: 
+              - generic [ref=f20e642]: Dismiss this notice.
+          - region "Elementor notice" [ref=f20e643]:
+            - button "Dismiss this notice." [ref=f20e644] [cursor=pointer]: 
+            - generic [aria-hidden] [ref=f20e647]: 
+            - generic [ref=f20e648]:
+              - heading "Form Submissions now activated by default on all websites" [level=3] [ref=f20e649]
+              - paragraph [ref=f20e650]:
+                - text: The Form Submissions feature, previously located under the Features tab in Elementor, is now enabled by default on all websites. If you prefer to disable this feature, you can do so by navigating to
+                - link [ref=f20e651] [cursor=pointer]:
+                  - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-settings#tab-advanced
+                  - strong [ref=f20e652]: Settings → Advanced
+                - text: .
+              - link "Got it! Keep it enabled" [ref=f20e654] [cursor=pointer]:
+                - /url: https://yometapp.com/wp-admin/admin-post.php?action=elementor_set_admin_notice_viewed&notice_id=elementor-pro-forms-submissions
+          - region "Elementor notice" [ref=f20e655]:
+            - button "Dismiss this notice." [ref=f20e656] [cursor=pointer]: 
+            - generic [aria-hidden] [ref=f20e659]: 
+            - generic [ref=f20e660]:
+              - heading "Improve your site’s performance score." [level=3] [ref=f20e661]
+              - paragraph [ref=f20e662]: With our experimental speed boosting features you can go faster than ever before. Look for the Performance label on our Experiments page and activate those experiments to improve your site loading speed.
+              - generic [ref=f20e663]:
+                - link "Try it out" [ref=f20e664] [cursor=pointer]:
+                  - /url: https://yometapp.com/wp-admin/admin.php?page=elementor-settings#tab-experiments
+                - link "Learn more" [ref=f20e665] [cursor=pointer]:
+                  - /url: https://go.elementor.com/wp-dash-experiment-promotion/
+          - generic [ref=f20e666]:
+            - generic [ref=f20e668]:
+              - generic [ref=f20e669]:
+                - strong [ref=f20e670]: Help shape the future of Starter Templates.
+                - text: Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions.
+                - link "Learn more." [ref=f20e672] [cursor=pointer]:
+                  - /url: https://store.brainstormforce.com/usage-tracking/?utm_source=astra_sites&utm_medium=notice&utm_campaign=usage_tracking
+              - generic [ref=f20e673]:
+                - link "Happy to help!" [ref=f20e674] [cursor=pointer]:
+                  - /url: /wp-admin/edit.php?post_type=elementor_library&astra_sites_analytics_optin=yes&astra_sites_analytics_nonce=b02d6e27b5&bsf_analytics_source=astra_sites
+                - link "Skip" [ref=f20e675] [cursor=pointer]:
+                  - /url: /wp-admin/edit.php?post_type=elementor_library&astra_sites_analytics_optin=no&astra_sites_analytics_nonce=b02d6e27b5&bsf_analytics_source=astra_sites
+            - button " Dismiss this notice." [ref=f20e676] [cursor=pointer]:
+              - text: 
+              - generic [ref=f20e677]: Dismiss this notice.
+          - generic [ref=f20e678]:
+            - link "All" [ref=f20e679] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group
+            - link "Page" [ref=f20e680] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=page
+            - link "Section" [ref=f20e681] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=section
+            - link "Global Widget" [ref=f20e682] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=widget
+            - link "Popup" [ref=f20e683] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=popup
+            - link "Header" [ref=f20e684] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=header
+            - link "Footer" [ref=f20e685] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=footer
+            - link "Single" [ref=f20e686] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=single
+            - link "Single Post" [ref=f20e687] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=single-post
+            - link "Single Page" [ref=f20e688] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=single-page
+            - link "Archive" [ref=f20e689] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=archive
+            - link "Search Results" [ref=f20e690] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=search-results
+            - link "Error 404" [ref=f20e691] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=error-404
+            - link "Loop Item" [ref=f20e692] [cursor=pointer]:
+              - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&tabs_group&elementor_library_type=loop-item
+          - heading "Filter posts list" [level=2] [ref=f20e693]
+          - list [ref=f20e694]:
+            - listitem [ref=f20e695]:
+              - link "All (19)" [ref=f20e696] [cursor=pointer]:
+                - /url: edit.php?post_type=elementor_library&all_posts=1
+              - text: "|"
+            - listitem [ref=f20e697]:
+              - link "Mine (8)" [ref=f20e698] [cursor=pointer]:
+                - /url: edit.php?post_type=elementor_library&author=5
+              - text: "|"
+            - listitem [ref=f20e699]:
+              - link "Published (19)" [ref=f20e700] [cursor=pointer]:
+                - /url: edit.php?post_status=publish&post_type=elementor_library
+          - generic [ref=f20e701]:
+            - paragraph [ref=f20e702]:
+              - generic [ref=f20e703]: "Search Template:"
+              - searchbox "Search Template:" [ref=f20e704]
+              - button "Search Template" [ref=f20e705] [cursor=pointer]
+            - generic [ref=f20e706]:
+              - generic [ref=f20e707]:
+                - generic [ref=f20e708]: Select bulk action
+                - combobox "Select bulk action" [ref=f20e709] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Edit"
+                  - option "Move to Trash"
+                  - option "Export"
+                - button "Apply" [ref=f20e710] [cursor=pointer]
+              - generic [ref=f20e711]:
+                - generic [ref=f20e712]: Filter by date
+                - combobox "Filter by date" [ref=f20e713] [cursor=pointer]:
+                  - option "All dates" [selected]
+                  - option "October 2026"
+                  - option "February 2026"
+                  - option "August 2025"
+                  - option "March 2024"
+                  - option "November 2023"
+                  - option "October 2023"
+                - generic [ref=f20e714]: Filter by category
+                - combobox "Filter by category" [ref=f20e715] [cursor=pointer]:
+                  - option "All Categories" [selected]
+                - button "Filter" [ref=f20e716] [cursor=pointer]
+              - generic [ref=f20e717]: 19 items
+            - heading "Posts list" [level=2] [ref=f20e719]
+            - table [ref=f20e720]:
+              - caption [ref=f20e721]: Table ordered by Date. Descending.
+              - rowgroup [ref=f20e722]:
+                - row [ref=f20e723]:
+                  - cell "Select All" [ref=f20e724]:
+                    - checkbox "Select All" [ref=f20e725] [cursor=pointer]
+                  - columnheader [ref=f20e728]:
+                    - link "Title Sort ascending." [ref=f20e729] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&orderby=title&order=asc
+                      - generic [ref=f20e730]: Title
+                      - generic [ref=f20e731]:
+                        - generic [aria-hidden] [ref=f20e732]: 
+                        - generic [aria-hidden] [ref=f20e733]: 
+                      - generic [ref=f20e734]: Sort ascending.
+                  - columnheader "Type" [ref=f20e735]
+                  - columnheader "Instances" [ref=f20e736]
+                  - columnheader "Author" [ref=f20e737]
+                  - columnheader "Categories" [ref=f20e738]
+                  - columnheader [ref=f20e739]:
+                    - link "Date" [ref=f20e740] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&orderby=date&order=asc
+                      - generic [ref=f20e742]:
+                        - generic [aria-hidden] [ref=f20e743]: 
+                        - generic [aria-hidden] [ref=f20e744]: 
+                  - columnheader [ref=f20e745]:
+                    - link "Views Sort ascending." [ref=f20e746] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&orderby=hits&order=asc
+                      - generic [ref=f20e747]: Views
+                      - generic [ref=f20e748]:
+                        - generic [aria-hidden] [ref=f20e749]: 
+                        - generic [aria-hidden] [ref=f20e750]: 
+                      - generic [ref=f20e751]: Sort ascending.
+                  - columnheader "Shortcode" [ref=f20e752]
+              - rowgroup [ref=f20e753]:
+                - row [ref=f20e754]:
+                  - rowheader "Select hostold" [ref=f20e755]:
+                    - checkbox "Select hostold" [ref=f20e756] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e759]:
+                    - strong [ref=f20e760]:
+                      - link "“hostold” (Edit)" [ref=f20e761] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3050&action=edit
+                        - text: hostold
+                    - generic [ref=f20e762]:
+                      - generic [ref=f20e763]:
+                        - link "Edit “hostold”" [ref=f20e764] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3050&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e765]:
+                        - button "Quick edit “hostold” inline" [ref=f20e766] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e767]:
+                        - link "Move “hostold” to the Trash" [ref=f20e768] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3050&action=trash&_wpnonce=b2abd0ec2c
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e769]:
+                        - link "View “hostold”" [ref=f20e770] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=hostold-2
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e771]:
+                        - link "Export Page" [ref=f20e772] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3050
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e774] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3050&action=elementor
+                    - text: 
+                  - cell [ref=f20e775]:
+                    - link "Page" [ref=f20e776] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e777]
+                  - cell [ref=f20e778]:
+                    - link "irza" [ref=f20e779] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e780]: —
+                  - cell "Published 2026/10/22 at 9:15 am" [ref=f20e782]: Published2026/10/22 at 9:15 am
+                  - cell [ref=f20e783]:
+                    - link [ref=f20e785] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e788] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3050&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e789]:
+                    - generic [ref=f20e790]: Elementor template shortcode for template 3050
+                    - textbox "Elementor template shortcode for template 3050" [ref=f20e791]: "[elementor-template id=\"3050\"]"
+                - row [ref=f20e792]:
+                  - rowheader "Select hostold" [ref=f20e793]:
+                    - checkbox "Select hostold" [ref=f20e794] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e797]:
+                    - strong [ref=f20e798]:
+                      - link "“hostold” (Edit)" [ref=f20e799] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3047&action=edit
+                        - text: hostold
+                    - generic [ref=f20e800]:
+                      - generic [ref=f20e801]:
+                        - link "Edit “hostold”" [ref=f20e802] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3047&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e803]:
+                        - button "Quick edit “hostold” inline" [ref=f20e804] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e805]:
+                        - link "Move “hostold” to the Trash" [ref=f20e806] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3047&action=trash&_wpnonce=61875355ca
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e807]:
+                        - link "View “hostold”" [ref=f20e808] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=hostold
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e809]:
+                        - link "Export Page" [ref=f20e810] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3047
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e812] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3047&action=elementor
+                    - text: 
+                  - cell [ref=f20e813]:
+                    - link "Page" [ref=f20e814] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e815]
+                  - cell [ref=f20e816]:
+                    - link "irza" [ref=f20e817] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e818]: —
+                  - cell "Published 2026/10/22 at 9:14 am" [ref=f20e820]: Published2026/10/22 at 9:14 am
+                  - cell [ref=f20e821]:
+                    - link [ref=f20e823] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e826] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3047&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e827]:
+                    - generic [ref=f20e828]: Elementor template shortcode for template 3047
+                    - textbox "Elementor template shortcode for template 3047" [ref=f20e829]: "[elementor-template id=\"3047\"]"
+                - row [ref=f20e830]:
+                  - rowheader "Select footerold" [ref=f20e831]:
+                    - checkbox "Select footerold" [ref=f20e832] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e835]:
+                    - strong [ref=f20e836]:
+                      - link "“footerold” (Edit)" [ref=f20e837] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3039&action=edit
+                        - text: footerold
+                    - generic [ref=f20e838]:
+                      - generic [ref=f20e839]:
+                        - link "Edit “footerold”" [ref=f20e840] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3039&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e841]:
+                        - button "Quick edit “footerold” inline" [ref=f20e842] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e843]:
+                        - link "Move “footerold” to the Trash" [ref=f20e844] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3039&action=trash&_wpnonce=f80c18c2b3
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e845]:
+                        - link "View “footerold”" [ref=f20e846] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=footerold
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e847]:
+                        - link "Export Footer" [ref=f20e848] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3039
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e850] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3039&action=elementor
+                    - text: 
+                  - cell [ref=f20e851]:
+                    - link "Footer" [ref=f20e852] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=footer
+                  - cell "None" [ref=f20e853]
+                  - cell [ref=f20e854]:
+                    - link "irza" [ref=f20e855] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e856]: —
+                  - cell "Published 2026/10/22 at 8:50 am" [ref=f20e858]: Published2026/10/22 at 8:50 am
+                  - cell [ref=f20e859]:
+                    - link [ref=f20e861] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e864] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3039&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e865]:
+                    - generic [ref=f20e866]: Elementor template shortcode for template 3039
+                    - textbox "Elementor template shortcode for template 3039" [ref=f20e867]: "[elementor-template id=\"3039\"]"
+                - row [ref=f20e868]:
+                  - rowheader "Select headerold" [ref=f20e869]:
+                    - checkbox "Select headerold" [ref=f20e870] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e873]:
+                    - strong [ref=f20e874]:
+                      - link "“headerold” (Edit)" [ref=f20e875] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3033&action=edit
+                        - text: headerold
+                    - generic [ref=f20e876]:
+                      - generic [ref=f20e877]:
+                        - link "Edit “headerold”" [ref=f20e878] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3033&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e879]:
+                        - button "Quick edit “headerold” inline" [ref=f20e880] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e881]:
+                        - link "Move “headerold” to the Trash" [ref=f20e882] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3033&action=trash&_wpnonce=44c577ccd2
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e883]:
+                        - link "View “headerold”" [ref=f20e884] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=headerold
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e885]:
+                        - link "Export Header" [ref=f20e886] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3033
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e888] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3033&action=elementor
+                    - text: 
+                  - cell [ref=f20e889]:
+                    - link "Header" [ref=f20e890] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=header
+                  - cell "None" [ref=f20e891]
+                  - cell [ref=f20e892]:
+                    - link "irza" [ref=f20e893] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e894]: —
+                  - cell "Published 2026/10/22 at 8:30 am" [ref=f20e896]: Published2026/10/22 at 8:30 am
+                  - cell [ref=f20e897]:
+                    - link [ref=f20e899] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e902] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3033&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e903]:
+                    - generic [ref=f20e904]: Elementor template shortcode for template 3033
+                    - textbox "Elementor template shortcode for template 3033" [ref=f20e905]: "[elementor-template id=\"3033\"]"
+                - row [ref=f20e906]:
+                  - rowheader "Select contactold" [ref=f20e907]:
+                    - checkbox "Select contactold" [ref=f20e908] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e911]:
+                    - strong [ref=f20e912]:
+                      - link "“contactold” (Edit)" [ref=f20e913] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3029&action=edit
+                        - text: contactold
+                    - generic [ref=f20e914]:
+                      - generic [ref=f20e915]:
+                        - link "Edit “contactold”" [ref=f20e916] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3029&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e917]:
+                        - button "Quick edit “contactold” inline" [ref=f20e918] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e919]:
+                        - link "Move “contactold” to the Trash" [ref=f20e920] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3029&action=trash&_wpnonce=ad157ae369
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e921]:
+                        - link "View “contactold”" [ref=f20e922] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=contactold-2
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e923]:
+                        - link "Export Page" [ref=f20e924] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3029
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e926] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3029&action=elementor
+                    - text: 
+                  - cell [ref=f20e927]:
+                    - link "Page" [ref=f20e928] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e929]
+                  - cell [ref=f20e930]:
+                    - link "irza" [ref=f20e931] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e932]: —
+                  - cell "Published 2026/10/22 at 4:59 am" [ref=f20e934]: Published2026/10/22 at 4:59 am
+                  - cell [ref=f20e935]:
+                    - link [ref=f20e937] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e940] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3029&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e941]:
+                    - generic [ref=f20e942]: Elementor template shortcode for template 3029
+                    - textbox "Elementor template shortcode for template 3029" [ref=f20e943]: "[elementor-template id=\"3029\"]"
+                - row [ref=f20e944]:
+                  - rowheader "Select contactold" [ref=f20e945]:
+                    - checkbox "Select contactold" [ref=f20e946] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e949]:
+                    - strong [ref=f20e950]:
+                      - link "“contactold” (Edit)" [ref=f20e951] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3026&action=edit
+                        - text: contactold
+                    - generic [ref=f20e952]:
+                      - generic [ref=f20e953]:
+                        - link "Edit “contactold”" [ref=f20e954] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3026&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e955]:
+                        - button "Quick edit “contactold” inline" [ref=f20e956] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e957]:
+                        - link "Move “contactold” to the Trash" [ref=f20e958] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3026&action=trash&_wpnonce=fe861ffa9d
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e959]:
+                        - link "View “contactold”" [ref=f20e960] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=contactold
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e961]:
+                        - link "Export Page" [ref=f20e962] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3026
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e964] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3026&action=elementor
+                    - text: 
+                  - cell [ref=f20e965]:
+                    - link "Page" [ref=f20e966] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e967]
+                  - cell [ref=f20e968]:
+                    - link "irza" [ref=f20e969] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e970]: —
+                  - cell "Published 2026/10/22 at 4:58 am" [ref=f20e972]: Published2026/10/22 at 4:58 am
+                  - cell [ref=f20e973]:
+                    - link [ref=f20e975] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e978] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3026&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e979]:
+                    - generic [ref=f20e980]: Elementor template shortcode for template 3026
+                    - textbox "Elementor template shortcode for template 3026" [ref=f20e981]: "[elementor-template id=\"3026\"]"
+                - row [ref=f20e982]:
+                  - rowheader "Select agencyold" [ref=f20e983]:
+                    - checkbox "Select agencyold" [ref=f20e984] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e987]:
+                    - strong [ref=f20e988]:
+                      - link "“agencyold” (Edit)" [ref=f20e989] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3020&action=edit
+                        - text: agencyold
+                    - generic [ref=f20e990]:
+                      - generic [ref=f20e991]:
+                        - link "Edit “agencyold”" [ref=f20e992] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3020&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e993]:
+                        - button "Quick edit “agencyold” inline" [ref=f20e994] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e995]:
+                        - link "Move “agencyold” to the Trash" [ref=f20e996] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3020&action=trash&_wpnonce=7886b5b251
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e997]:
+                        - link "View “agencyold”" [ref=f20e998] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=agencyold
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e999]:
+                        - link "Export Page" [ref=f20e1000] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3020
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1002] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3020&action=elementor
+                    - text: 
+                  - cell [ref=f20e1003]:
+                    - link "Page" [ref=f20e1004] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e1005]
+                  - cell [ref=f20e1006]:
+                    - link "irza" [ref=f20e1007] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e1008]: —
+                  - cell "Published 2026/10/22 at 4:52 am" [ref=f20e1010]: Published2026/10/22 at 4:52 am
+                  - cell [ref=f20e1011]:
+                    - link [ref=f20e1013] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1016] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3020&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1017]:
+                    - generic [ref=f20e1018]: Elementor template shortcode for template 3020
+                    - textbox "Elementor template shortcode for template 3020" [ref=f20e1019]: "[elementor-template id=\"3020\"]"
+                - row [ref=f20e1020]:
+                  - rowheader "Select old landing" [ref=f20e1021]:
+                    - checkbox "Select old landing" [ref=f20e1022] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1025]:
+                    - strong [ref=f20e1026]:
+                      - link "“old landing” (Edit)" [ref=f20e1027] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3014&action=edit
+                        - text: old landing
+                    - generic [ref=f20e1028]:
+                      - generic [ref=f20e1029]:
+                        - link "Edit “old landing”" [ref=f20e1030] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3014&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1031]:
+                        - button "Quick edit “old landing” inline" [ref=f20e1032] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1033]:
+                        - link "Move “old landing” to the Trash" [ref=f20e1034] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=3014&action=trash&_wpnonce=f7cf47395e
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1035]:
+                        - link "View “old landing”" [ref=f20e1036] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=old-landing
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1037]:
+                        - link "Export Page" [ref=f20e1038] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=3014
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1040] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=3014&action=elementor
+                    - text: 
+                  - cell [ref=f20e1041]:
+                    - link "Page" [ref=f20e1042] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e1043]
+                  - cell [ref=f20e1044]:
+                    - link "irza" [ref=f20e1045] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=5
+                  - cell "No categories" [ref=f20e1046]: —
+                  - cell "Published 2026/10/22 at 4:14 am" [ref=f20e1048]: Published2026/10/22 at 4:14 am
+                  - cell [ref=f20e1049]:
+                    - link [ref=f20e1051] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1054] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=3014&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1055]:
+                    - generic [ref=f20e1056]: Elementor template shortcode for template 3014
+                    - textbox "Elementor template shortcode for template 3014" [ref=f20e1057]: "[elementor-template id=\"3014\"]"
+                - row [ref=f20e1058]:
+                  - rowheader "Select Blog" [ref=f20e1059]:
+                    - checkbox "Select Blog" [ref=f20e1060] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1063]:
+                    - strong [ref=f20e1064]:
+                      - link "“Blog” (Edit)" [ref=f20e1065] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=2942&action=edit
+                        - text: Blog
+                    - generic [ref=f20e1066]:
+                      - generic [ref=f20e1067]:
+                        - link "Edit “Blog”" [ref=f20e1068] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=2942&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1069]:
+                        - button "Quick edit “Blog” inline" [ref=f20e1070] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1071]:
+                        - link "Move “Blog” to the Trash" [ref=f20e1072] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=2942&action=trash&_wpnonce=d019fb8c1d
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1073]:
+                        - link "View “Blog”" [ref=f20e1074] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=blog
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1075]:
+                        - link "Export Archive" [ref=f20e1076] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=2942
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1078] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=2942&action=elementor
+                    - text: 
+                  - cell [ref=f20e1079]:
+                    - link "Archive" [ref=f20e1080] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=archive
+                  - cell "None" [ref=f20e1081]
+                  - cell [ref=f20e1082]:
+                    - link "Admin" [ref=f20e1083] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1084]: —
+                  - cell "Published 2026/02/24 at 4:38 am" [ref=f20e1086]: Published2026/02/24 at 4:38 am
+                  - cell [ref=f20e1087]:
+                    - link [ref=f20e1089] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1092] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=2942&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1093]:
+                    - generic [ref=f20e1094]: Elementor template shortcode for template 2942
+                    - textbox "Elementor template shortcode for template 2942" [ref=f20e1095]: "[elementor-template id=\"2942\"]"
+                - row [ref=f20e1096]:
+                  - rowheader "Select Bio" [ref=f20e1097]:
+                    - checkbox "Select Bio" [ref=f20e1098] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1101]:
+                    - strong [ref=f20e1102]:
+                      - link "“Bio” (Edit)" [ref=f20e1103] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=2919&action=edit
+                        - text: Bio
+                    - generic [ref=f20e1104]:
+                      - generic [ref=f20e1105]:
+                        - link "Edit “Bio”" [ref=f20e1106] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=2919&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1107]:
+                        - button "Quick edit “Bio” inline" [ref=f20e1108] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1109]:
+                        - link "Move “Bio” to the Trash" [ref=f20e1110] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=2919&action=trash&_wpnonce=dd3c870662
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1111]:
+                        - link "View “Bio”" [ref=f20e1112] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=bio
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1113]:
+                        - link "Export Page" [ref=f20e1114] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=2919
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1116] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=2919&action=elementor
+                    - text: 
+                  - cell [ref=f20e1117]:
+                    - link "Page" [ref=f20e1118] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e1119]
+                  - cell [ref=f20e1120]:
+                    - link "Admin" [ref=f20e1121] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1122]: —
+                  - cell "Published 2026/02/07 at 4:35 am" [ref=f20e1124]: Published2026/02/07 at 4:35 am
+                  - cell [ref=f20e1125]:
+                    - link [ref=f20e1127] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1130] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=2919&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1131]:
+                    - generic [ref=f20e1132]: Elementor template shortcode for template 2919
+                    - textbox "Elementor template shortcode for template 2919" [ref=f20e1133]: "[elementor-template id=\"2919\"]"
+                - row [ref=f20e1134]:
+                  - 'rowheader "Select Elementor Archive #710" [ref=f20e1135]':
+                    - 'checkbox "Select Elementor Archive #710" [ref=f20e1136] [cursor=pointer]'
+                    - text: 
+                  - cell [ref=f20e1139]:
+                    - strong [ref=f20e1140]:
+                      - 'link "“Elementor Archive #710” (Edit)" [ref=f20e1141] [cursor=pointer]':
+                        - /url: https://yometapp.com/wp-admin/post.php?post=2658&action=edit
+                        - text: "Elementor Archive #710"
+                    - generic [ref=f20e1142]:
+                      - generic [ref=f20e1143]:
+                        - 'link "Edit “Elementor Archive #710”" [ref=f20e1144] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=2658&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1145]:
+                        - 'button "Quick edit “Elementor Archive #710” inline" [ref=f20e1146] [cursor=pointer]': Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1147]:
+                        - 'link "Move “Elementor Archive #710” to the Trash" [ref=f20e1148] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=2658&action=trash&_wpnonce=fbfe933667
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1149]:
+                        - 'link "View “Elementor Archive #710”" [ref=f20e1150] [cursor=pointer]':
+                          - /url: https://yometapp.com/?elementor_library=elementor-archive-710
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1151]:
+                        - link "Export Archive" [ref=f20e1152] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=2658
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1154] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=2658&action=elementor
+                    - text: 
+                  - cell [ref=f20e1155]:
+                    - link "Archive" [ref=f20e1156] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=archive
+                  - 'cell "Categories #7" [ref=f20e1157]'
+                  - cell [ref=f20e1158]:
+                    - link "Admin" [ref=f20e1159] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1160]: —
+                  - cell "Published 2025/08/19 at 6:37 am" [ref=f20e1162]: Published2025/08/19 at 6:37 am
+                  - cell [ref=f20e1163]:
+                    - link [ref=f20e1165] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1168] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=2658&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1169]:
+                    - generic [ref=f20e1170]: Elementor template shortcode for template 2658
+                    - textbox "Elementor template shortcode for template 2658" [ref=f20e1171]: "[elementor-template id=\"2658\"]"
+                - row [ref=f20e1172]:
+                  - 'rowheader "Select Elementor Single Post #236" [ref=f20e1173]':
+                    - 'checkbox "Select Elementor Single Post #236" [ref=f20e1174] [cursor=pointer]'
+                    - text: 
+                  - cell [ref=f20e1177]:
+                    - strong [ref=f20e1178]:
+                      - 'link "“Elementor Single Post #236” (Edit)" [ref=f20e1179] [cursor=pointer]':
+                        - /url: https://yometapp.com/wp-admin/post.php?post=236&action=edit
+                        - text: "Elementor Single Post #236"
+                    - generic [ref=f20e1180]:
+                      - generic [ref=f20e1181]:
+                        - 'link "Edit “Elementor Single Post #236”" [ref=f20e1182] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=236&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1183]:
+                        - 'button "Quick edit “Elementor Single Post #236” inline" [ref=f20e1184] [cursor=pointer]': Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1185]:
+                        - 'link "Move “Elementor Single Post #236” to the Trash" [ref=f20e1186] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=236&action=trash&_wpnonce=bec1f7ac20
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1187]:
+                        - 'link "View “Elementor Single Post #236”" [ref=f20e1188] [cursor=pointer]':
+                          - /url: https://yometapp.com/?elementor_library=elementor-single-post-236
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1189]:
+                        - link "Export Single Post" [ref=f20e1190] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=236
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1192] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=236&action=elementor
+                    - text: 
+                  - cell [ref=f20e1193]:
+                    - link "Single Post" [ref=f20e1194] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=single-post
+                  - cell "In Category" [ref=f20e1195]
+                  - cell [ref=f20e1196]:
+                    - link "Admin" [ref=f20e1197] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1198]: —
+                  - cell "Published 2024/03/02 at 1:48 am" [ref=f20e1200]: Published2024/03/02 at 1:48 am
+                  - cell [ref=f20e1201]:
+                    - link [ref=f20e1203] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1206] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=236&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1207]:
+                    - generic [ref=f20e1208]: Elementor template shortcode for template 236
+                    - textbox "Elementor template shortcode for template 236" [ref=f20e1209]: "[elementor-template id=\"236\"]"
+                - row [ref=f20e1210]:
+                  - 'rowheader "Select Elementor Footer #84" [ref=f20e1211]':
+                    - 'checkbox "Select Elementor Footer #84" [ref=f20e1212] [cursor=pointer]'
+                    - text: 
+                  - cell [ref=f20e1215]:
+                    - strong [ref=f20e1216]:
+                      - 'link "“Elementor Footer #84” (Edit)" [ref=f20e1217] [cursor=pointer]':
+                        - /url: https://yometapp.com/wp-admin/post.php?post=84&action=edit
+                        - text: "Elementor Footer #84"
+                    - generic [ref=f20e1218]:
+                      - generic [ref=f20e1219]:
+                        - 'link "Edit “Elementor Footer #84”" [ref=f20e1220] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=84&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1221]:
+                        - 'button "Quick edit “Elementor Footer #84” inline" [ref=f20e1222] [cursor=pointer]': Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1223]:
+                        - 'link "Move “Elementor Footer #84” to the Trash" [ref=f20e1224] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=84&action=trash&_wpnonce=bd82416928
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1225]:
+                        - 'link "View “Elementor Footer #84”" [ref=f20e1226] [cursor=pointer]':
+                          - /url: https://yometapp.com/?elementor_library=elementor-footer-84
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1227]:
+                        - link "Export Footer" [ref=f20e1228] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=84
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1230] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=84&action=elementor
+                    - text: 
+                  - cell [ref=f20e1231]:
+                    - link "Footer" [ref=f20e1232] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=footer
+                  - cell "Entire Site" [ref=f20e1233]
+                  - cell [ref=f20e1234]:
+                    - link "Admin" [ref=f20e1235] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1236]: —
+                  - cell "Published 2023/11/02 at 9:38 am" [ref=f20e1238]: Published2023/11/02 at 9:38 am
+                  - cell [ref=f20e1239]:
+                    - link [ref=f20e1241] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1244] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=84&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1245]:
+                    - generic [ref=f20e1246]: Elementor template shortcode for template 84
+                    - textbox "Elementor template shortcode for template 84" [ref=f20e1247]: "[elementor-template id=\"84\"]"
+                - row [ref=f20e1248]:
+                  - 'rowheader "Select Elementor Header #78" [ref=f20e1249]':
+                    - 'checkbox "Select Elementor Header #78" [ref=f20e1250] [cursor=pointer]'
+                    - text: 
+                  - cell [ref=f20e1253]:
+                    - strong [ref=f20e1254]:
+                      - 'link "“Elementor Header #78” (Edit)" [ref=f20e1255] [cursor=pointer]':
+                        - /url: https://yometapp.com/wp-admin/post.php?post=78&action=edit
+                        - text: "Elementor Header #78"
+                    - generic [ref=f20e1256]:
+                      - generic [ref=f20e1257]:
+                        - 'link "Edit “Elementor Header #78”" [ref=f20e1258] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=78&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1259]:
+                        - 'button "Quick edit “Elementor Header #78” inline" [ref=f20e1260] [cursor=pointer]': Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1261]:
+                        - 'link "Move “Elementor Header #78” to the Trash" [ref=f20e1262] [cursor=pointer]':
+                          - /url: https://yometapp.com/wp-admin/post.php?post=78&action=trash&_wpnonce=43f7378037
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1263]:
+                        - 'link "View “Elementor Header #78”" [ref=f20e1264] [cursor=pointer]':
+                          - /url: https://yometapp.com/?elementor_library=elementor-header-78
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1265]:
+                        - link "Export Header" [ref=f20e1266] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=78
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1268] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=78&action=elementor
+                    - text: 
+                  - cell [ref=f20e1269]:
+                    - link "Header" [ref=f20e1270] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=header
+                  - cell "Entire Site" [ref=f20e1271]
+                  - cell [ref=f20e1272]:
+                    - link "Admin" [ref=f20e1273] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1274]: —
+                  - cell "Published 2023/11/02 at 9:35 am" [ref=f20e1276]: Published2023/11/02 at 9:35 am
+                  - cell [ref=f20e1277]:
+                    - link [ref=f20e1279] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1282] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=78&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1283]:
+                    - generic [ref=f20e1284]: Elementor template shortcode for template 78
+                    - textbox "Elementor template shortcode for template 78" [ref=f20e1285]: "[elementor-template id=\"78\"]"
+                - row [ref=f20e1286]:
+                  - rowheader "Select fotter" [ref=f20e1287]:
+                    - checkbox "Select fotter" [ref=f20e1288] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1291]:
+                    - strong [ref=f20e1292]:
+                      - link "“fotter” (Edit)" [ref=f20e1293] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=70&action=edit
+                        - text: fotter
+                    - generic [ref=f20e1294]:
+                      - generic [ref=f20e1295]:
+                        - link "Edit “fotter”" [ref=f20e1296] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=70&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1297]:
+                        - button "Quick edit “fotter” inline" [ref=f20e1298] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1299]:
+                        - link "Move “fotter” to the Trash" [ref=f20e1300] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=70&action=trash&_wpnonce=986c36716b
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1301]:
+                        - link "View “fotter”" [ref=f20e1302] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=fotter
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1303]:
+                        - link "Export Section" [ref=f20e1304] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=70
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1306] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=70&action=elementor
+                    - text: 
+                  - cell [ref=f20e1307]:
+                    - link "Section" [ref=f20e1308] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=section
+                  - cell "None" [ref=f20e1309]
+                  - cell [ref=f20e1310]:
+                    - link "Admin" [ref=f20e1311] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1312]: —
+                  - cell "Published 2023/11/02 at 9:34 am" [ref=f20e1314]: Published2023/11/02 at 9:34 am
+                  - cell [ref=f20e1315]:
+                    - link [ref=f20e1317] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1320] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=70&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1321]:
+                    - generic [ref=f20e1322]: Elementor template shortcode for template 70
+                    - textbox "Elementor template shortcode for template 70" [ref=f20e1323]: "[elementor-template id=\"70\"]"
+                - row [ref=f20e1324]:
+                  - rowheader "Select header" [ref=f20e1325]:
+                    - checkbox "Select header" [ref=f20e1326] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1329]:
+                    - strong [ref=f20e1330]:
+                      - link "“header” (Edit)" [ref=f20e1331] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=67&action=edit
+                        - text: header
+                    - generic [ref=f20e1332]:
+                      - generic [ref=f20e1333]:
+                        - link "Edit “header”" [ref=f20e1334] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=67&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1335]:
+                        - button "Quick edit “header” inline" [ref=f20e1336] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1337]:
+                        - link "Move “header” to the Trash" [ref=f20e1338] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=67&action=trash&_wpnonce=66d9fabd0f
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1339]:
+                        - link "View “header”" [ref=f20e1340] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=header
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1341]:
+                        - link "Export Section" [ref=f20e1342] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=67
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1344] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=67&action=elementor
+                    - text: 
+                  - cell [ref=f20e1345]:
+                    - link "Section" [ref=f20e1346] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=section
+                  - cell "None" [ref=f20e1347]
+                  - cell [ref=f20e1348]:
+                    - link "Admin" [ref=f20e1349] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1350]: —
+                  - cell "Published 2023/11/02 at 9:33 am" [ref=f20e1352]: Published2023/11/02 at 9:33 am
+                  - cell [ref=f20e1353]:
+                    - link [ref=f20e1355] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1358] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=67&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1359]:
+                    - generic [ref=f20e1360]: Elementor template shortcode for template 67
+                    - textbox "Elementor template shortcode for template 67" [ref=f20e1361]: "[elementor-template id=\"67\"]"
+                - row [ref=f20e1362]:
+                  - rowheader "Select poppo id" [ref=f20e1363]:
+                    - checkbox "Select poppo id" [ref=f20e1364] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1367]:
+                    - strong [ref=f20e1368]:
+                      - link "“poppo id” (Edit)" [ref=f20e1369] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=32&action=edit
+                        - text: poppo id
+                    - generic [ref=f20e1370]:
+                      - generic [ref=f20e1371]:
+                        - link "Edit “poppo id”" [ref=f20e1372] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=32&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1373]:
+                        - button "Quick edit “poppo id” inline" [ref=f20e1374] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1375]:
+                        - link "Move “poppo id” to the Trash" [ref=f20e1376] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=32&action=trash&_wpnonce=2f2141a927
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1377]:
+                        - link "View “poppo id”" [ref=f20e1378] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=poppo-id
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1379]:
+                        - link "Export Page" [ref=f20e1380] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=32
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1382] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=32&action=elementor
+                    - text: 
+                  - cell [ref=f20e1383]:
+                    - link "Page" [ref=f20e1384] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e1385]
+                  - cell [ref=f20e1386]:
+                    - link "Admin" [ref=f20e1387] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1388]: —
+                  - cell "Published 2023/11/02 at 7:57 am" [ref=f20e1390]: Published2023/11/02 at 7:57 am
+                  - cell [ref=f20e1391]:
+                    - link [ref=f20e1393] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1396] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=32&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1397]:
+                    - generic [ref=f20e1398]: Elementor template shortcode for template 32
+                    - textbox "Elementor template shortcode for template 32" [ref=f20e1399]: "[elementor-template id=\"32\"]"
+                - row [ref=f20e1400]:
+                  - rowheader "Select maintenance" [ref=f20e1401]:
+                    - checkbox "Select maintenance" [ref=f20e1402] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1405]:
+                    - strong [ref=f20e1406]:
+                      - link "“maintenance” (Edit)" [ref=f20e1407] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=10&action=edit
+                        - text: maintenance
+                    - generic [ref=f20e1408]:
+                      - generic [ref=f20e1409]:
+                        - link "Edit “maintenance”" [ref=f20e1410] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=10&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1411]:
+                        - button "Quick edit “maintenance” inline" [ref=f20e1412] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1413]:
+                        - link "Move “maintenance” to the Trash" [ref=f20e1414] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=10&action=trash&_wpnonce=216c322f6a
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1415]:
+                        - link "View “maintenance”" [ref=f20e1416] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=maintenance
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1417]:
+                        - link "Export Page" [ref=f20e1418] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=10
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1420] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=10&action=elementor
+                    - text: 
+                  - cell [ref=f20e1421]:
+                    - link "Page" [ref=f20e1422] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&elementor_library_type=page
+                  - cell "None" [ref=f20e1423]
+                  - cell [ref=f20e1424]:
+                    - link "Admin" [ref=f20e1425] [cursor=pointer]:
+                      - /url: edit.php?post_type=elementor_library&author=1
+                  - cell "No categories" [ref=f20e1426]: —
+                  - cell "Published 2023/10/29 at 3:07 am" [ref=f20e1428]: Published2023/10/29 at 3:07 am
+                  - cell [ref=f20e1429]:
+                    - link [ref=f20e1431] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1434] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=10&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1435]:
+                    - generic [ref=f20e1436]: Elementor template shortcode for template 10
+                    - textbox "Elementor template shortcode for template 10" [ref=f20e1437]: "[elementor-template id=\"10\"]"
+                - row [ref=f20e1438]:
+                  - rowheader "Select Default Kit" [ref=f20e1439]:
+                    - checkbox "Select Default Kit" [ref=f20e1440] [cursor=pointer]
+                    - text: 
+                  - cell [ref=f20e1443]:
+                    - strong [ref=f20e1444]:
+                      - link "“Default Kit” (Edit)" [ref=f20e1445] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=5&action=edit
+                        - text: Default Kit
+                    - generic [ref=f20e1446]:
+                      - generic [ref=f20e1447]:
+                        - link "Edit “Default Kit”" [ref=f20e1448] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=5&action=edit
+                          - text: Edit
+                        - text: "|"
+                      - generic [ref=f20e1449]:
+                        - button "Quick edit “Default Kit” inline" [ref=f20e1450] [cursor=pointer]: Quick Edit
+                        - text: "|"
+                      - generic [ref=f20e1451]:
+                        - link "Move “Default Kit” to the Trash" [ref=f20e1452] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/post.php?post=5&action=trash&_wpnonce=360d0c46da
+                          - text: Trash
+                        - text: "|"
+                      - generic [ref=f20e1453]:
+                        - link "View “Default Kit”" [ref=f20e1454] [cursor=pointer]:
+                          - /url: https://yometapp.com/?elementor_library=default-kit
+                          - text: View
+                        - text: "|"
+                      - generic [ref=f20e1455]:
+                        - link "Export Kit" [ref=f20e1456] [cursor=pointer]:
+                          - /url: https://yometapp.com/wp-admin/admin-ajax.php?action=elementor_library_direct_actions&library_action=export_template&source=local&_nonce=ff41663792&template_id=5
+                        - text: "|"
+                      - link "Edit with Elementor" [ref=f20e1458] [cursor=pointer]:
+                        - /url: https://yometapp.com/wp-admin/post.php?post=5&action=elementor
+                    - text: 
+                  - cell [ref=f20e1459]
+                  - cell "None" [ref=f20e1460]
+                  - cell [ref=f20e1461]:
+                    - link:
+                      - /url: edit.php?post_type=elementor_library&author
+                  - cell "No categories" [ref=f20e1462]: —
+                  - cell "Published 2023/10/28 at 8:31 pm" [ref=f20e1464]: Published2023/10/28 at 8:31 pm
+                  - cell [ref=f20e1465]:
+                    - link [ref=f20e1467] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_plugins_page&type=locked-mini-chart
+                    - link "0" [ref=f20e1470] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/admin.php?page=wps_content-analytics_page&post_id=5&type=single&from=2026-10-04&to=2026-11-02
+                  - cell [ref=f20e1471]:
+                    - generic [ref=f20e1472]: Elementor template shortcode for template 5
+                    - textbox "Elementor template shortcode for template 5" [ref=f20e1473]: "[elementor-template id=\"5\"]"
+              - rowgroup [ref=f20e1474]:
+                - row [ref=f20e1475]:
+                  - cell "Select All" [ref=f20e1476]:
+                    - checkbox "Select All" [ref=f20e1477] [cursor=pointer]
+                  - columnheader [ref=f20e1480]:
+                    - link "Title Sort ascending." [ref=f20e1481] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&orderby=title&order=asc
+                      - generic [ref=f20e1482]: Title
+                      - generic [ref=f20e1483]:
+                        - generic [aria-hidden] [ref=f20e1484]: 
+                        - generic [aria-hidden] [ref=f20e1485]: 
+                      - generic [ref=f20e1486]: Sort ascending.
+                  - columnheader "Type" [ref=f20e1487]
+                  - columnheader "Instances" [ref=f20e1488]
+                  - columnheader "Author" [ref=f20e1489]
+                  - columnheader "Categories" [ref=f20e1490]
+                  - columnheader [ref=f20e1491]:
+                    - link "Date" [ref=f20e1492] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&orderby=date&order=asc
+                      - generic [ref=f20e1494]:
+                        - generic [aria-hidden] [ref=f20e1495]: 
+                        - generic [aria-hidden] [ref=f20e1496]: 
+                  - columnheader [ref=f20e1497]:
+                    - link "Views Sort ascending." [ref=f20e1498] [cursor=pointer]:
+                      - /url: https://yometapp.com/wp-admin/edit.php?post_type=elementor_library&orderby=hits&order=asc
+                      - generic [ref=f20e1499]: Views
+                      - generic [ref=f20e1500]:
+                        - generic [aria-hidden] [ref=f20e1501]: 
+                        - generic [aria-hidden] [ref=f20e1502]: 
+                      - generic [ref=f20e1503]: Sort ascending.
+                  - columnheader "Shortcode" [ref=f20e1504]
+            - generic [ref=f20e1505]:
+              - generic [ref=f20e1506]:
+                - generic [ref=f20e1507]: Select bulk action
+                - combobox "Select bulk action" [ref=f20e1508] [cursor=pointer]:
+                  - option "Bulk actions" [selected]
+                  - option "Edit"
+                  - option "Move to Trash"
+                  - option "Export"
+                - button "Apply" [ref=f20e1509] [cursor=pointer]
+              - generic [ref=f20e1510]: 19 items
+        - contentinfo [ref=f20e1512]:
+          - paragraph [ref=f20e1513]:
+            - text: Enjoyed
+            - strong [ref=f20e1514]: Elementor
+            - text: "? Please leave us a"
+            - link "★★★★★" [ref=f20e1515] [cursor=pointer]:
+              - /url: https://go.elementor.com/admin-review/
+            - text: rating. We really appreciate your support!
+          - paragraph [ref=f20e1516]:
+            - strong [ref=f20e1517]:
+              - link "Get Version 7.1.4" [ref=f20e1518] [cursor=pointer]:
+                - /url: https://yometapp.com/wp-admin/update-core.php
+  - generic [ref=f20e1519]:
+    - dialog "Kodee AI Assistant" [ref=f20e1520]:
+      - generic [ref=f20e1521]:
+        - generic [ref=f20e1522]:
+          - heading "Kodee" [level=4] [ref=f20e1523]
+          - button "Hide" [ref=f20e1525] [cursor=pointer]
+        - generic [ref=f20e1528]:
+          - generic [ref=f20e1529]:
+            - heading "Hey," [level=2] [ref=f20e1533]
+            - heading "How can I help you?" [level=3] [ref=f20e1534]
+          - generic [ref=f20e1535]:
+            - paragraph [ref=f20e1536]: "I’m Kodee – your AI WordPress assistant. I can help you:"
+            - list [ref=f20e1537]:
+              - listitem [ref=f20e1538]:
+                - heading "Create and edit pages or posts" [level=4] [ref=f20e1541]
+              - listitem [ref=f20e1542]:
+                - heading "Manage users and permissions" [level=4] [ref=f20e1545]
+              - listitem [ref=f20e1546]:
+                - heading "Summarize your store or site performance" [level=4] [ref=f20e1549]
+              - listitem [ref=f20e1550]:
+                - heading "Add and manage WooCommerce products" [level=4] [ref=f20e1553]
+          - button "Give it a try" [ref=f20e1554] [cursor=pointer]
+    - button "Ask Kodee" [expanded] [ref=f20e1557] [cursor=pointer]
+  - text: 

@@ -1,0 +1,337 @@
+- generic [active] [ref=f36e1]:
+  - generic [ref=f36e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f36e3]:
+          - menuitem "About WordPress" [ref=f36e4] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f36e5]: 
+        - group [ref=f36e7]:
+          - menuitem " Yomet App" [ref=f36e8] [cursor=pointer]
+        - group [ref=f36e9]:
+          - menuitem " Customize" [ref=f36e10] [cursor=pointer]
+        - group [ref=f36e11]:
+          - menuitem "18 updates available" [ref=f36e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f36e13]: 
+            - generic [aria-hidden] [ref=f36e14]: "18"
+        - group [ref=f36e16]:
+          - menuitem "0 Comments in moderation" [ref=f36e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f36e18]: 
+            - generic [aria-hidden] [ref=f36e19]: "0"
+        - group [ref=f36e21]:
+          - 'menuitem " Category Views: 3 - Online: 1" [ref=f36e22] [cursor=pointer]':
+            - generic [ref=f36e23]: 
+            - text: "Category Views: 3 - Online: 1"
+          - text: 
+        - group [ref=f36e24]:
+          - menuitem "New" [ref=f36e25] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f36e26]: 
+        - group [ref=f36e28]:
+          - menuitem " Edit Category" [ref=f36e29] [cursor=pointer]
+        - listitem [ref=f36e30]:
+          - generic [ref=f36e31]:  Edit with Elementor
+        - group [ref=f36e32]:
+          - menuitem "SEO" [ref=f36e33] [cursor=pointer]:
+            - generic [ref=f36e37]: Focus keyphrase not set
+          - text:    
+        - group [ref=f36e38]:
+          - menuitem [ref=f36e39] [cursor=pointer]
+        - group [ref=f36e41]:
+          - menuitem " Notes" [ref=f36e42] [cursor=pointer]
+        - group [ref=f36e43]:
+          - menuitem "Hostinger" [ref=f36e44]
+        - group [ref=f36e47]:
+          - menuitem "Edit Home Page" [ref=f36e48] [cursor=pointer]
+      - menu [ref=f36e49]:
+        - group [ref=f36e50]:
+          - menuitem "Howdy, irza" [ref=f36e51] [cursor=pointer]
+        - group [ref=f36e52]:
+          - menuitem " Search" [ref=f36e53]:
+            - generic [ref=f36e54]:
+              - text: 
+              - textbox "Search" [ref=f36e55] [cursor=pointer]
+              - generic [ref=f36e56]: Search
+  - link "Skip to content" [ref=f36e57] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f36e58]:
+    - generic [ref=f36e63]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link "Yomet Partner Official":
+                - /url: /
+                - img "Yomet Official Logo"
+                - generic: Yomet
+              - navigation:
+                - link "Home":
+                  - /url: /
+                - link "Become a Host":
+                  - /url: /host
+                - link "Become an Agency":
+                  - /url: /agency
+                - link "Blog":
+                  - /url: /blog
+                - link "Contact Support":
+                  - /url: /contact
+                - generic:
+                  - link "Join as Agent":
+                    - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+                  - link "Join as Host":
+                    - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+              - generic:
+                - link "Join as Agent":
+                  - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+                - link "Join as Host":
+                  - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+                - button "Toggle Navigation Menu": ☰
+    - generic [ref=f36e66]:
+      - heading "Latest Yomet News" [level=2] [ref=f36e77]
+      - generic [ref=f36e84]:
+        - generic [ref=f36e88]:
+          - generic [ref=f36e89]:
+            - article [ref=f36e90]:
+              - generic [ref=f36e91]:
+                - link [ref=f36e92] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+                - generic [ref=f36e94]: Blog
+                - generic [ref=f36e95]:
+                  - heading [level=3] [ref=f36e96]:
+                    - link "Why Short-term Problems are Bad for Yomet Live Hosts" [ref=f36e97] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+                  - link "Read more about Why Short-term Problems are Bad for Yomet Live Hosts" [ref=f36e98] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+                    - text: Read More »
+                - generic [ref=f36e99]: January 30, 2026 • No Comments
+            - article [ref=f36e100]:
+              - generic [ref=f36e101]:
+                - link [ref=f36e102] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+                - generic [ref=f36e104]: Blog
+                - generic [ref=f36e105]:
+                  - heading [level=3] [ref=f36e106]:
+                    - link "Coordinating Stream Ideas With Hosts as Yomet Live Agents" [ref=f36e107] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+                  - link "Read more about Coordinating Stream Ideas With Hosts as Yomet Live Agents" [ref=f36e108] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+                    - text: Read More »
+                - generic [ref=f36e109]: January 27, 2026 • No Comments
+            - article [ref=f36e110]:
+              - generic [ref=f36e111]:
+                - link [ref=f36e112] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+                - generic [ref=f36e114]: Blog
+                - generic [ref=f36e115]:
+                  - heading [level=3] [ref=f36e116]:
+                    - link "Benefits of Optimism for Yomet Live Hosts" [ref=f36e117] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+                  - link "Read more about Benefits of Optimism for Yomet Live Hosts" [ref=f36e118] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+                    - text: Read More »
+                - generic [ref=f36e119]: January 23, 2026 • No Comments
+            - article [ref=f36e120]:
+              - generic [ref=f36e121]:
+                - link [ref=f36e122] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/
+                - generic [ref=f36e124]: Blog
+                - generic [ref=f36e125]:
+                  - heading [level=3] [ref=f36e126]:
+                    - link "How Can Yomet Live Agents Become Agile?" [ref=f36e127] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/
+                  - link "Read more about How Can Yomet Live Agents Become Agile?" [ref=f36e128] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/
+                    - text: Read More »
+                - generic [ref=f36e129]: January 20, 2026 • No Comments
+            - article [ref=f36e130]:
+              - generic [ref=f36e131]:
+                - link [ref=f36e132] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/
+                - generic [ref=f36e134]: Blog
+                - generic [ref=f36e135]:
+                  - heading [level=3] [ref=f36e136]:
+                    - link "Ways Yomet Live Agents Can Help Hosts Priorities" [ref=f36e137] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/
+                  - link "Read more about Ways Yomet Live Agents Can Help Hosts Priorities" [ref=f36e138] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/
+                    - text: Read More »
+                - generic [ref=f36e139]: January 13, 2026 • No Comments
+            - article [ref=f36e140]:
+              - generic [ref=f36e141]:
+                - link [ref=f36e142] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/
+                - generic [ref=f36e144]: Blog
+                - generic [ref=f36e145]:
+                  - heading [level=3] [ref=f36e146]:
+                    - link "Basic Morning Live Stream Routines for Yomet Live Hosts" [ref=f36e147] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/
+                  - link "Read more about Basic Morning Live Stream Routines for Yomet Live Hosts" [ref=f36e148] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/
+                    - text: Read More »
+                - generic [ref=f36e149]: January 9, 2026 • No Comments
+            - article [ref=f36e150]:
+              - generic [ref=f36e151]:
+                - link [ref=f36e152] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/
+                - generic [ref=f36e154]: Blog
+                - generic [ref=f36e155]:
+                  - heading [level=3] [ref=f36e156]:
+                    - link "When Yomet Live Agents Should Find New Hosts" [ref=f36e157] [cursor=pointer]:
+                      - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/
+                  - link "Read more about When Yomet Live Agents Should Find New Hosts" [ref=f36e158] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/
+                    - text: Read More »
+                - generic [ref=f36e159]: January 6, 2026 • No Comments
+            - article [ref=f36e160]:
+              - generic [ref=f36e161]:
+                - link [ref=f36e162] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/
+                - generic [ref=f36e164]: Blog
+                - generic [ref=f36e165]:
+                  - heading [level=3] [ref=f36e166]:
+                    - link "Finding Your Own Motivations as Yomet Live Agents" [ref=f36e167] [cursor=pointer]:
+                      - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/
+                  - link "Read more about Finding Your Own Motivations as Yomet Live Agents" [ref=f36e168] [cursor=pointer]:
+                    - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/
+                    - text: Read More »
+                - generic [ref=f36e169]: December 30, 2025 • No Comments
+            - article [ref=f36e170]:
+              - generic [ref=f36e171]:
+                - link [ref=f36e172] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/
+                - generic [ref=f36e174]: Blog
+                - generic [ref=f36e175]:
+                  - heading [level=3] [ref=f36e176]:
+                    - link "Tips to Increase Your Yomet Live Host Level" [ref=f36e177] [cursor=pointer]:
+                      - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/
+                  - link "Read more about Tips to Increase Your Yomet Live Host Level" [ref=f36e178] [cursor=pointer]:
+                    - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/
+                    - text: Read More »
+                - generic [ref=f36e179]: December 19, 2025 • No Comments
+            - article [ref=f36e180]:
+              - generic [ref=f36e181]:
+                - link [ref=f36e182] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/
+                - generic [ref=f36e184]: Blog
+                - generic [ref=f36e185]:
+                  - heading [level=3] [ref=f36e186]:
+                    - link "Why Confidence Matters for Yomet Live Agents" [ref=f36e187] [cursor=pointer]:
+                      - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/
+                  - link "Read more about Why Confidence Matters for Yomet Live Agents" [ref=f36e188] [cursor=pointer]:
+                    - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/
+                    - text: Read More »
+                - generic [ref=f36e189]: December 16, 2025 • No Comments
+          - button "Load More" [ref=f36e191] [cursor=pointer]
+        - generic [ref=f36e195]:
+          - heading "Most Popular" [level=2] [ref=f36e198]
+          - generic [ref=f36e201]:
+            - article [ref=f36e202]:
+              - link [ref=f36e203] [cursor=pointer]:
+                - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+              - generic [ref=f36e205]:
+                - heading [level=3] [ref=f36e206]:
+                  - link "Why Short-term Problems are Bad for Yomet Live Hosts" [ref=f36e207] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+                - link "Read more about Why Short-term Problems are Bad for Yomet Live Hosts" [ref=f36e208] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+                  - text: Read More »
+            - article [ref=f36e209]:
+              - link [ref=f36e210] [cursor=pointer]:
+                - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+              - generic [ref=f36e212]:
+                - heading [level=3] [ref=f36e213]:
+                  - link "Coordinating Stream Ideas With Hosts as Yomet Live Agents" [ref=f36e214] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+                - link "Read more about Coordinating Stream Ideas With Hosts as Yomet Live Agents" [ref=f36e215] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+                  - text: Read More »
+            - article [ref=f36e216]:
+              - link [ref=f36e217] [cursor=pointer]:
+                - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+              - generic [ref=f36e219]:
+                - heading [level=3] [ref=f36e220]:
+                  - link "Benefits of Optimism for Yomet Live Hosts" [ref=f36e221] [cursor=pointer]:
+                    - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+                - link "Read more about Benefits of Optimism for Yomet Live Hosts" [ref=f36e222] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+                  - text: Read More »
+    - generic [ref=f36e231]:
+      - generic [ref=f36e232]:
+        - generic [ref=f36e233]:
+          - link "Yomet Official Logo Yomet" [ref=f36e234] [cursor=pointer]:
+            - /url: /
+            - img "Yomet Official Logo" [ref=f36e235]
+            - generic [ref=f36e236]: Yomet
+          - paragraph [ref=f36e237]: Official Yomet agency partner facilitating live streamers and agency owners with professional guidance, ongoing support, and earning opportunities.
+          - generic [ref=f36e238]:
+            - link "Telegram Support" [ref=f36e239] [cursor=pointer]:
+              - /url: https://telegram.me/yometappservice
+            - link "WhatsApp Support" [ref=f36e243] [cursor=pointer]:
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - link "Instagram Profile" [ref=f36e246] [cursor=pointer]:
+              - /url: https://www.instagram.com/olametagency
+            - link "Facebook Page" [ref=f36e251] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61587048279977
+        - generic [ref=f36e254]:
+          - heading "Navigation" [level=3] [ref=f36e255]
+          - list [ref=f36e256]:
+            - listitem [ref=f36e257]:
+              - link "Home" [ref=f36e258] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f36e259]:
+              - link "Become a Host" [ref=f36e260] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f36e261]:
+              - link "Become an Agency" [ref=f36e262] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f36e263]:
+              - link "Blog" [ref=f36e264] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f36e265]:
+              - link "Contact Support" [ref=f36e266] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f36e267]:
+          - heading "Quick Resources" [level=3] [ref=f36e268]
+          - list [ref=f36e269]:
+            - listitem [ref=f36e270]:
+              - link "Daily Task Rewards" [ref=f36e271] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f36e272]:
+              - link "Yomet Host Rules" [ref=f36e273] [cursor=pointer]:
+                - /url: /host
+            - listitem [ref=f36e274]:
+              - link "Agency Commission Rate" [ref=f36e275] [cursor=pointer]:
+                - /url: /agency
+            - listitem [ref=f36e276]:
+              - link "Withdrawal Information" [ref=f36e277] [cursor=pointer]:
+                - /url: /agency
+        - generic [ref=f36e278]:
+          - heading "Official Channels" [level=3] [ref=f36e279]
+          - list [ref=f36e280]:
+            - listitem [ref=f36e281]:
+              - 'link "Telegram: @yometappservice" [ref=f36e282] [cursor=pointer]':
+                - /url: https://telegram.me/yometappservice
+            - listitem [ref=f36e283]:
+              - 'link "WhatsApp: +60 18-247-0950" [ref=f36e284] [cursor=pointer]':
+                - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+            - listitem [ref=f36e285]:
+              - 'link "Instagram: @olametagency" [ref=f36e286] [cursor=pointer]':
+                - /url: https://www.instagram.com/olametagency
+            - listitem [ref=f36e287]:
+              - link "Facebook Support" [ref=f36e288] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61587048279977
+      - generic [ref=f36e289]:
+        - generic [ref=f36e290]: © 2026 Yomet Partner (yometapp.com). All rights reserved.
+        - generic [ref=f36e291]: Official Yomet Agency Partner Portal
+  - generic [ref=f36e292]: desktop
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Whatsapp":
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - generic:
+            - link "Telegram":
+              - /url: https://telegram.me/yometappservice
+        - generic [ref=f36e294] [cursor=pointer]:
+          - paragraph [ref=f36e296]: Contact us
+          - button "Open chaty" [ref=f36e298]

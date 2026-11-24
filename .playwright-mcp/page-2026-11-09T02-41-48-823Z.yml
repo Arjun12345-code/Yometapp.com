@@ -1,0 +1,379 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f10e3]:
+          - menuitem "About WordPress" [ref=f10e4] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f10e5]: 
+        - group [ref=f10e7]:
+          - menuitem " Yomet App" [ref=f10e8] [cursor=pointer]
+        - group [ref=f10e9]:
+          - menuitem " Customize" [ref=f10e10] [cursor=pointer]
+        - group [ref=f10e11]:
+          - menuitem "18 updates available" [ref=f10e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f10e13]: 
+            - generic [aria-hidden] [ref=f10e14]: "18"
+        - group [ref=f10e16]:
+          - menuitem "0 Comments in moderation" [ref=f10e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f10e18]: 
+            - generic [aria-hidden] [ref=f10e19]: "0"
+        - group [ref=f10e21]:
+          - 'menuitem " Online: 0" [ref=f10e22] [cursor=pointer]':
+            - generic [ref=f10e23]: 
+            - text: "Online: 0"
+          - text: 
+        - group [ref=f10e24]:
+          - menuitem "New" [ref=f10e25] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f10e26]: 
+        - group [ref=f10e28]:
+          - menuitem " Edit Page" [ref=f10e29] [cursor=pointer]
+        - listitem [ref=f10e30]:
+          - generic [ref=f10e31]:  Edit with Elementor
+        - group [ref=f10e32]:
+          - menuitem "SEO" [ref=f10e33] [cursor=pointer]
+          - text:    
+        - group [ref=f10e36]:
+          - menuitem [ref=f10e37] [cursor=pointer]
+        - group [ref=f10e39]:
+          - menuitem " Notes" [ref=f10e40] [cursor=pointer]
+        - group [ref=f10e41]:
+          - menuitem "Hostinger" [ref=f10e42]
+        - group [ref=f10e45]:
+          - menuitem "Edit Home Page" [ref=f10e46] [cursor=pointer]
+      - menu [ref=f10e47]:
+        - group [ref=f10e48]:
+          - menuitem "Howdy, irza" [ref=f10e49] [cursor=pointer]
+        - group [ref=f10e50]:
+          - menuitem " Search" [ref=f10e51]:
+            - generic [ref=f10e52]:
+              - text: 
+              - textbox "Search" [ref=f10e53] [cursor=pointer]
+              - generic [ref=f10e54]: Search
+  - link "Skip to content" [ref=f10e55] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f10e56]:
+    - generic [ref=f10e63]:
+      - link "Skip to content" [ref=f10e64] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f10e66]:
+        - link "Yomet Official Partner - Home" [ref=f10e67] [cursor=pointer]:
+          - /url: /
+          - img "Yomet Official Partner logo" [ref=f10e68]
+          - generic [ref=f10e69]: Yomet
+        - navigation "Main navigation" [ref=f10e70]:
+          - list [ref=f10e71]:
+            - listitem [ref=f10e72]:
+              - link "Home" [ref=f10e73] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f10e74]:
+              - link "Agent" [ref=f10e75] [cursor=pointer]:
+                - /url: /#agent-earning-list
+            - listitem [ref=f10e76]:
+              - link "Host" [ref=f10e77] [cursor=pointer]:
+                - /url: /#host-earning-list
+            - listitem [ref=f10e78]:
+              - link "Withdraw" [ref=f10e79] [cursor=pointer]:
+                - /url: /#withdrawal-guide
+            - listitem [ref=f10e80]:
+              - link "Contact" [ref=f10e81] [cursor=pointer]:
+                - /url: /#contact
+    - generic [ref=f10e84]:
+      - main [ref=f10e85]:
+        - generic [ref=f10e86]:
+          - article [ref=f10e87]:
+            - generic [ref=f10e89]:
+              - 'link "Read: Why Short-term Problems are Bad for Yomet Live Hosts" [ref=f10e92] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+              - heading [level=2] [ref=f10e93]:
+                - link "Why Short-term Problems are Bad for Yomet Live Hosts" [ref=f10e94] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+              - generic [ref=f10e96]:
+                - link "Leave a Comment" [ref=f10e98] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/#respond
+                - text: /
+                - link "Blog" [ref=f10e100] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e102] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e104]: On Yomet Live, quick fixes might ease today’s stress—but they often plant seeds for deeper struggles tomorrow. Ignoring a boundary “just this once,” skipping rest to chase gifting, or avoiding a tough conversation may solve an immediate issue, but they quietly erode your well-being, trust, and sustainability. Why short-term problems are bad for Yomet Live
+              - paragraph [ref=f10e105]:
+                - link "Why Short-term Problems are Bad for Yomet Live Hosts Read More »" [ref=f10e106] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/30/why-short-term-problems-are-bad-for-yomet-live-hosts/
+                  - generic [ref=f10e107]: Why Short-term Problems are Bad for Yomet Live Hosts
+                  - text: Read More »
+          - article [ref=f10e108]:
+            - generic [ref=f10e110]:
+              - 'link "Read: Coordinating Stream Ideas With Hosts as Yomet Live Agents" [ref=f10e113] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+              - heading [level=2] [ref=f10e114]:
+                - link "Coordinating Stream Ideas With Hosts as Yomet Live Agents" [ref=f10e115] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+              - generic [ref=f10e117]:
+                - link "Leave a Comment" [ref=f10e119] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/#respond
+                - text: /
+                - link "Blog" [ref=f10e121] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e123] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e125]: On Yomet Live, the best stream ideas don’t come from agents dictating themes—they emerge from real collaboration. When you and your host co-create with curiosity and care, streams feel authentic, not forced. Coordinating stream ideas with hosts as Yomet Live agents means guiding gently, listening deeply, and helping them turn their own life into meaningful
+              - paragraph [ref=f10e126]:
+                - link "Coordinating Stream Ideas With Hosts as Yomet Live Agents Read More »" [ref=f10e127] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/27/coordinating-stream-ideas-with-hosts-as-yomet-live-agents/
+                  - generic [ref=f10e128]: Coordinating Stream Ideas With Hosts as Yomet Live Agents
+                  - text: Read More »
+          - article [ref=f10e129]:
+            - generic [ref=f10e131]:
+              - 'link "Read: Benefits of Optimism for Yomet Live Hosts" [ref=f10e134] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+              - heading [level=2] [ref=f10e135]:
+                - link "Benefits of Optimism for Yomet Live Hosts" [ref=f10e136] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+              - generic [ref=f10e138]:
+                - link "Leave a Comment" [ref=f10e140] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/#respond
+                - text: /
+                - link "Blog" [ref=f10e142] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e144] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e146]: On Yomet Live, optimism isn’t about pretending everything’s perfect—it’s about believing that growth is possible, even on quiet days. When you approach your streams with grounded hope, you create space for resilience, connection, and joy to grow. Benefits of optimism for Yomet Live hosts show up not in flashy metrics, but in the quiet confidence
+              - paragraph [ref=f10e147]:
+                - link "Benefits of Optimism for Yomet Live Hosts Read More »" [ref=f10e148] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/23/benefits-of-optimism-for-yomet-live-hosts/
+                  - generic [ref=f10e149]: Benefits of Optimism for Yomet Live Hosts
+                  - text: Read More »
+          - article [ref=f10e150]:
+            - generic [ref=f10e152]:
+              - 'link "Read: How Can Yomet Live Agents Become Agile?" [ref=f10e155] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/
+              - heading [level=2] [ref=f10e156]:
+                - link "How Can Yomet Live Agents Become Agile?" [ref=f10e157] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/
+              - generic [ref=f10e159]:
+                - link "Leave a Comment" [ref=f10e161] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/#respond
+                - text: /
+                - link "Blog" [ref=f10e163] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e165] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e167]: On Yomet Live, agility isn’t about reacting quickly—it’s about responding wisely. The platform evolves, hosts’ needs shift, and viewer dynamics change daily. Rigid plans crumble under real life. But agile agents stay grounded while adapting with care, clarity, and compassion. How can Yomet Live agents become agile? By cultivating presence over perfection, flexibility over force,
+              - paragraph [ref=f10e168]:
+                - link "How Can Yomet Live Agents Become Agile? Read More »" [ref=f10e169] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/20/how-can-yomet-live-agents-become-agile/
+                  - generic [ref=f10e170]: How Can Yomet Live Agents Become Agile?
+                  - text: Read More »
+          - article [ref=f10e171]:
+            - generic [ref=f10e173]:
+              - 'link "Read: Ways Yomet Live Agents Can Help Hosts Priorities" [ref=f10e176] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/
+              - heading [level=2] [ref=f10e177]:
+                - link "Ways Yomet Live Agents Can Help Hosts Priorities" [ref=f10e178] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/
+              - generic [ref=f10e180]:
+                - link "Leave a Comment" [ref=f10e182] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/#respond
+                - text: /
+                - link "Blog" [ref=f10e184] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e186] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e188]: On Yomet Live, a host’s success isn’t defined by how much they stream—but by how aligned their actions are with what truly matters to them. Some hosts value calm connection over gifting; others prioritize consistency over viral moments. As an agent, your greatest gift isn’t pushing for more—it’s helping hosts uncover, honor, and protect their
+              - paragraph [ref=f10e189]:
+                - link "Ways Yomet Live Agents Can Help Hosts Priorities Read More »" [ref=f10e190] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/13/ways-yomet-live-agents-can-help-hosts-priorities/
+                  - generic [ref=f10e191]: Ways Yomet Live Agents Can Help Hosts Priorities
+                  - text: Read More »
+          - article [ref=f10e192]:
+            - generic [ref=f10e194]:
+              - 'link "Read: Basic Morning Live Stream Routines for Yomet Live Hosts" [ref=f10e197] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/
+              - heading [level=2] [ref=f10e198]:
+                - link "Basic Morning Live Stream Routines for Yomet Live Hosts" [ref=f10e199] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/
+              - generic [ref=f10e201]:
+                - link "Leave a Comment" [ref=f10e203] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/#respond
+                - text: /
+                - link "Blog" [ref=f10e205] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e207] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e209]: "Morning streams on Yomet Live offer a unique opportunity: to meet viewers at the start of their day with calm, clarity, and connection. But without a simple routine, early broadcasts can feel rushed or scattered. The goal isn’t perfection—it’s presence. A few grounding habits help you show up as your best self, even before your"
+              - paragraph [ref=f10e210]:
+                - link "Basic Morning Live Stream Routines for Yomet Live Hosts Read More »" [ref=f10e211] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/09/basic-morning-live-stream-routines-for-yomet-live-hosts/
+                  - generic [ref=f10e212]: Basic Morning Live Stream Routines for Yomet Live Hosts
+                  - text: Read More »
+          - article [ref=f10e213]:
+            - generic [ref=f10e215]:
+              - 'link "Read: When Yomet Live Agents Should Find New Hosts" [ref=f10e218] [cursor=pointer]':
+                - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/
+              - heading [level=2] [ref=f10e219]:
+                - link "When Yomet Live Agents Should Find New Hosts" [ref=f10e220] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/
+              - generic [ref=f10e222]:
+                - link "Leave a Comment" [ref=f10e224] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/#respond
+                - text: /
+                - link "Blog" [ref=f10e226] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e228] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e230]: For Yomet Live agents, knowing when Yomet Live agents should find new hosts isn’t just about filling slots—it’s about strategic timing, agency health, and sustainable growth. Adding talent too soon can stretch resources thin; waiting too long can stall momentum. The best moments to recruit come from observation, not pressure. Here’s how to recognize the
+              - paragraph [ref=f10e231]:
+                - link "When Yomet Live Agents Should Find New Hosts Read More »" [ref=f10e232] [cursor=pointer]:
+                  - /url: https://yometlive.id/2026/01/06/when-yomet-live-agents-should-find-new-hosts/
+                  - generic [ref=f10e233]: When Yomet Live Agents Should Find New Hosts
+                  - text: Read More »
+          - article [ref=f10e234]:
+            - generic [ref=f10e236]:
+              - 'link "Read: Finding Your Own Motivations as Yomet Live Agents" [ref=f10e239] [cursor=pointer]':
+                - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/
+              - heading [level=2] [ref=f10e240]:
+                - link "Finding Your Own Motivations as Yomet Live Agents" [ref=f10e241] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/
+              - generic [ref=f10e243]:
+                - link "Leave a Comment" [ref=f10e245] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/#respond
+                - text: /
+                - link "Blog" [ref=f10e247] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e249] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e251]: "Being a Yomet Live agent is more than managing streams and tracking commissions—it’s a daily act of support, strategy, and emotional labor. But when results plateau or hosts struggle, it’s easy to lose your spark. Remember: your motivation isn’t found in metrics alone. It’s rooted in your purpose, your values, and the quiet impact you"
+              - paragraph [ref=f10e252]:
+                - link "Finding Your Own Motivations as Yomet Live Agents Read More »" [ref=f10e253] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/30/finding-your-own-motivations-as-yomet-live-agents/
+                  - generic [ref=f10e254]: Finding Your Own Motivations as Yomet Live Agents
+                  - text: Read More »
+          - article [ref=f10e255]:
+            - generic [ref=f10e257]:
+              - 'link "Read: Tips to Increase Your Yomet Live Host Level" [ref=f10e260] [cursor=pointer]':
+                - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/
+              - heading [level=2] [ref=f10e261]:
+                - link "Tips to Increase Your Yomet Live Host Level" [ref=f10e262] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/
+              - generic [ref=f10e264]:
+                - link "Leave a Comment" [ref=f10e266] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/#respond
+                - text: /
+                - link "Blog" [ref=f10e268] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e270] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e272]: Your Yomet Live host level isn’t just a number—it’s a reflection of your activity, consistency, and connection with your audience. A higher level unlocks better visibility, more features, and greater credibility on the platform. The good news? Advancing is less about going viral and more about smart, steady habits. Here are practical tips to
+              - paragraph [ref=f10e273]:
+                - link "Tips to Increase Your Yomet Live Host Level Read More »" [ref=f10e274] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/19/tips-to-increase-your-yomet-live-host-level/
+                  - generic [ref=f10e275]: Tips to Increase Your Yomet Live Host Level
+                  - text: Read More »
+          - article [ref=f10e276]:
+            - generic [ref=f10e278]:
+              - 'link "Read: Why Confidence Matters for Yomet Live Agents" [ref=f10e281] [cursor=pointer]':
+                - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/
+              - heading [level=2] [ref=f10e282]:
+                - link "Why Confidence Matters for Yomet Live Agents" [ref=f10e283] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/
+              - generic [ref=f10e285]:
+                - link "Leave a Comment" [ref=f10e287] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/#respond
+                - text: /
+                - link "Blog" [ref=f10e289] [cursor=pointer]:
+                  - /url: https://yometlive.id/category/blog/
+                - text: /
+                - link "Admin" [ref=f10e291] [cursor=pointer]:
+                  - /url: https://yometlive.id/author/bospolid/
+              - paragraph [ref=f10e293]: "In the fast-paced world of Yomet Live, agents don’t just manage hosts—they shape careers, negotiate opportunities, and inspire trust. But none of that is possible without one foundational quality: confidence. It’s not about arrogance; it’s about quiet assurance in your ability to lead, solve problems, and add real value. Here’s why confidence matters for"
+              - paragraph [ref=f10e294]:
+                - link "Why Confidence Matters for Yomet Live Agents Read More »" [ref=f10e295] [cursor=pointer]:
+                  - /url: https://yometlive.id/2025/12/16/why-confidence-matters-for-yomet-live-agents/
+                  - generic [ref=f10e296]: Why Confidence Matters for Yomet Live Agents
+                  - text: Read More »
+      - navigation "Post pagination" [ref=f10e298]:
+        - generic [ref=f10e299]:
+          - generic [ref=f10e300]: "1"
+          - link "2" [ref=f10e301] [cursor=pointer]:
+            - /url: https://yometlive.id/blog/page/2/
+          - generic [ref=f10e302]: …
+          - link "4" [ref=f10e303] [cursor=pointer]:
+            - /url: https://yometlive.id/blog/page/4/
+          - link "Next" [ref=f10e304] [cursor=pointer]:
+            - /url: https://yometlive.id/blog/page/2/
+            - text: Next →
+    - generic [ref=f10e313]:
+      - heading "Contact Yomet Official Partner" [level=2] [ref=f10e314]
+      - generic [ref=f10e315]:
+        - generic [ref=f10e316]:
+          - link "Yomet Official Partner - Home" [ref=f10e317] [cursor=pointer]:
+            - /url: /
+            - img "Yomet Official Partner logo" [ref=f10e318]
+            - generic [ref=f10e319]: Yomet
+          - paragraph [ref=f10e320]: Join Yomet as a livestream host or agency agent. Get professional guidance, ongoing support, and opportunities to grow with an official Yomet partner.
+        - generic [ref=f10e321]:
+          - heading "Contact" [level=3] [ref=f10e322]
+          - list [ref=f10e324]:
+            - listitem [ref=f10e325]:
+              - 'link "Email: olamet994@gmail.com" [ref=f10e326] [cursor=pointer]':
+                - /url: mailto:olamet994@gmail.com
+                - generic [ref=f10e331]:
+                  - generic [ref=f10e332]: "Email:"
+                  - text: olamet994@gmail.com
+            - listitem [ref=f10e333]:
+              - 'link "WhatsApp: +62 853-5334-4593" [ref=f10e334] [cursor=pointer]':
+                - /url: https://wa.me/6285353344593
+                - generic [ref=f10e338]:
+                  - generic [ref=f10e339]: "WhatsApp:"
+                  - text: +62 853-5334-4593
+            - listitem [ref=f10e340]:
+              - 'link "WhatsApp: +62 821-1812-261" [ref=f10e341] [cursor=pointer]':
+                - /url: https://wa.me/628211812261
+                - generic [ref=f10e345]:
+                  - generic [ref=f10e346]: "WhatsApp:"
+                  - text: +62 821-1812-261
+            - listitem [ref=f10e347]:
+              - 'link "Telegram: telegram.me/olametappservice" [ref=f10e348] [cursor=pointer]':
+                - /url: https://telegram.me/olametappservice
+                - generic [ref=f10e352]:
+                  - generic [ref=f10e353]: "Telegram:"
+                  - text: telegram.me/olametappservice
+        - generic [ref=f10e354]:
+          - heading "Social Media" [level=3] [ref=f10e355]
+          - list [ref=f10e356]:
+            - listitem [ref=f10e357]:
+              - 'link "Instagram: @olametagency" [ref=f10e358] [cursor=pointer]':
+                - /url: https://www.instagram.com/olametagency
+                - generic [ref=f10e364]:
+                  - generic [ref=f10e365]: "Instagram:"
+                  - text: "@olametagency"
+            - listitem [ref=f10e366]:
+              - 'link "TikTok: @olametapp" [ref=f10e367] [cursor=pointer]':
+                - /url: https://www.tiktok.com/@olametapp
+                - generic [ref=f10e371]:
+                  - generic [ref=f10e372]: "TikTok:"
+                  - text: "@olametapp"
+      - paragraph [ref=f10e374]: © 2026 Yomet Official Partner. All rights reserved.
+  - generic [ref=f10e375]: desktop
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Whatsapp":
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - generic:
+            - link "Telegram":
+              - /url: https://telegram.me/yometappservice
+        - generic [ref=f10e377] [cursor=pointer]:
+          - paragraph [ref=f10e379]: Contact us
+          - button "Open chaty" [ref=f10e381]

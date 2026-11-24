@@ -1,0 +1,196 @@
+<!-- ==========================================================================
+     Yomet Partner - Header Component (header.html)
+     For WordPress Elementor Theme Builder Header Template
+     ========================================================================== -->
+
+<header class="header" id="header">
+  <div class="header-container">
+    <a href="/" class="brand-logo" id="brand-logo" aria-label="Yomet Partner Official">
+      <img src="https://yometapp.com/wp-content/uploads/2026/02/yomet-logo-1.png" alt="Yomet Official Logo"
+        class="brand-logo-icon" width="36" height="36" referrerpolicy="no-referrer">
+      <span class="brand-text-wrap">
+        <span class="brand-name">Yomet</span>
+      </span>
+    </a>
+
+    <nav class="nav-menu" id="nav-menu">
+      <a href="/" class="nav-link" id="nav-home">Home</a>
+      <a href="/host" class="nav-link" id="nav-host">Become a Host</a>
+      <a href="/agency" class="nav-link" id="nav-agency">Become an Agency</a>
+      <a href="/category/blog" class="nav-link" id="nav-blog">Blog</a>
+      <a href="/contact" class="nav-link" id="nav-contact">Contact Support</a>
+      <div class="mobile-nav-actions">
+        <a href="https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-mobile-agency">Join as Agent</a>
+        <a href="https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-mobile-host">Join as Host</a>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="btn-header-agency">Join as Agent</a>
+      <a href="https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="btn-header-host">Join as Host</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<script>
+  (function () {
+    // Local dev fallback: If testing locally (localhost, 127.0.0.1, or file://),
+    // route clean slugs (e.g., /agency -> agency.html) so local preview does not return "Cannot GET /agency"
+    var isLocal = window.location.hostname === 'localhost' ||
+                  window.location.hostname === '127.0.0.1' ||
+                  window.location.protocol === 'file:';
+    if (isLocal) {
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest('a');
+        if (!a) return;
+        var href = a.getAttribute('href');
+        if (!href) return;
+        if (href.startsWith('/') && !href.startsWith('//') && !href.includes('.html') && !href.startsWith('/wp-content')) {
+          e.preventDefault();
+          var parts = href.split('#');
+          var slug = parts[0].replace(/^\/+|\/+$/g, '');
+          var hash = parts[1] ? '#' + parts[1] : '';
+          var target = slug ? slug + '.html' + hash : 'index.html' + hash;
+          window.location.href = target;
+        }
+      });
+    }
+
+    document.addEventListener('error', function (e) {
+      if (e.target && e.target.tagName === 'IMG') {
+        var img = e.target;
+        if (img.id === 'lightbox-img' || !img.getAttribute('src')) return;
+        if (!img.dataset.fallbackTried) {
+          img.dataset.fallbackTried = 'true';
+          var filename = img.src.split('/').pop().split('?')[0];
+          if (filename) img.src = 'assets/images/' + filename;
+        }
+      }
+    }, true);
+
+    // 1. Seketika ubah background body & html jadi gelap agar tidak ada warna putih tema
+    document.documentElement.style.setProperty('background-color', '#080512', 'important');
+    if (document.body) {
+      document.body.style.setProperty('background-color', '#080512', 'important');
+    }
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    if (menuToggle && navMenu) {
+      function toggleMenu(open) {
+        const shouldOpen = open !== undefined ? open : !navMenu.classList.contains('active');
+        navMenu.classList.toggle('active', shouldOpen);
+        menuToggle.textContent = shouldOpen ? '✕' : '☰';
+        menuToggle.setAttribute('aria-expanded', shouldOpen ? 'true' : 'false');
+      }
+
+      menuToggle.addEventListener('click', function (e) {
+        e.stopPropagation();
+        toggleMenu();
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', function (e) {
+        if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+          toggleMenu(false);
+        }
+      });
+
+      // Close menu when a link inside is clicked
+      navMenu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          toggleMenu(false);
+        });
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+          toggleMenu(false);
+        }
+      });
+    }
+
+    // Highlight current page active link
+    const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(function (link) {
+      const href = (link.getAttribute('href') || '').replace(/\/+$/, '') || '/';
+      if (
+        href === currentPath ||
+        (href === '/' && (currentPath === '' || currentPath === '/index.html')) ||
+        (href.includes('blog') && currentPath.includes('blog'))
+      ) {
+        link.classList.add('active');
+      }
+    });
+
+    // 2. Fixed Scroll Lock & Background Neutralizer
+    const header = document.getElementById('header');
+    if (header) {
+      function lockHeaderPosition() {
+        document.documentElement.style.setProperty('background-color', '#080512', 'important');
+        if (document.body) {
+          document.body.style.setProperty('padding-top', '0px', 'important');
+          document.body.style.setProperty('margin-top', '0px', 'important');
+        }
+
+        header.style.setProperty('position', 'fixed', 'important');
+        header.style.setProperty('left', '0px', 'important');
+        header.style.setProperty('right', '0px', 'important');
+        header.style.setProperty('width', '100%', 'important');
+        header.style.setProperty('z-index', '999999', 'important');
+        header.style.setProperty('background', 'transparent', 'important');
+        header.style.setProperty('background-color', 'transparent', 'important');
+        header.style.setProperty('pointer-events', 'none', 'important');
+
+        // Check if WordPress admin bar is present and offset top
+        const wpAdminBar = document.getElementById('wpadminbar');
+        if (wpAdminBar) {
+          const barHeight = wpAdminBar.offsetHeight || 32;
+          header.style.setProperty('top', barHeight + 'px', 'important');
+        } else {
+          header.style.setProperty('top', '0px', 'important');
+        }
+
+        // Release any Elementor/theme CSS transform, contain traps & remove background on header parents only
+        let parent = header.parentElement;
+        while (parent && parent !== document.body && parent !== document.documentElement) {
+          if (parent.id === 'page' || (parent.classList && (parent.classList.contains('site') || parent.classList.contains('hfeed')))) {
+            break;
+          }
+          parent.style.setProperty('background', 'transparent', 'important');
+          parent.style.setProperty('background-color', 'transparent', 'important');
+          parent.style.setProperty('border', 'none', 'important');
+          parent.style.setProperty('box-shadow', 'none', 'important');
+          parent.style.setProperty('padding-top', '0px', 'important');
+
+          const comp = window.getComputedStyle(parent);
+          if (comp.transform !== 'none' || comp.contain.includes('paint') || comp.perspective !== 'none') {
+            parent.style.setProperty('transform', 'none', 'important');
+            parent.style.setProperty('contain', 'none', 'important');
+            parent.style.setProperty('perspective', 'none', 'important');
+          }
+          parent = parent.parentElement;
+        }
+
+        const pageEl = document.getElementById('page');
+        if (pageEl) {
+          pageEl.style.setProperty('background', 'transparent', 'important');
+          pageEl.style.setProperty('padding-top', '0px', 'important');
+          pageEl.style.setProperty('pointer-events', 'auto', 'important');
+        }
+        const siteContent = document.querySelector('.site-content');
+        if (siteContent) {
+          siteContent.style.setProperty('pointer-events', 'auto', 'important');
+        }
+      }
+
+      window.addEventListener('scroll', lockHeaderPosition, { passive: true });
+      window.addEventListener('resize', lockHeaderPosition);
+      document.addEventListener('DOMContentLoaded', lockHeaderPosition);
+      lockHeaderPosition();
+    }
+  })();
+</script>

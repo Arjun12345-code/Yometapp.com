@@ -1,0 +1,416 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - navigation "Toolbar":
+      - menu:
+        - group [ref=f14e3]:
+          - menuitem "About WordPress" [ref=f14e4] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f14e5]: 
+        - group [ref=f14e7]:
+          - menuitem " Yomet App" [ref=f14e8] [cursor=pointer]
+        - group [ref=f14e9]:
+          - menuitem " Customize" [ref=f14e10] [cursor=pointer]
+        - group [ref=f14e11]:
+          - menuitem "18 updates available" [ref=f14e12] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f14e13]: 
+            - generic [aria-hidden] [ref=f14e14]: "18"
+        - group [ref=f14e16]:
+          - menuitem "0 Comments in moderation" [ref=f14e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f14e18]: 
+            - generic [aria-hidden] [ref=f14e19]: "0"
+        - group [ref=f14e21]:
+          - 'menuitem " Page Views: 118 - Online: 0" [ref=f14e22] [cursor=pointer]':
+            - generic [ref=f14e23]: 
+            - text: "Page Views: 118 - Online: 0"
+          - text: 
+        - group [ref=f14e24]:
+          - menuitem "New" [ref=f14e25] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f14e26]: 
+        - group [ref=f14e28]:
+          - menuitem " Edit Page" [ref=f14e29] [cursor=pointer]
+        - listitem [ref=f14e30]:
+          - link " Edit with Elementor" [ref=f14e31] [cursor=pointer]:
+            - /url: https://yometlive.id/wp-admin/post.php?post=15&action=elementor
+        - group [ref=f14e32]:
+          - menuitem "SEO" [ref=f14e33] [cursor=pointer]:
+            - generic [ref=f14e37]: OK
+          - text:    
+        - group [ref=f14e38]:
+          - menuitem [ref=f14e39] [cursor=pointer]
+        - group [ref=f14e41]:
+          - menuitem " Notes" [ref=f14e42] [cursor=pointer]
+        - group [ref=f14e43]:
+          - menuitem "Hostinger" [ref=f14e44]
+        - group [ref=f14e47]:
+          - menuitem "Edit Home Page" [ref=f14e48] [cursor=pointer]
+      - menu [ref=f14e49]:
+        - group [ref=f14e50]:
+          - menuitem "Howdy, irza" [ref=f14e51] [cursor=pointer]
+        - group [ref=f14e52]:
+          - menuitem " Search" [ref=f14e53]:
+            - generic [ref=f14e54]:
+              - text: 
+              - textbox "Search" [ref=f14e55] [cursor=pointer]
+              - generic [ref=f14e56]: Search
+  - link "Skip to content" [ref=f14e57] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f14e58]:
+    - generic [ref=f14e65]:
+      - link "Skip to content" [ref=f14e66] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=f14e68]:
+        - link "Yomet Official Partner - Home" [ref=f14e69] [cursor=pointer]:
+          - /url: /
+          - img "Yomet Official Partner logo" [ref=f14e70]
+          - generic [ref=f14e71]: Yomet
+        - navigation "Main navigation" [ref=f14e72]:
+          - list [ref=f14e73]:
+            - listitem [ref=f14e74]:
+              - link "Home" [ref=f14e75] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f14e76]:
+              - link "Agent" [ref=f14e77] [cursor=pointer]:
+                - /url: /#agent-earning-list
+            - listitem [ref=f14e78]:
+              - link "Host" [ref=f14e79] [cursor=pointer]:
+                - /url: /#host-earning-list
+            - listitem [ref=f14e80]:
+              - link "Withdraw" [ref=f14e81] [cursor=pointer]:
+                - /url: /#withdrawal-guide
+            - listitem [ref=f14e82]:
+              - link "Contact" [ref=f14e83] [cursor=pointer]:
+                - /url: /#contact
+    - main [ref=f14e87]:
+      - article [ref=f14e88]:
+        - main [ref=f14e97]:
+          - region [ref=f14e98]:
+            - generic [ref=f14e99]:
+              - generic [ref=f14e100]:
+                - heading "Build Your Yomet Live Journey as a Host or Agency Partner" [level=1] [ref=f14e101]
+                - paragraph [ref=f14e102]: Start building your livestreaming income with Yomet Live. Join as a host to connect with viewers through livestreams, video calls, and virtual gifts, or become an agent to support hosts and grow a team with guidance from our official partner team.
+                - generic [ref=f14e103]:
+                  - link "Join as Host" [ref=f14e104] [cursor=pointer]:
+                    - /url: /#host-registration
+                  - link "Join as Agent" [ref=f14e108] [cursor=pointer]:
+                    - /url: /#agent-registration
+              - figure [ref=f14e112]:
+                - img "Build Your Yomet Live Journey as a Host or Agency Partner" [ref=f14e113]
+          - region [ref=f14e114]:
+            - generic [ref=f14e116]:
+              - heading "A Growing Global Livestream Community" [level=2] [ref=f14e118]
+              - list [ref=f14e119]:
+                - listitem [ref=f14e120]:
+                  - strong [ref=f14e127]: 4M+
+                  - generic [ref=f14e128]: Registered Users
+                - listitem [ref=f14e129]:
+                  - strong [ref=f14e133]: 5M+
+                  - generic [ref=f14e134]: Google Play Downloads
+                - listitem [ref=f14e135]:
+                  - strong [ref=f14e139]: 14K+
+                  - generic [ref=f14e140]: Play Store Reviews
+                - listitem [ref=f14e141]:
+                  - strong [ref=f14e145]: 4.1-Star
+                  - generic [ref=f14e146]: Rating
+          - region [ref=f14e147]:
+            - generic [ref=f14e148]:
+              - heading "What Is Yomet Live?" [level=2] [ref=f14e150]
+              - paragraph [ref=f14e152]: Yomet Live or Olamet is a livestreaming platform where hosts connect with viewers through livestreams, video calls, virtual gifts, and events. Its global audience and real-time translation features help you connect across regions and create opportunities for hosts and agency partners.
+              - figure [ref=f14e153]:
+                - img "Yomet Live platform ecosystem" [ref=f14e154]
+          - region [ref=f14e155]:
+            - generic [ref=f14e156]:
+              - heading "Choose the Role That Fits Your Goals" [level=2] [ref=f14e158]
+              - region "Choose the Role That Fits Your Goals" [ref=f14e159]:
+                - table [ref=f14e160]:
+                  - caption [ref=f14e161]: Yomet Live Host vs Yomet Live Agent
+                  - rowgroup [ref=f14e162]:
+                    - row [ref=f14e163]:
+                      - columnheader "Category" [ref=f14e164]
+                      - columnheader "Yomet Live Host" [ref=f14e165]
+                      - columnheader "Yomet Live Agent" [ref=f14e166]
+                  - rowgroup [ref=f14e167]:
+                    - row [ref=f14e168]:
+                      - rowheader "Main role" [ref=f14e169]
+                      - cell "Livestream and interact with viewers." [ref=f14e170]
+                      - cell "Manage hosts, support their growth, and build a team." [ref=f14e171]
+                    - row [ref=f14e172]:
+                      - rowheader "Earning opportunities" [ref=f14e173]
+                      - cell "Gifts, video calls, and Daily Task Rewards" [ref=f14e174]
+                      - cell "Agency commission based on weekly Beans revenue from hosts and sub-agents." [ref=f14e175]
+                    - row [ref=f14e176]:
+                      - rowheader "Performance basis" [ref=f14e177]
+                      - cell "Gift income, live hours, call targets, and the assigned reward level." [ref=f14e178]
+                      - cell "Weekly team revenue" [ref=f14e179]
+              - generic [ref=f14e180]:
+                - figure [ref=f14e181]:
+                  - img "Yomet Live Host role summary" [ref=f14e182]
+                - figure [ref=f14e183]:
+                  - img "Yomet Live Agent role summary" [ref=f14e184]
+          - region [ref=f14e185]:
+            - generic [ref=f14e186]:
+              - heading "Ways to Earn as a Yomet Live Host" [level=2] [ref=f14e188]
+              - list [ref=f14e189]:
+                - listitem [ref=f14e190]:
+                  - article [ref=f14e191]:
+                    - heading "Daily Task Rewards" [level=3] [ref=f14e197]
+                    - paragraph [ref=f14e198]: Eligible hosts can receive 5,000 to 100,000 Beans based on their assigned level. Rewards depend on gift income, live hours, and call targets.
+                - listitem [ref=f14e199]:
+                  - article [ref=f14e200]:
+                    - heading "Virtual Gifts and Video Calls" [level=3] [ref=f14e205]
+                    - paragraph [ref=f14e206]: Connect with viewers through livestreams and video calls. Virtual gifts and calls are the main ways you can earn as a host on Yomet.
+                - listitem [ref=f14e207]:
+                  - article [ref=f14e208]:
+                    - heading "Events and Global Audience" [level=3] [ref=f14e213]
+                    - paragraph [ref=f14e214]: Yomet offers exclusive events and connects hosts with audiences in different countries with its real-time translation features.
+          - region [ref=f14e215]:
+            - generic [ref=f14e216]:
+              - heading "How to Register as a Yomet Live Host" [level=2] [ref=f14e218]
+              - generic [ref=f14e219]:
+                - generic [ref=f14e220]:
+                  - list [ref=f14e221]:
+                    - listitem [ref=f14e222]:
+                      - strong [ref=f14e223]: Open the host registration link below.
+                      - text: Use the official Yomet host registration link.
+                    - listitem [ref=f14e224]: Enter your active phone number and verify
+                    - listitem [ref=f14e225]:
+                      - strong [ref=f14e226]: Download the Yomet/Olamet app.
+                      - text: Search for “Olamet” on the Google Play Store and install the app.
+                    - listitem [ref=f14e227]: Register your account using the same phone number as before.
+                    - listitem [ref=f14e228]:
+                      - strong [ref=f14e229]: Enter the verification code.
+                      - text: If you register with a phone number, enter the OTP sent to your device.
+                    - listitem [ref=f14e230]:
+                      - strong [ref=f14e231]: Complete your profile.
+                      - text: Fill in the required details, such as your gender and date of birth.
+                    - listitem [ref=f14e232]:
+                      - strong [ref=f14e233]: Set your password.
+                      - text: Create a password to complete your account setup.
+                  - link "Become a Host" [ref=f14e235] [cursor=pointer]:
+                    - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+                - figure [ref=f14e240]:
+                  - img "OlametYomet HostAgent Registration" [ref=f14e241]
+          - region [ref=f14e242]:
+            - generic [ref=f14e243]:
+              - heading "Yomet Live Host Rules" [level=2] [ref=f14e245]
+              - list [ref=f14e246]:
+                - listitem [ref=f14e247]:
+                  - generic [ref=f14e253]: Hosts must not register or operate multiple accounts.
+                - listitem [ref=f14e254]:
+                  - generic [ref=f14e260]: Hosts must not show pornographic or explicit content during public livestreams.
+                - listitem [ref=f14e261]:
+                  - generic [ref=f14e267]: Hosts must not transfer their account to another agent.
+                - listitem [ref=f14e268]:
+                  - generic [ref=f14e274]: Agents must not persuade a host to create an independent Yomet agency.
+                - listitem [ref=f14e275]:
+                  - generic [ref=f14e279]: Hosts must be at least 18 years old to stream on the platform.
+          - region [ref=f14e280]:
+            - generic [ref=f14e281]:
+              - heading "Ways to Earn as a Yomet Live Agent" [level=2] [ref=f14e283]
+              - list [ref=f14e284]:
+                - listitem [ref=f14e285]:
+                  - article [ref=f14e286]:
+                    - heading "Agency Commission" [level=3] [ref=f14e292]
+                    - paragraph [ref=f14e293]: Earn commission based on weekly Beans revenue generated by hosts and sub-agents. The commission rates range from 5% to 36% and are updated weekly.
+                - listitem [ref=f14e294]:
+                  - article [ref=f14e295]:
+                    - heading "Sub-Agency Commission" [level=3] [ref=f14e301]
+                    - paragraph [ref=f14e302]:
+                      - text: "Earn extra by inviting sub agents. The formula for sub-agency commission:"
+                      - code [ref=f14e303]: (Your daily ratio − sub-agent daily ratio) × sub-agent daily revenue
+                - listitem [ref=f14e304]:
+                  - article [ref=f14e305]:
+                    - heading "Agency Benefits" [level=3] [ref=f14e309]
+                    - list [ref=f14e310]:
+                      - listitem [ref=f14e311]:
+                        - strong [ref=f14e312]: "Video Room Agency:"
+                        - text: Focuses on video calls and calling features, with free-call opportunities and better exposure in the live video section.
+                      - listitem [ref=f14e313]:
+                        - strong [ref=f14e314]: "Party Room Agency:"
+                        - text: Focuses on party rooms, with extra rewards from party-room gifts and an additional 30% regular gift share.
+          - region [ref=f14e315]:
+            - generic [ref=f14e316]:
+              - heading "Yomet Live Agency Commission Rates" [level=2] [ref=f14e318]
+              - generic [ref=f14e319]:
+                - region "Yomet Live Agency Commission Rates" [ref=f14e320]:
+                  - table [ref=f14e321]:
+                    - caption [ref=f14e322]: Yomet Live agency commission rates by weekly Beans revenue
+                    - rowgroup [ref=f14e323]:
+                      - row [ref=f14e324]:
+                        - columnheader "Weekly Beans Revenue" [ref=f14e325]
+                        - columnheader "Commission" [ref=f14e326]
+                    - rowgroup [ref=f14e327]:
+                      - row [ref=f14e328]:
+                        - cell "Less than 500K Beans" [ref=f14e329]
+                        - cell "5%" [ref=f14e330]
+                      - row [ref=f14e332]:
+                        - cell "500K Beans" [ref=f14e333]
+                        - cell "8%" [ref=f14e334]
+                      - row [ref=f14e336]:
+                        - cell "1.5M Beans" [ref=f14e337]
+                        - cell "10%" [ref=f14e338]
+                      - row [ref=f14e340]:
+                        - cell "4M Beans" [ref=f14e341]
+                        - cell "18%" [ref=f14e342]
+                      - row [ref=f14e344]:
+                        - cell "10M Beans" [ref=f14e345]
+                        - cell "22%" [ref=f14e346]
+                      - row [ref=f14e348]:
+                        - cell "15M Beans" [ref=f14e349]
+                        - cell "24%" [ref=f14e350]
+                      - row [ref=f14e352]:
+                        - cell "20M Beans" [ref=f14e353]
+                        - cell "26%" [ref=f14e354]
+                      - row [ref=f14e356]:
+                        - cell "25M Beans" [ref=f14e357]
+                        - cell "28%" [ref=f14e358]
+                      - row [ref=f14e360]:
+                        - cell "45M Beans" [ref=f14e361]
+                        - cell "30%" [ref=f14e362]
+                      - row [ref=f14e364]:
+                        - cell "100M Beans" [ref=f14e365]
+                        - cell "35%" [ref=f14e366]
+                      - row [ref=f14e368]:
+                        - cell "500M Beans" [ref=f14e369]
+                        - cell "36%" [ref=f14e370]
+                - complementary [ref=f14e373]:
+                  - heading "Notes" [level=3] [ref=f14e374]
+                  - list [ref=f14e375]:
+                    - listitem [ref=f14e376]: Weekly revenue combines host earnings and sub-agent revenue.
+                    - listitem [ref=f14e377]: Commission rates are updated weekly.
+              - figure [ref=f14e378]:
+                - img "YometOlamet Calculation" [ref=f14e379]
+          - region [ref=f14e380]:
+            - generic [ref=f14e381]:
+              - heading "How to Register as a Yomet Live Agent" [level=2] [ref=f14e383]
+              - generic [ref=f14e384]:
+                - generic [ref=f14e385]:
+                  - list [ref=f14e386]:
+                    - listitem [ref=f14e387]:
+                      - strong [ref=f14e388]: Open the agency registration link.
+                      - text: Use the official Yomet/Olamet agency registration link below. If the page displays “We invite you to be the host of Yomet,” this is not a problem as long as you entered through the official registration link.
+                    - listitem [ref=f14e389]: Enter your active phone number.
+                    - listitem [ref=f14e390]:
+                      - strong [ref=f14e391]: Verify your phone number.
+                      - text: Click “Send” to receive the OTP. If the code does not arrive, try again after a few minutes.
+                    - listitem [ref=f14e392]:
+                      - strong [ref=f14e393]: Download the Yomet/Olamet app.
+                      - text: Search for “Olamet” on the Google Play Store.
+                    - listitem [ref=f14e394]:
+                      - strong [ref=f14e395]: Log in with your registered number.
+                      - text: Use the same phone number you registered with and avoid using a different registration method.
+                    - listitem [ref=f14e396]:
+                      - strong [ref=f14e397]: Start building your team.
+                      - text: Once the process is complete, your agency account is ready.
+                  - link "Become an Agent" [ref=f14e399] [cursor=pointer]:
+                    - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+                - figure [ref=f14e404]:
+                  - img "OlametYomet - AgentHost Registration" [ref=f14e405]
+          - region [ref=f14e406]:
+            - generic [ref=f14e407]:
+              - heading "How to Withdraw Your Yomet Live Earnings" [level=2] [ref=f14e409]
+              - heading "Requirements:" [level=3] [ref=f14e410]
+              - generic [ref=f14e411]:
+                - generic [ref=f14e412]:
+                  - term [ref=f14e413]: "Minimum withdrawal:"
+                  - definition [ref=f14e414]: $10.
+                - generic [ref=f14e415]:
+                  - term [ref=f14e416]: "Conversion stated in the source:"
+                  - definition [ref=f14e417]: $1 = 10,000 Beans.
+                - generic [ref=f14e418]:
+                  - term [ref=f14e419]: "Withdrawal amount:"
+                  - definition [ref=f14e420]: Must be a multiple of $10.
+                - generic [ref=f14e421]:
+                  - term [ref=f14e422]: "Unused Beans:"
+                  - definition [ref=f14e423]: Accumulate for a future withdrawal.
+                - generic [ref=f14e424]:
+                  - term [ref=f14e425]: "Settlement period:"
+                  - definition [ref=f14e426]: Monday through Sunday.
+                - generic [ref=f14e427]:
+                  - term [ref=f14e428]: "Payment schedule:"
+                  - definition [ref=f14e429]: Payments are processed every Monday at 10:00 AM (UTC+7).
+              - generic [ref=f14e430]:
+                - heading "Step by step" [level=3] [ref=f14e431]
+                - list [ref=f14e432]:
+                  - listitem [ref=f14e433]: Open your profile in the Yomet app.
+                  - listitem [ref=f14e434]: Select My Income.
+                  - listitem [ref=f14e435]: Click Withdraw.
+                  - listitem [ref=f14e436]: Open Payout Settings.
+                  - listitem [ref=f14e437]: Fill in your withdrawal details.
+                  - listitem [ref=f14e438]: Select your payment method.
+                  - listitem [ref=f14e439]: Enter the amount and submit your request.
+              - figure [ref=f14e440]:
+                - img "OlametYomet - Host Agent Withdrawal Tutorial" [ref=f14e441]
+          - region [ref=f14e442]:
+            - generic [ref=f14e444]:
+              - heading "Start Your Yomet Live Journey Today" [level=2] [ref=f14e445]
+              - paragraph [ref=f14e446]: Whether you want to become a host or build an agency, Yomet Live offers livestreaming and team-building opportunities with guidance from our partner team.
+              - generic [ref=f14e447]:
+                - link "Join as Host" [ref=f14e448] [cursor=pointer]:
+                  - /url: https://olamet-client.olamet.net/build2/index.html#/memberInvitation?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+                - link "Join as Agent" [ref=f14e453] [cursor=pointer]:
+                  - /url: https://olamet-client.olamet.net/build2/index.html#/subagentRegister?key=6c46753b47532ae24bd082a7c2810610&guildName=We&nick=We&lang=en
+    - generic [ref=f14e466]:
+      - heading "Contact Yomet Official Partner" [level=2] [ref=f14e467]
+      - generic [ref=f14e468]:
+        - generic [ref=f14e469]:
+          - link "Yomet Official Partner - Home" [ref=f14e470] [cursor=pointer]:
+            - /url: /
+            - img "Yomet Official Partner logo" [ref=f14e471]
+            - generic [ref=f14e472]: Yomet
+          - paragraph [ref=f14e473]: Join Yomet as a livestream host or agency agent. Get professional guidance, ongoing support, and opportunities to grow with an official Yomet partner.
+        - generic [ref=f14e474]:
+          - heading "Contact" [level=3] [ref=f14e475]
+          - list [ref=f14e477]:
+            - listitem [ref=f14e478]:
+              - 'link "Email: olamet994@gmail.com" [ref=f14e479] [cursor=pointer]':
+                - /url: mailto:olamet994@gmail.com
+                - generic [ref=f14e484]:
+                  - generic [ref=f14e485]: "Email:"
+                  - text: olamet994@gmail.com
+            - listitem [ref=f14e486]:
+              - 'link "WhatsApp: +62 853-5334-4593" [ref=f14e487] [cursor=pointer]':
+                - /url: https://wa.me/6285353344593
+                - generic [ref=f14e491]:
+                  - generic [ref=f14e492]: "WhatsApp:"
+                  - text: +62 853-5334-4593
+            - listitem [ref=f14e493]:
+              - 'link "WhatsApp: +62 821-1812-261" [ref=f14e494] [cursor=pointer]':
+                - /url: https://wa.me/628211812261
+                - generic [ref=f14e498]:
+                  - generic [ref=f14e499]: "WhatsApp:"
+                  - text: +62 821-1812-261
+            - listitem [ref=f14e500]:
+              - 'link "Telegram: telegram.me/olametappservice" [ref=f14e501] [cursor=pointer]':
+                - /url: https://telegram.me/olametappservice
+                - generic [ref=f14e505]:
+                  - generic [ref=f14e506]: "Telegram:"
+                  - text: telegram.me/olametappservice
+        - generic [ref=f14e507]:
+          - heading "Social Media" [level=3] [ref=f14e508]
+          - list [ref=f14e509]:
+            - listitem [ref=f14e510]:
+              - 'link "Instagram: @olametagency" [ref=f14e511] [cursor=pointer]':
+                - /url: https://www.instagram.com/olametagency
+                - generic [ref=f14e517]:
+                  - generic [ref=f14e518]: "Instagram:"
+                  - text: "@olametagency"
+            - listitem [ref=f14e519]:
+              - 'link "TikTok: @olametapp" [ref=f14e520] [cursor=pointer]':
+                - /url: https://www.tiktok.com/@olametapp
+                - generic [ref=f14e524]:
+                  - generic [ref=f14e525]: "TikTok:"
+                  - text: "@olametapp"
+      - paragraph [ref=f14e527]: © 2026 Yomet Official Partner. All rights reserved.
+  - generic [ref=f14e528]: desktop
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Whatsapp":
+              - /url: https://web.whatsapp.com/send?phone=60182470950&text=
+          - generic:
+            - link "Telegram":
+              - /url: https://telegram.me/yometappservice
+        - generic [ref=f14e530] [cursor=pointer]:
+          - paragraph [ref=f14e532]: Contact us
+          - button "Open chaty" [ref=f14e534]
